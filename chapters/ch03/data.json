@@ -1,0 +1,157 @@
+[
+  {
+    "state": "W.P. Labuan",
+    "doctors": 102,
+    "population": 96900,
+    "doctors_per_10k": 10.53,
+    "who_threshold_gap": -33.97,
+    "region": "east_malaysia",
+    "year": 2022
+  },
+  {
+    "state": "Sabah",
+    "doctors": 4193,
+    "population": 3414900,
+    "doctors_per_10k": 12.28,
+    "who_threshold_gap": -32.22,
+    "region": "east_malaysia",
+    "year": 2022
+  },
+  {
+    "state": "Johor",
+    "doctors": 5023,
+    "population": 4028300,
+    "doctors_per_10k": 12.47,
+    "who_threshold_gap": -32.03,
+    "region": "south",
+    "year": 2022
+  },
+  {
+    "state": "Kedah",
+    "doctors": 3179,
+    "population": 2163100,
+    "doctors_per_10k": 14.7,
+    "who_threshold_gap": -29.8,
+    "region": "north",
+    "year": 2022
+  },
+  {
+    "state": "Selangor",
+    "doctors": 10374,
+    "population": 7050300,
+    "doctors_per_10k": 14.71,
+    "who_threshold_gap": -29.79,
+    "region": "central",
+    "year": 2022
+  },
+  {
+    "state": "Sarawak",
+    "doctors": 4005,
+    "population": 2473500,
+    "doctors_per_10k": 16.19,
+    "who_threshold_gap": -28.31,
+    "region": "east_malaysia",
+    "year": 2022
+  },
+  {
+    "state": "Perak",
+    "doctors": 4214,
+    "population": 2514400,
+    "doctors_per_10k": 16.76,
+    "who_threshold_gap": -27.74,
+    "region": "north",
+    "year": 2022
+  },
+  {
+    "state": "Pulau Pinang",
+    "doctors": 2996,
+    "population": 1740900,
+    "doctors_per_10k": 17.21,
+    "who_threshold_gap": -27.29,
+    "region": "north",
+    "year": 2022
+  },
+  {
+    "state": "Terengganu",
+    "doctors": 2119,
+    "population": 1186600,
+    "doctors_per_10k": 17.86,
+    "who_threshold_gap": -26.64,
+    "region": "east",
+    "year": 2022
+  },
+  {
+    "state": "Pahang",
+    "doctors": 2927,
+    "population": 1614300,
+    "doctors_per_10k": 18.13,
+    "who_threshold_gap": -26.37,
+    "region": "east",
+    "year": 2022
+  },
+  {
+    "state": "Melaka",
+    "doctors": 2121,
+    "population": 1008600,
+    "doctors_per_10k": 21.03,
+    "who_threshold_gap": -23.47,
+    "region": "south",
+    "year": 2022
+  },
+  {
+    "state": "Kelantan",
+    "doctors": 4056,
+    "population": 1830600,
+    "doctors_per_10k": 22.16,
+    "who_threshold_gap": -22.34,
+    "region": "east",
+    "year": 2022
+  },
+  {
+    "state": "Perlis",
+    "doctors": 654,
+    "population": 289800,
+    "doctors_per_10k": 22.57,
+    "who_threshold_gap": -21.93,
+    "region": "north",
+    "year": 2022
+  },
+  {
+    "state": "Negeri Sembilan",
+    "doctors": 2876,
+    "population": 1207900,
+    "doctors_per_10k": 23.81,
+    "who_threshold_gap": -20.69,
+    "region": "south",
+    "year": 2022
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "doctors": 7331,
+    "population": 1961200,
+    "doctors_per_10k": 37.38,
+    "who_threshold_gap": -7.12,
+    "region": "central",
+    "year": 2022
+  },
+  {
+    "state": "W.P. Putrajaya",
+    "doctors": 2023,
+    "population": 117000,
+    "doctors_per_10k": 172.91,
+    "who_threshold_gap": 128.41,
+    "region": "central",
+    "year": 2022
+  },
+  {
+    "_meta": {
+      "source_staff": "https://storage.data.gov.my/healthcare/healthcare_staff.csv",
+      "source_pop": "https://storage.dosm.gov.my/population/population_state.csv",
+      "year": 2022,
+      "who_threshold": 44.5,
+      "wb_national_per_10k": 23.41,
+      "wb_year": 2023,
+      "note": "Population from DOSM (thousands converted to absolute). Doctor counts from MOH PIK include all registered doctors (public + private + academic). WHO threshold 44.5/10k is the 2016 SDG index benchmark."
+    }
+  }
+]

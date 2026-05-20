@@ -1,0 +1,2402 @@
+[
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2024",
+    "value": 65,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2023",
+    "value": 72,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2022",
+    "value": 63,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2021",
+    "value": 66,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2020",
+    "value": 90,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2019",
+    "value": 71,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2018",
+    "value": 75,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2017",
+    "value": 71,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2016",
+    "value": 75,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2015",
+    "value": 69,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2014",
+    "value": 66,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2013",
+    "value": 73,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2012",
+    "value": 86,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2011",
+    "value": 84,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2010",
+    "value": 90,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2024",
+    "value": 382,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2023",
+    "value": 388,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2022",
+    "value": 375,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2021",
+    "value": 330,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2020",
+    "value": 306,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2019",
+    "value": 312,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2018",
+    "value": 316,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2017",
+    "value": 319,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2016",
+    "value": 322,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2015",
+    "value": 325,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2014",
+    "value": 329,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2013",
+    "value": 332,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2012",
+    "value": 335,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2011",
+    "value": 338,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2010",
+    "value": 342,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2024",
+    "value": 272,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2023",
+    "value": 276,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2022",
+    "value": 277,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2021",
+    "value": 279,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2020",
+    "value": 285,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2019",
+    "value": 293,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2018",
+    "value": 303,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2017",
+    "value": 313,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2016",
+    "value": 326,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2015",
+    "value": 339,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2014",
+    "value": 355,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2013",
+    "value": 373,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2012",
+    "value": 393,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2011",
+    "value": 416,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2010",
+    "value": 442,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2024",
+    "value": 127,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2023",
+    "value": 132,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2022",
+    "value": 138,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2021",
+    "value": 143,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2020",
+    "value": 149,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2019",
+    "value": 155,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2018",
+    "value": 162,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2017",
+    "value": 168,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2016",
+    "value": 175,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2015",
+    "value": 182,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2014",
+    "value": 189,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2013",
+    "value": 197,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2012",
+    "value": 204,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2011",
+    "value": 213,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2010",
+    "value": 221,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2024",
+    "value": 482,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2023",
+    "value": 482,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2022",
+    "value": 434,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2021",
+    "value": 353,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2020",
+    "value": 316,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2019",
+    "value": 322,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2018",
+    "value": 338,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2017",
+    "value": 355,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2016",
+    "value": 372,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2015",
+    "value": 391,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2014",
+    "value": 411,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2013",
+    "value": 431,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2012",
+    "value": 453,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2011",
+    "value": 476,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2010",
+    "value": 500,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2024",
+    "value": 96,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2023",
+    "value": 97,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2022",
+    "value": 98,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2021",
+    "value": 98,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2020",
+    "value": 99,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2019",
+    "value": 100,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2018",
+    "value": 100,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2017",
+    "value": 103,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2016",
+    "value": 106,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2015",
+    "value": 104,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2014",
+    "value": 110,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2013",
+    "value": 112,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2012",
+    "value": 108,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2011",
+    "value": 102,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2010",
+    "value": 100,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2024",
+    "value": 625,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2023",
+    "value": 632,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2022",
+    "value": 627,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2021",
+    "value": 579,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2020",
+    "value": 544,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2019",
+    "value": 554,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2018",
+    "value": 554,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2017",
+    "value": 554,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2016",
+    "value": 554,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2015",
+    "value": 550,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2014",
+    "value": 546,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2013",
+    "value": 543,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2012",
+    "value": 539,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2011",
+    "value": 535,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2010",
+    "value": 531,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2024",
+    "value": 43,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2023",
+    "value": 41,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2022",
+    "value": 53,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2021",
+    "value": 50,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2020",
+    "value": 47,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2019",
+    "value": 42,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2018",
+    "value": 47,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2017",
+    "value": 48,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2016",
+    "value": 51,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2015",
+    "value": 46,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2014",
+    "value": 47,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2013",
+    "value": 48,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2012",
+    "value": 53,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2011",
+    "value": 39,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2010",
+    "value": 39,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2024",
+    "value": 146,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2023",
+    "value": 149,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2022",
+    "value": 148,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2021",
+    "value": 143,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2020",
+    "value": 144,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2019",
+    "value": 150,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2018",
+    "value": 153,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2017",
+    "value": 156,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2016",
+    "value": 160,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2015",
+    "value": 163,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2014",
+    "value": 167,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2013",
+    "value": 170,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2012",
+    "value": 172,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2011",
+    "value": 176,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2010",
+    "value": 181,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2024",
+    "value": 182,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2023",
+    "value": 185,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2022",
+    "value": 178,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2021",
+    "value": 171,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2020",
+    "value": 171,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2019",
+    "value": 176,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2018",
+    "value": 182,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2017",
+    "value": 188,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2016",
+    "value": 193,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2015",
+    "value": 199,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2014",
+    "value": 205,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2013",
+    "value": 212,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2012",
+    "value": 218,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2011",
+    "value": 225,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SH.TBS.INCD",
+      "value": "Incidence of tuberculosis (per 100,000 people)"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2010",
+    "value": 231,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  }
+]

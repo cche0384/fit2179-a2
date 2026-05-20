@@ -1,0 +1,156 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Poverty predicts TB — and Sabah lives on the wrong side of the line",
+    "subtitle": "Source: World Bank / WHO estimates 2022 (SH.TBS.INCD · SI.POV.NAHC) · *Myanmar poverty data from 2017",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "data": {"url": "asean_scatter.json"},
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "opacity": 0.07,
+        "color": "#C8102E"
+      },
+      "encoding": {
+        "x":  {"datum": 13.2, "type": "quantitative"},
+        "x2": {"datum": 19.7},
+        "y":  {"datum": 700, "type": "quantitative"},
+        "y2": {"datum": 0, "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "font": "Poppins",
+        "fontSize": 9.5,
+        "fontStyle": "italic",
+        "color": "#C8102E",
+        "dx": 4,
+        "dy": 6
+      },
+      "encoding": {
+        "x": {"datum": 13.2, "type": "quantitative"},
+        "y": {"datum": 700, "type": "quantitative"},
+        "text": {"value": "Kelantan–Sabah poverty range"}
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeDash": [5, 4],
+        "color": "#AAAAAA",
+        "strokeWidth": 1.5
+      },
+      "transform": [
+        {"filter": "!datum.stale_poverty"},
+        {
+          "regression": "tb_per_100k",
+          "on": "poverty_rate",
+          "extent": [0, 27]
+        }
+      ],
+      "encoding": {
+        "x": {"field": "poverty_rate", "type": "quantitative"},
+        "y": {"field": "tb_per_100k",  "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "poverty_rate",
+          "type": "quantitative",
+          "scale": {"domain": [0, 28]},
+          "axis": {
+            "title": "National poverty rate (%)",
+            "titleFont": "Poppins",
+            "titleFontSize": 12,
+            "labelFont": "Poppins",
+            "labelFontSize": 11,
+            "grid": true,
+            "gridColor": "#e8e8e8",
+            "tickCount": 7
+          }
+        },
+        "y": {
+          "field": "tb_per_100k",
+          "type": "quantitative",
+          "scale": {"domain": [0, 700]},
+          "axis": {
+            "title": "TB incidence per 100,000 population",
+            "titleFont": "Poppins",
+            "titleFontSize": 12,
+            "labelFont": "Poppins",
+            "labelFontSize": 11,
+            "grid": true,
+            "gridColor": "#e8e8e8",
+            "tickCount": 7
+          }
+        },
+        "size": {
+          "field": "population",
+          "type": "quantitative",
+          "scale": {"range": [80, 1400]},
+          "legend": null
+        },
+        "color": {
+          "condition": {"test": "datum.highlight", "value": "#C8102E"},
+          "value": "#003580"
+        },
+        "opacity": {
+          "condition": {"test": "datum.stale_poverty", "value": 0.25},
+          "value": 0.88
+        },
+        "tooltip": [
+          {"field": "country",      "title": "Country"},
+          {"field": "poverty_rate", "title": "Poverty rate (%)",    "format": ".1f"},
+          {"field": "poverty_year", "title": "Poverty data year"},
+          {"field": "tb_per_100k",  "title": "TB per 100,000",     "format": ".0f"},
+          {"field": "tb_year",      "title": "TB data year"},
+          {"field": "population",   "title": "Population",          "format": ","}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "Poppins",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "dy": -16
+      },
+      "encoding": {
+        "x":    {"field": "poverty_rate", "type": "quantitative"},
+        "y":    {"field": "tb_per_100k",  "type": "quantitative"},
+        "text": {"field": "label",        "type": "nominal"},
+        "color": {
+          "condition": {"test": "datum.highlight", "value": "#C8102E"},
+          "value": "#333333"
+        },
+        "opacity": {
+          "condition": {"test": "datum.stale_poverty", "value": 0.35},
+          "value": 1
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "background": "#F5F5F0"
+  }
+}

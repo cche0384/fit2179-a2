@@ -1,0 +1,122 @@
+[
+  {
+    "state": "Perak",
+    "rate_2000": 6.3,
+    "rate_2023": 8.2,
+    "change": 1.9,
+    "change_pct": 30.2,
+    "gadm_name": "Perak"
+  },
+  {
+    "state": "Kedah",
+    "rate_2000": 5.4,
+    "rate_2023": 7.6,
+    "change": 2.2,
+    "change_pct": 40.7,
+    "gadm_name": "Kedah"
+  },
+  {
+    "state": "Perlis",
+    "rate_2000": 6.3,
+    "rate_2023": 7.4,
+    "change": 1.1,
+    "change_pct": 17.5,
+    "gadm_name": "Perlis"
+  },
+  {
+    "state": "Pulau Pinang",
+    "rate_2000": 5.3,
+    "rate_2023": 6.9,
+    "change": 1.6,
+    "change_pct": 30.2,
+    "gadm_name": "PulauPinang"
+  },
+  {
+    "state": "Negeri Sembilan",
+    "rate_2000": 5.2,
+    "rate_2023": 6.7,
+    "change": 1.5,
+    "change_pct": 28.8,
+    "gadm_name": "NegeriSembilan"
+  },
+  {
+    "state": "Sarawak",
+    "rate_2000": 4.1,
+    "rate_2023": 6.5,
+    "change": 2.4,
+    "change_pct": 58.5,
+    "gadm_name": "Sarawak"
+  },
+  {
+    "state": "Terengganu",
+    "rate_2000": 5.1,
+    "rate_2023": 6.5,
+    "change": 1.4,
+    "change_pct": 27.5,
+    "gadm_name": "Trengganu"
+  },
+  {
+    "state": "Kelantan",
+    "rate_2000": 5.6,
+    "rate_2023": 6.4,
+    "change": 0.8,
+    "change_pct": 14.3,
+    "gadm_name": "Kelantan"
+  },
+  {
+    "state": "Pahang",
+    "rate_2000": 4.2,
+    "rate_2023": 6.4,
+    "change": 2.2,
+    "change_pct": 52.4,
+    "gadm_name": "Pahang"
+  },
+  {
+    "state": "Johor",
+    "rate_2000": 4.4,
+    "rate_2023": 6.0,
+    "change": 1.6,
+    "change_pct": 36.4,
+    "gadm_name": "Johor"
+  },
+  {
+    "state": "Melaka",
+    "rate_2000": 5.8,
+    "rate_2023": 6.0,
+    "change": 0.2,
+    "change_pct": 3.4,
+    "gadm_name": "Melaka"
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "rate_2000": 3.9,
+    "rate_2023": 4.8,
+    "change": 0.9,
+    "change_pct": 23.1,
+    "gadm_name": "KualaLumpur"
+  },
+  {
+    "state": "Sabah",
+    "rate_2000": 2.0,
+    "rate_2023": 4.6,
+    "change": 2.6,
+    "change_pct": 130.0,
+    "gadm_name": "Sabah"
+  },
+  {
+    "state": "Selangor",
+    "rate_2000": 3.0,
+    "rate_2023": 4.5,
+    "change": 1.5,
+    "change_pct": 50.0,
+    "gadm_name": "Selangor"
+  },
+  {
+    "state": "W.P. Labuan",
+    "rate_2000": 2.2,
+    "rate_2023": 3.4,
+    "change": 1.2,
+    "change_pct": 54.5,
+    "gadm_name": "Labuan"
+  }
+]

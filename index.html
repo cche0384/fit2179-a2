@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malaysia Health Inequality — A Data Story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <style>
+    :root {
+      --red:    #C8102E;
+      --gold:   #F4C300;
+      --navy:   #003580;
+      --bg:     #F5F5F0;
+      --grey:   #AAAAAA;
+      --white:  #FFFFFF;
+      --text:   #333333;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 100%;
+    }
+
+    body {
+      width: 100vw;
+      overflow-x: hidden;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* ── SLIDE BASE ─────────────────────────────────────────────── */
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh; /* mobile browser chrome fix */
+      scroll-snap-align: start;
+      overflow: hidden;
+    }
+
+    /* ── OPENING HOOK ───────────────────────────────────────────── */
+    #hook {
+      height: 100%;
+      background: var(--navy);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+
+    .flag-strip {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .flag-strip span {
+      display: block;
+      height: 10px;
+      border-radius: 5px;
+    }
+
+    #hook blockquote {
+      font-size: clamp(1.1rem, 2.4vw, 1.65rem);
+      font-weight: 600;
+      color: var(--white);
+      max-width: 760px;
+      line-height: 1.65;
+    }
+    #hook blockquote em { color: var(--gold); font-style: italic; }
+
+    .scroll-hint {
+      color: var(--grey);
+      font-size: 0.82rem;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(7px); }
+    }
+
+    /* ── CHAPTER SLIDE ──────────────────────────────────────────── */
+    .chapter {
+      display: flex;
+      flex-direction: column;
+      padding: 1.25rem 2rem 1rem;
+      height: 100vh;
+      height: 100dvh;
+      width: 100vw;
+    }
+
+    /* Header row */
+    .ch-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-shrink: 0;
+    }
+    .ch-header h2 {
+      font-size: clamp(1rem, 1.8vw, 1.4rem);
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .scene-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--white);
+      background: var(--navy);
+      padding: 2px 10px;
+      border-radius: 20px;
+      flex-shrink: 0;
+      margin-left: 1rem;
+    }
+
+    .ch-idiom {
+      font-size: 0.78rem;
+      color: var(--grey);
+      font-style: italic;
+      flex-shrink: 0;
+      margin-top: 0.15rem;
+    }
+
+    .dummy-banner {
+      display: inline-block;
+      margin-top: 0.3rem;
+      padding: 2px 8px;
+      font-size: 0.68rem;
+      background: #fff3cd;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      color: #856404;
+      flex-shrink: 0;
+    }
+
+    /* 3-zone main */
+    .zone-main {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 1fr 252px;
+      gap: 0.75rem;
+      margin-top: 0.6rem;
+    }
+
+    .chart-panel {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 0.75rem;
+      box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+      overflow: hidden;
+      display: flex;
+      align-items: stretch;
+      justify-content: stretch;
+      min-height: 0;
+    }
+    /* make vega fill the panel */
+    .chart-panel > div {
+      width: 100%;
+      height: 100%;
+    }
+    .chart-panel .vega-embed {
+      width: 100%;
+      height: 100%;
+    }
+
+    .insight-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      min-height: 0;
+    }
+    .insight-box {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .insight-box .big-number {
+      font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+    }
+    .insight-box .big-number.red { color: var(--red); }
+    .insight-box p {
+      font-size: 0.76rem;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    /* Narrative */
+    .narrative {
+      flex-shrink: 0;
+      background: var(--white);
+      border-radius: 12px;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.8rem;
+      line-height: 1.65;
+      color: var(--text);
+      box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+      margin-top: 0.6rem;
+    }
+    .narrative .transition {
+      display: block;
+      margin-top: 0.35rem;
+      font-style: italic;
+      color: var(--navy);
+      font-size: 0.74rem;
+      border-left: 3px solid var(--gold);
+      padding-left: 0.6rem;
+    }
+
+    /* ── CLOSING SLIDE ──────────────────────────────────────────── */
+    #closing {
+      height: 100%;
+      background: var(--navy);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 3rem 2rem;
+      gap: 1.5rem;
+    }
+    #closing blockquote {
+      font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+      font-style: italic;
+      max-width: 720px;
+      line-height: 1.75;
+      color: var(--gold);
+    }
+    #closing p {
+      font-size: 0.78rem;
+      color: var(--grey);
+    }
+
+    /* ── NAV DOTS ───────────────────────────────────────────────── */
+    #nav {
+      position: fixed;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      z-index: 200;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(0,53,128,0.25);
+      cursor: pointer;
+      border: none;
+      padding: 0;
+      transition: background 0.25s, transform 0.25s;
+    }
+    .dot:hover  { background: rgba(0,53,128,0.5); }
+    .dot.active { background: var(--navy); transform: scale(1.4); }
+
+    /* hook dot is white on dark bg */
+    .dot:first-child        { background: rgba(255,255,255,0.35); }
+    .dot:first-child:hover  { background: rgba(255,255,255,0.65); }
+    .dot:first-child.active { background: var(--white); transform: scale(1.4); }
+
+    /* ── TABLET (≤ 1024px) ──────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      .zone-main {
+        grid-template-columns: 1fr 200px;
+      }
+      .chapter {
+        padding: 1rem 1.5rem 0.75rem;
+      }
+    }
+
+    /* ── MOBILE (≤ 640px) ───────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .chapter {
+        padding: 0.55rem 0.75rem 0.55rem;
+      }
+
+      .ch-header {
+        align-items: center;
+      }
+      .ch-header h2 {
+        font-size: 0.82rem;
+      }
+      .scene-tag {
+        font-size: 0.58rem;
+        padding: 2px 6px;
+      }
+      .ch-idiom {
+        font-size: 0.65rem;
+        margin-top: 0.08rem;
+      }
+
+      /* Stack: chart gets all leftover space, insights fixed, narrative fixed */
+      .zone-main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        gap: 0.4rem;
+        margin-top: 0.35rem;
+      }
+
+      /* Two insight boxes side-by-side with fixed height */
+      .insight-panel {
+        flex-direction: row;
+        gap: 0.4rem;
+        height: 88px;
+        flex-shrink: 0;
+      }
+      .insight-box {
+        padding: 0.45rem 0.6rem;
+        overflow: hidden;
+      }
+      .insight-box .big-number {
+        font-size: 1.15rem;
+        margin-bottom: 0.1rem;
+      }
+      .insight-box p {
+        font-size: 0.6rem;
+        line-height: 1.3;
+      }
+
+      /* Narrative: fixed height, scrollable */
+      .narrative {
+        height: 72px;
+        overflow-y: auto;
+        flex-shrink: 0;
+        font-size: 0.67rem;
+        line-height: 1.45;
+        padding: 0.4rem 0.8rem;
+        margin-top: 0.35rem;
+        -webkit-overflow-scrolling: touch;
+      }
+      .narrative .transition {
+        font-size: 0.62rem;
+        margin-top: 0.18rem;
+      }
+
+      /* Shrink hook quote on small screens */
+      #hook blockquote {
+        font-size: clamp(0.9rem, 4vw, 1.1rem);
+      }
+      #closing blockquote {
+        font-size: clamp(0.82rem, 3.5vw, 1rem);
+      }
+
+      /* Smaller nav dots, tucked tighter */
+      #nav {
+        right: 8px;
+        gap: 5px;
+      }
+      .dot {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV DOTS ───────────────────────────────────────────────────── -->
+<nav id="nav" aria-label="Chapter navigation"></nav>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  OPENING HOOK                                                    -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-hook">
+  <div id="hook">
+    <div class="flag-strip">
+      <span style="background:var(--red);width:100px;"></span>
+      <span style="background:var(--gold);width:36px;"></span>
+      <span style="background:rgba(255,255,255,0.15);width:70px;"></span>
+    </div>
+    <blockquote>
+      "Two Malaysian babies are born today.<br>
+      One in Bangsar. One in Belaga.<br>
+      Same country, same Constitution, same flag.<br>
+      But by the time they're 60 —<br>
+      <em>one of them statistically shouldn't be alive yet.</em>"
+    </blockquote>
+    <p class="scroll-hint">↓ scroll or use arrow keys to explore ↓</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 1 — The Lottery of Birth                                    -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch01">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 1 — The Lottery of Birth</h2>
+      <span class="scene-tag">SCENE 1 / 10</span>
+    </div>
+    <p class="ch-idiom">"You can't choose the hand you're dealt."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-01"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number">7.5 yrs</div>
+          <p>Gap between KL (77.3 yrs) and Sabah (69.8 yrs) — determined by postcode, not genetics. Source: DOSM · World Bank 2023/24.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number red">69.8</div>
+          <p>Sabah's estimated life expectancy — lowest of any state, 4.3 years below the national average of 74.1 years.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      Before a Malaysian makes a single decision in their life, their postcode has already placed a quiet bet on how long they'll live. Life expectancy varies by up to 7–9 years across states — this isn't natural variation, it's a policy fingerprint.
+      <span class="transition">"But a map only shows where the problem is. To understand why, we need to follow the money."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 2 — You Get What You Pay For                                -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch02">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 2 — You Get What You Pay For</h2>
+      <span class="scene-tag">SCENE 2 / 10</span>
+    </div>
+    <p class="ch-idiom">"The squeaky wheel gets the grease."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-02"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">6 / 16</div>
+          <p>Six states sit in the under-resourced zone — above-average death rates, below-average health investment. Perak leads with Malaysia's highest crude death rate: 8.9 per 1,000. Source: MNHA 2022 + OpenDOSM.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">4.2×</div>
+          <p>KL's per capita health spending (RM 5,631) is 4.2× Sabah's (RM 1,347). The gap is largely private-sector concentration — yet public investment has not corrected the imbalance where mortality is highest.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      Health spending in Malaysia does not flow to where death rates are highest. Six states carry above-average mortality with below-average total health investment — Perak (8.9/1,000), Kedah (8.2), Kelantan, Terengganu, Pahang and Sarawak. Private hospitals concentrate in cities where incomes are already higher, and national averages hide a map where the wheel that squeaks loudest continues to get the grease.
+      <span class="transition">"When the money doesn't reach you, you look for a doctor. But in half of Malaysia, there isn't one close enough."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 3 — The Doctor Desert                                       -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch03">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 3 — The Doctor Desert</h2>
+      <span class="scene-tag">SCENE 3 / 10</span>
+    </div>
+    <p class="ch-idiom">"Out of sight, out of mind."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-03"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number">3×</div>
+          <p>KL has 3× more doctors per capita than Sabah (37.4 vs 12.3 per 10,000). Malaysia has enough doctors — they're just all in the same corridor.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number red">90%</div>
+          <p>Of Malaysians live in states below the national average of 23 doctors per 10,000. The average hides a deeply unequal map.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      East Malaysia bears the sharpest end of this inequality. Sabah and Sarawak — together larger than Peninsular Malaysia — share just 8,198 doctors for 5.9 million people. And these are <em>all</em> doctors: the private-sector specialists in Kota Kinabalu do not serve the interior. For communities in Keningau or Kapit, the effective ratio is far worse than any statistic can capture.
+      <span class="transition">"Distance from a doctor kills slowly. But some Malaysians are dying of something faster — diseases we said we'd beaten decades ago."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 4 — The Return of the Forgotten Killers                     -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch04">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 4 — The Return of the Forgotten Killers</h2>
+      <span class="scene-tag">SCENE 4 / 10</span>
+    </div>
+    <p class="ch-idiom">"History has a long memory."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-04"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">6.4×</div>
+          <p>Philippines' TB rate (627/100k) vs Malaysia's (98/100k) — same ASEAN bloc, same bugs, same century. The difference is poverty. Source: WHO estimates via World Bank 2022/23.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">19.7%</div>
+          <p>Sabah's poverty rate (DOSM 2022) — identical to the Philippines, ASEAN's highest-TB nation. But Sabah's numbers dissolve into Malaysia's 5.1% national average and disappear.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      Across ASEAN, tuberculosis tracks poverty with near-mechanical precision. Countries with poverty rates above 15% carry TB burdens 4–6× higher than their wealthier neighbours. Malaysia's national average looks reassuring — but inside that average, Sabah (19.7% poverty), Kelantan (13.2%), and Sarawak (10.8%) sit in the same poverty tier as Lao PDR and the Philippines. History has a long memory: TB was supposed to be eradicated, but it retreated into the same communities that were always left behind.
+      <span class="transition">"Poverty breeds disease. But disease also breeds poverty — especially when a single hospital visit can ruin a family."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 5 — The Bill That Breaks Families                           -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch05">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 5 — The Bill That Breaks Families</h2>
+      <span class="scene-tag">SCENE 5 / 10</span>
+    </div>
+    <p class="ch-idiom">"One bad hand can clean out the whole table."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-05"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">6×</div>
+          <p>B40 households spend 6× more of their income on out-of-pocket healthcare than T20 — 3.6% vs 0.6% in 2023. Every year. Without exception. Source: World Bank + DOSM HIES.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">3.7×</div>
+          <p>Growth in national OOP health spending per capita since 2000 — from $145 to $535 PPP. A post-2016 surge in private-sector costs is pushing the burden higher for everyone, but the B40 feel it most.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      For B40 households, out-of-pocket healthcare consumes 3.6% of annual income on average — but averages lie. A single private hospitalisation (RM 5,000–15,000) wipes out 2–5 months of B40 wages. Since 2016, private healthcare costs have surged, adding 0.32 percentage points to the B40's burden alone. The cruelty: the sicker you are, the poorer you get; the poorer you get, the sicker you become. One bad hand cleans out the whole table.
+      <span class="transition">"Money protects the rich. But it can't buy clean water and safe food for communities that don't have them."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 6 — The Infrastructure of Illness                           -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch06">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 6 — The Infrastructure of Illness</h2>
+      <span class="scene-tag">SCENE 6 / 10</span>
+    </div>
+    <p class="ch-idiom">"Rot starts from the roots."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-06"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">21.2%</div>
+          <p>Malaysia's national stunting rate (World Bank, 2022) — almost matching Cambodia's 21.9%, a country with one-fifth the income.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">11.4 pp</div>
+          <p>Malaysia exceeds its income-predicted stunting by 11.4 percentage points. Every richer country achieves below 8% stunting. Malaysia does not.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      At Malaysia's income level, stunting should be around 10%. It is 21%. Inside Malaysia, Sabah reaches 35% — a rate typical of Sub-Saharan Africa. The rot starts long before a child sees a hospital: it starts with whether their first years are spent in a home with clean water, safe food, and adequate nutrition.
+      <span class="transition">"Infrastructure shapes your first years. What does a lifetime of inequality do to your body by 40, 50, 60?"</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 7 — The Slow Burn                                           -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch07">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 7 — The Slow Burn</h2>
+      <span class="scene-tag">SCENE 7 / 10</span>
+    </div>
+    <p class="ch-idiom">"The candle that burns at both ends."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-07"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">51.7%</div>
+          <p>Of eligible B40 residents in Kelantan have been enrolled in Malaysia's free NCD screening programme — the highest of any state.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">16.1%</div>
+          <p>Coverage in W.P. Kuala Lumpur. Where incomes are highest, fewer residents qualify for B40 health screening — and the map shows exactly where vulnerability concentrates.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      PEKA B40 — Malaysia's free health screening programme for low-income households — maps the geography of NCD vulnerability. Kelantan, Kedah, Terengganu: the states with the highest poverty rates also have the most residents enrolled. More than half of eligible Kelantanese have been screened. In KL, barely one in six. The programme is reaching where the burden is greatest — but even the best-covered state has yet to reach half its at-risk population.
+      <span class="transition">"All of this converges in one final number: how many Malaysians die before they should. And it has a very specific address."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 8 — Dying Before Your Time                                  -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch08">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 8 — Dying Before Your Time</h2>
+      <span class="scene-tag">SCENE 8 / 10</span>
+    </div>
+    <p class="ch-idiom">"Cut down in their prime."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-08"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">8.2</div>
+          <p>Deaths per 1,000 in Perak in 2023 — the highest of any state. Rural peninsular states hollowed out by migration carry the heaviest mortality burden.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">2.4×</div>
+          <p>Perak's death rate vs. W.P. Labuan. The gap between the most and least burdened states has widened since 2000, not narrowed.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      Crude death rate reflects the total mortality burden each state carries. The map's darkest corners — Perak, Kedah, Perlis — are states that lost their young workforce to cities, leaving ageing populations behind. Every inequality shown in this dashboard compounds here. The same states that rank worst for doctors, poverty, and stunting also carry the most deaths.
+      <span class="transition">"Twenty years of data, and the same states are still stuck. Which raises the most important question: has anything actually been getting better? Or are we just getting better at measuring how bad it is?"</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 9 — Progress, or the Illusion of It?                        -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch09">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 9 — Progress, or the Illusion of It?</h2>
+      <span class="scene-tag">SCENE 9 / 10</span>
+    </div>
+    <p class="ch-idiom">"Two steps forward, one step back."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-09"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number">−36%</div>
+          <p>Kelantan cut its early childhood death rate by 36% since 2000 — the biggest improvement nationally. Progress is real for some.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number red">10.6</div>
+          <p>Sabah's 2023 death rate (per 1,000 live births) — the highest in Malaysia. The same state that appears in every previous chapter.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      The heatmap shows every row fading over time — headline progress is real. But Sabah, Pahang, and Terengganu remain stubbornly dark while KL and Penang were always light. The states that needed the most help improved the least.
+      <span class="transition">"What would it take to close this gap? The data suggests it has almost nothing to do with building more hospitals."</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CH 10 — The Prescription We Keep Ignoring                      -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-ch10">
+  <div class="chapter">
+    <div class="ch-header">
+      <h2>Chapter 10 — The Prescription We Keep Ignoring</h2>
+      <span class="scene-tag">SCENE 10 / 10</span>
+    </div>
+    <p class="ch-idiom">"The cure is staring us in the face."</p>
+
+    <div class="zone-main">
+      <div class="chart-panel"><div id="chart-10"></div></div>
+      <div class="insight-panel">
+        <div class="insight-box">
+          <div class="big-number red">r = −0.65</div>
+          <p>Poverty incidence has the strongest correlation with state life expectancy — stronger than healthcare spending, doctor supply, or any clinical variable.</p>
+        </div>
+        <div class="insight-box">
+          <div class="big-number">2.2×</div>
+          <p>Poverty's association with life expectancy is 2.2× stronger than the number of doctors per capita. Fix inequality — fix health.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrative">
+      Control for everything — income remains the dominant predictor. Malaysia's health crisis is not a healthcare problem. It is an inequality problem wearing a healthcare mask. The fix requires income floors, not more clinics.
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  CLOSING                                                         -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<section class="slide" id="slide-closing">
+  <div id="closing">
+    <div class="flag-strip">
+      <span style="background:var(--red);width:100px;"></span>
+      <span style="background:var(--gold);width:36px;"></span>
+      <span style="background:rgba(255,255,255,0.15);width:70px;"></span>
+    </div>
+    <blockquote>
+      "We keep treating the symptom and ignoring the disease.<br>
+      The postcode a Malaysian baby is born into shouldn't determine how long they live.<br>
+      But right now, in 2024, it does.<br>
+      And until we're honest about why — <em style="color:var(--white)">the map won't change.</em>"
+    </blockquote>
+    <p>Data story built with Vega-Lite &bull; Sources: DOSM · MOH · NHMS · DOSM HES · GBD/IHME · World Bank</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--  SCRIPT                                                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<script>
+  const SLIDES = [
+    "slide-hook",
+    "slide-ch01","slide-ch02","slide-ch03","slide-ch04","slide-ch05",
+    "slide-ch06","slide-ch07","slide-ch08","slide-ch09","slide-ch10",
+    "slide-closing"
+  ];
+
+  /* ── Build nav dots ──────────────────────────────────────────── */
+  const nav = document.getElementById("nav");
+  SLIDES.forEach((id, i) => {
+    const btn = document.createElement("button");
+    btn.className = "dot";
+    btn.setAttribute("aria-label", `Go to section ${i + 1}`);
+    btn.addEventListener("click", () => {
+      document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    });
+    nav.appendChild(btn);
+  });
+
+  /* ── Track active dot via IntersectionObserver ───────────────── */
+  const dots = nav.querySelectorAll(".dot");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = SLIDES.indexOf(entry.target.id);
+        dots.forEach((d, i) => d.classList.toggle("active", i === idx));
+      }
+    });
+  }, { threshold: 0.5 });
+
+  SLIDES.forEach(id => observer.observe(document.getElementById(id)));
+
+  /* ── Keyboard navigation ────────────────────────────────────── */
+  let currentIdx = 0;
+  document.addEventListener("keydown", e => {
+    if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+      e.preventDefault();
+      currentIdx = Math.min(currentIdx + 1, SLIDES.length - 1);
+    } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+      e.preventDefault();
+      currentIdx = Math.max(currentIdx - 1, 0);
+    } else { return; }
+    document.getElementById(SLIDES[currentIdx]).scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Sync currentIdx with scroll
+  const syncObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) currentIdx = SLIDES.indexOf(entry.target.id);
+    });
+  }, { threshold: 0.5 });
+  SLIDES.forEach(id => syncObserver.observe(document.getElementById(id)));
+
+  /* ── Load Vega charts ───────────────────────────────────────── */
+  const BASE = "chapters/";
+
+  const CHARTS = [
+    { divId: "chart-01", chapDir: "ch01" },
+    { divId: "chart-02", chapDir: "ch02" },
+    { divId: "chart-03", chapDir: "ch03" },
+    { divId: "chart-04", chapDir: "ch04" },
+    { divId: "chart-05", chapDir: "ch05" },
+    { divId: "chart-06", chapDir: "ch06" },
+    { divId: "chart-07", chapDir: "ch07" },
+    { divId: "chart-08", chapDir: "ch08" },
+    { divId: "chart-09", chapDir: "ch09" },
+    { divId: "chart-10", chapDir: "ch10" },
+  ];
+
+  const specCache = new Map();
+
+  async function loadChart(divId, chapDir) {
+    // Fetch spec once, then serve from cache
+    if (!specCache.has(chapDir)) {
+      const resp = await fetch(`${BASE}${chapDir}/chart.json`);
+      specCache.set(chapDir, await resp.json());
+    }
+    // Deep-clone so we can mutate without poisoning the cache
+    const spec = JSON.parse(JSON.stringify(specCache.get(chapDir)));
+
+    // Resolve data URLs (top-level and inside lookup transforms)
+    if (spec.data?.url) {
+      spec.data.url = `${BASE}${chapDir}/${spec.data.url}`;
+    }
+    if (spec.transform) {
+      spec.transform.forEach(t => {
+        if (t.lookup && t.from?.data?.url) {
+          t.from.data.url = `${BASE}${chapDir}/${t.from.data.url}`;
+        }
+      });
+    }
+
+    // Re-measure the panel each time so resize is reflected
+    const panel = document.querySelector(`#${divId}`).parentElement;
+    const W = panel.clientWidth  - 24;   // minus padding
+    const H = panel.clientHeight - 24;
+    const isMobile = W < 500;
+
+    // Recursively override every explicit font/size property buried in the spec tree
+    function adaptSubSpec(s, sw) {
+      if (!s || typeof s !== "object") return;
+
+      // Legend gradient length + fonts
+      if (s.encoding?.color?.legend) {
+        const leg = s.encoding.color.legend;
+        if (leg.gradientLength != null)
+          leg.gradientLength = Math.min(leg.gradientLength, Math.floor(sw * 0.38));
+        if (isMobile) { leg.titleFontSize = 8; leg.labelFontSize = 7; }
+      }
+
+      if (isMobile) {
+        // Override any explicit axis font sizes on every encoding channel
+        ["x", "y", "x2", "y2", "row", "column"].forEach(ax => {
+          const enc = s.encoding?.[ax];
+          if (!enc) return;
+          if (!enc.axis) enc.axis = {};
+          enc.axis.labelFontSize = 8;
+          enc.axis.titleFontSize = 8;
+          enc.axis.labelLimit    = Math.floor(sw * 0.28);
+        });
+
+        // Override explicit font sizes on text marks and annotation marks
+        if (s.mark && typeof s.mark === "object") {
+          if (s.mark.fontSize  != null) s.mark.fontSize  = Math.min(s.mark.fontSize,  8);
+          if (s.mark.titleFontSize != null) s.mark.titleFontSize = Math.min(s.mark.titleFontSize, 8);
+        }
+      }
+
+      // Recurse into every possible child array/object
+      ["layer", "concat", "hconcat", "vconcat", "spec"].forEach(key => {
+        if (Array.isArray(s[key])) s[key].forEach(child => adaptSubSpec(child, sw));
+        else if (s[key]) adaptSubSpec(s[key], sw);
+      });
+    }
+
+    // On mobile: remove title (chapter heading in HTML makes it redundant),
+    // reset hardcoded padding, and inject a global config that acts as a
+    // low-priority floor for any font sizes not explicitly set in the spec.
+    if (isMobile) {
+      delete spec.title;
+      spec.padding = 5;
+      const cfg = spec.config || {};
+      spec.config = {
+        ...cfg,
+        axis:   { labelFontSize: 8,  titleFontSize: 8,  ...(cfg.axis   || {}) },
+        header: { labelFontSize: 8,  titleFontSize: 8,  ...(cfg.header || {}) },
+        legend: { labelFontSize: 7,  titleFontSize: 8,  ...(cfg.legend || {}) },
+        text:   { fontSize: 8,                           ...(cfg.text   || {}) },
+        mark:   { fontSize: 8,                           ...(cfg.mark   || {}) },
+      };
+      // Config sets defaults; adaptSubSpec below then forces overrides on explicit values
+    }
+
+    if (spec.concat) {
+      // ch06 small multiples — 1 column on mobile, 2 columns on desktop
+      const cols = isMobile ? 1 : 2;
+      const rows = Math.ceil(spec.concat.length / cols);
+      const subW = Math.floor((W - (cols - 1) * 10) / cols);
+      const subH = Math.floor((H - (rows - 1) * 10) / rows);
+      spec.columns = cols;
+      spec.concat.forEach(s => {
+        if (s.data?.url) s.data.url = `${BASE}${chapDir}/${s.data.url}`;
+        s.width  = subW;
+        s.height = subH;
+        adaptSubSpec(s, subW);
+      });
+      delete spec.width;
+      delete spec.height;
+    } else if (spec.hconcat) {
+      if (isMobile) {
+        // Stack panels vertically on mobile
+        spec.vconcat = spec.hconcat;
+        delete spec.hconcat;
+        const subH = Math.floor((H - 10) / spec.vconcat.length);
+        spec.vconcat.forEach(s => {
+          if (s.data?.url) s.data.url = `${BASE}${chapDir}/${s.data.url}`;
+          s.width  = W;
+          s.height = subH;
+          adaptSubSpec(s, W);
+        });
+      } else {
+        // Side-by-side on desktop/tablet
+        spec.hconcat.forEach((s, i) => {
+          if (s.data?.url) s.data.url = `${BASE}${chapDir}/${s.data.url}`;
+          s.width  = i === 0 ? Math.floor(W * 0.58) : Math.floor(W * 0.36);
+          s.height = H;
+          adaptSubSpec(s, s.width);
+        });
+      }
+      delete spec.width;
+      delete spec.height;
+    } else {
+      spec.width  = W;
+      spec.height = H;
+      adaptSubSpec(spec, W);
+      // geoshape projections self-fit; autosize conflicts with them
+      const isGeo = spec.mark === "geoshape" || spec.mark?.type === "geoshape";
+      if (!isGeo) spec.autosize = { type: "fit", contains: "padding" };
+    }
+
+    await vegaEmbed(`#${divId}`, spec, {
+      actions: false,
+      renderer: "svg"
+    });
+  }
+
+  function loadAllCharts() {
+    return Promise.all(CHARTS.map(({ divId, chapDir }) => loadChart(divId, chapDir)));
+  }
+
+  // Initial load after first layout paint so clientWidth/Height are accurate
+  requestAnimationFrame(loadAllCharts);
+
+  // Re-render with fresh dimensions whenever the window resizes
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(loadAllCharts, 250);
+  });
+</script>
+</body>
+</html>

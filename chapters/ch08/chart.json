@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Carrying the Heaviest Burden",
+    "subtitle": "Crude Death Rate per 1,000 by State, 2023 (states hollowed out by migration carry the most deaths)",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 460,
+  "height": 280,
+  "data": {
+    "url": "../ch01/malaysia-states-compact.geojson",
+    "format": { "type": "json", "property": "features" }
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME_1",
+      "from": {
+        "data": { "url": "data.json" },
+        "key": "gadm_name",
+        "fields": ["rate_2023", "rate_2000", "change_pct", "state"]
+      }
+    }
+  ],
+  "projection": { "type": "mercator" },
+  "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.8 },
+  "encoding": {
+    "color": {
+      "field": "rate_2023",
+      "type": "quantitative",
+      "scale": { "scheme": "reds", "domain": [3, 9] },
+      "legend": {
+        "title": "Deaths per 1,000",
+        "titleFont": "Poppins",
+        "titleFontSize": 11,
+        "labelFont": "Poppins",
+        "labelFontSize": 10,
+        "orient": "top-left",
+        "direction": "horizontal",
+        "gradientLength": 180
+      }
+    },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      {
+        "field": "rate_2023",
+        "title": "Rate 2023 (per 1,000)",
+        "format": ".1f"
+      },
+      {
+        "field": "rate_2000",
+        "title": "Rate 2000 (per 1,000)",
+        "format": ".1f"
+      },
+      {
+        "field": "change_pct",
+        "title": "Change since 2000 (%)",
+        "format": "+.1f"
+      }
+    ]
+  },
+  "config": { "view": { "stroke": null }, "background": "#F5F5F0" }
+}

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "generated": "2026-05-19",
+    "tb_source": "World Bank API / WHO estimates (SH.TBS.INCD)",
+    "poverty_source_asean": "World Bank API / national poverty lines (SI.POV.NAHC)",
+    "poverty_source_states": "DOSM Household Expenditure Survey (open.dosm.gov.my)",
+    "note": "TB figures are WHO modelled estimates (account for under-reporting). National poverty lines are defined independently by each country and are not directly comparable across borders. Countries marked * have poverty data >2 years from TB reference year."
+  },
+  "asean_scatter": [
+    {
+      "country": "Indonesia",
+      "label": "Indonesia",
+      "iso2": "ID",
+      "tb_per_100k": 375.0,
+      "tb_year": 2022,
+      "poverty_rate": 9.5,
+      "poverty_year": 2022,
+      "population": 278830529,
+      "highlight": false,
+      "stale_poverty": false
+    },
+    {
+      "country": "Lao PDR",
+      "label": "Lao PDR",
+      "iso2": "LA",
+      "tb_per_100k": 138.0,
+      "tb_year": 2022,
+      "poverty_rate": 15.0,
+      "poverty_year": 2024,
+      "population": 7559007,
+      "highlight": false,
+      "stale_poverty": false
+    },
+    {
+      "country": "Malaysia",
+      "label": "Malaysia",
+      "iso2": "MY",
+      "tb_per_100k": 98.0,
+      "tb_year": 2022,
+      "poverty_rate": 5.1,
+      "poverty_year": 2023,
+      "population": 34695493,
+      "highlight": true,
+      "stale_poverty": false
+    },
+    {
+      "country": "Myanmar",
+      "label": "Myanmar*",
+      "iso2": "MM",
+      "tb_per_100k": 434.0,
+      "tb_year": 2022,
+      "poverty_rate": 24.8,
+      "poverty_year": 2017,
+      "population": 53756787,
+      "highlight": false,
+      "stale_poverty": true
+    },
+    {
+      "country": "Philippines",
+      "label": "Philippines",
+      "iso2": "PH",
+      "tb_per_100k": 627.0,
+      "tb_year": 2022,
+      "poverty_rate": 15.5,
+      "poverty_year": 2023,
+      "population": 113964338,
+      "highlight": false,
+      "stale_poverty": false
+    },
+    {
+      "country": "Thailand",
+      "label": "Thailand",
+      "iso2": "TH",
+      "tb_per_100k": 148.0,
+      "tb_year": 2022,
+      "poverty_rate": 5.4,
+      "poverty_year": 2022,
+      "population": 71735329,
+      "highlight": false,
+      "stale_poverty": false
+    },
+    {
+      "country": "Viet Nam",
+      "label": "Viet Nam",
+      "iso2": "VN",
+      "tb_per_100k": 178.0,
+      "tb_year": 2022,
+      "poverty_rate": 4.2,
+      "poverty_year": 2022,
+      "population": 99680655,
+      "highlight": false,
+      "stale_poverty": false
+    }
+  ],
+  "malaysia_states": [
+    {
+      "state": "Sabah",
+      "poverty_absolute": 19.7,
+      "poverty_hardcore": 1.2,
+      "year": 2022,
+      "highlight": true
+    },
+    {
+      "state": "Kelantan",
+      "poverty_absolute": 13.2,
+      "poverty_hardcore": 0.8,
+      "year": 2022,
+      "highlight": true
+    },
+    {
+      "state": "Sarawak",
+      "poverty_absolute": 10.8,
+      "poverty_hardcore": 0.4,
+      "year": 2022,
+      "highlight": true
+    },
+    {
+      "state": "Kedah",
+      "poverty_absolute": 9.0,
+      "poverty_hardcore": 0.3,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Perak",
+      "poverty_absolute": 7.5,
+      "poverty_hardcore": 0.2,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Pahang",
+      "poverty_absolute": 6.3,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Terengganu",
+      "poverty_absolute": 6.2,
+      "poverty_hardcore": 0.2,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Johor",
+      "poverty_absolute": 4.6,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Negeri Sembilan",
+      "poverty_absolute": 4.4,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Melaka",
+      "poverty_absolute": 4.2,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Perlis",
+      "poverty_absolute": 4.0,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "W.P. Labuan",
+      "poverty_absolute": 2.5,
+      "poverty_hardcore": 0.0,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Pulau Pinang",
+      "poverty_absolute": 2.0,
+      "poverty_hardcore": 0.1,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "Selangor",
+      "poverty_absolute": 1.5,
+      "poverty_hardcore": 0.0,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "poverty_absolute": 1.4,
+      "poverty_hardcore": 0.0,
+      "year": 2022,
+      "highlight": false
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "poverty_absolute": 0.1,
+      "poverty_hardcore": 0.0,
+      "year": 2022,
+      "highlight": false
+    }
+  ]
+}

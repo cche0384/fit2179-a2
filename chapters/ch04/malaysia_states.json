@@ -1,0 +1,114 @@
+[
+  {
+    "state": "Sabah",
+    "poverty_absolute": 19.7,
+    "poverty_hardcore": 1.2,
+    "year": 2022,
+    "highlight": true
+  },
+  {
+    "state": "Kelantan",
+    "poverty_absolute": 13.2,
+    "poverty_hardcore": 0.8,
+    "year": 2022,
+    "highlight": true
+  },
+  {
+    "state": "Sarawak",
+    "poverty_absolute": 10.8,
+    "poverty_hardcore": 0.4,
+    "year": 2022,
+    "highlight": true
+  },
+  {
+    "state": "Kedah",
+    "poverty_absolute": 9.0,
+    "poverty_hardcore": 0.3,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Perak",
+    "poverty_absolute": 7.5,
+    "poverty_hardcore": 0.2,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Pahang",
+    "poverty_absolute": 6.3,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Terengganu",
+    "poverty_absolute": 6.2,
+    "poverty_hardcore": 0.2,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Johor",
+    "poverty_absolute": 4.6,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Negeri Sembilan",
+    "poverty_absolute": 4.4,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Melaka",
+    "poverty_absolute": 4.2,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Perlis",
+    "poverty_absolute": 4.0,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "W.P. Labuan",
+    "poverty_absolute": 2.5,
+    "poverty_hardcore": 0.0,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Pulau Pinang",
+    "poverty_absolute": 2.0,
+    "poverty_hardcore": 0.1,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "Selangor",
+    "poverty_absolute": 1.5,
+    "poverty_hardcore": 0.0,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "poverty_absolute": 1.4,
+    "poverty_hardcore": 0.0,
+    "year": 2022,
+    "highlight": false
+  },
+  {
+    "state": "W.P. Putrajaya",
+    "poverty_absolute": 0.1,
+    "poverty_hardcore": 0.0,
+    "year": 2022,
+    "highlight": false
+  }
+]

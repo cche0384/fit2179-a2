@@ -1,0 +1,146 @@
+[
+  {
+    "gadm_name": "Johor",
+    "state": "Johor",
+    "life_expectancy": 76.1,
+    "imr": 7.3,
+    "region": "South",
+    "year": 2023,
+    "deviation": 1.96
+  },
+  {
+    "gadm_name": "Kedah",
+    "state": "Kedah",
+    "life_expectancy": 75.9,
+    "imr": 7.4,
+    "region": "North",
+    "year": 2023,
+    "deviation": 1.76
+  },
+  {
+    "gadm_name": "Kelantan",
+    "state": "Kelantan",
+    "life_expectancy": 73.3,
+    "imr": 8.6,
+    "region": "East",
+    "year": 2023,
+    "deviation": -0.84
+  },
+  {
+    "gadm_name": "Melaka",
+    "state": "Melaka",
+    "life_expectancy": 74.3,
+    "imr": 8.1,
+    "region": "South",
+    "year": 2023,
+    "deviation": 0.16
+  },
+  {
+    "gadm_name": "NegeriSembilan",
+    "state": "Negeri Sembilan",
+    "life_expectancy": 72.7,
+    "imr": 8.9,
+    "region": "Central",
+    "year": 2023,
+    "deviation": -1.44
+  },
+  {
+    "gadm_name": "Pahang",
+    "state": "Pahang",
+    "life_expectancy": 71.5,
+    "imr": 9.6,
+    "region": "East",
+    "year": 2023,
+    "deviation": -2.64
+  },
+  {
+    "gadm_name": "Perak",
+    "state": "Perak",
+    "life_expectancy": 73.5,
+    "imr": 8.5,
+    "region": "North",
+    "year": 2023,
+    "deviation": -0.64
+  },
+  {
+    "gadm_name": "Perlis",
+    "state": "Perlis",
+    "life_expectancy": 76.3,
+    "imr": 7.2,
+    "region": "North",
+    "year": 2023,
+    "deviation": 2.16
+  },
+  {
+    "gadm_name": "PulauPinang",
+    "state": "Penang",
+    "life_expectancy": 77.3,
+    "imr": 6.8,
+    "region": "North",
+    "year": 2023,
+    "deviation": 3.16
+  },
+  {
+    "gadm_name": "Sabah",
+    "state": "Sabah",
+    "life_expectancy": 69.8,
+    "imr": 10.6,
+    "region": "East Malaysia",
+    "year": 2023,
+    "deviation": -4.34
+  },
+  {
+    "gadm_name": "Sarawak",
+    "state": "Sarawak",
+    "life_expectancy": 74.8,
+    "imr": 7.9,
+    "region": "East Malaysia",
+    "year": 2023,
+    "deviation": 0.66
+  },
+  {
+    "gadm_name": "Selangor",
+    "state": "Selangor",
+    "life_expectancy": 75.6,
+    "imr": 7.5,
+    "region": "Central",
+    "year": 2023,
+    "deviation": 1.46
+  },
+  {
+    "gadm_name": "Trengganu",
+    "state": "Terengganu",
+    "life_expectancy": 71.5,
+    "imr": 9.6,
+    "region": "East",
+    "year": 2023,
+    "deviation": -2.64
+  },
+  {
+    "gadm_name": "KualaLumpur",
+    "state": "W.P. Kuala Lumpur",
+    "life_expectancy": 77.3,
+    "imr": 6.8,
+    "region": "Central",
+    "year": 2023,
+    "deviation": 3.16
+  },
+  {
+    "gadm_name": "Labuan",
+    "state": "W.P. Labuan",
+    "life_expectancy": 72.2,
+    "imr": 9.2,
+    "region": "East Malaysia",
+    "year": 2023,
+    "deviation": -1.94
+  },
+  {
+    "gadm_name": "Putrajaya",
+    "state": "W.P. Putrajaya",
+    "life_expectancy": 75.6,
+    "imr": 7.5,
+    "region": "Central",
+    "year": 2023,
+    "deviation": 1.46
+  }
+]

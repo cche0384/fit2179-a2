@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The poorest states get screened most — but screening coverage isn't closing the gap",
+    "subtitle": "PEKA B40 Health Screening Coverage by State (cumulative, 2019–present)",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 460,
+  "height": 280,
+  "data": {
+    "url": "../ch01/malaysia-states-compact.geojson",
+    "format": { "type": "json", "property": "features" }
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME_1",
+      "from": {
+        "data": { "url": "data.json" },
+        "key": "gadm_name",
+        "fields": ["screening_pct", "poverty_pct", "state_name"]
+      }
+    }
+  ],
+  "projection": { "type": "mercator" },
+  "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.8 },
+  "encoding": {
+    "color": {
+      "field": "screening_pct",
+      "type": "quantitative",
+      "scale": { "scheme": "reds", "domain": [15, 55] },
+      "legend": {
+        "title": "Screening coverage (%)",
+        "titleFont": "Poppins",
+        "titleFontSize": 11,
+        "labelFont": "Poppins",
+        "labelFontSize": 10,
+        "format": ".0f",
+        "orient": "top-left",
+        "direction": "horizontal",
+        "gradientLength": 180
+      }
+    },
+    "tooltip": [
+      { "field": "state_name", "title": "State" },
+      {
+        "field": "screening_pct",
+        "title": "B40 screening coverage (%)",
+        "format": ".1f"
+      },
+      {
+        "field": "poverty_pct",
+        "title": "Absolute poverty rate (%)",
+        "format": ".1f"
+      }
+    ]
+  },
+  "config": { "view": { "stroke": null }, "background": "#F5F5F0" }
+}

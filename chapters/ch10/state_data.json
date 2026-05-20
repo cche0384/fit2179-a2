@@ -1,0 +1,128 @@
+[
+  {
+    "state": "Johor",
+    "life_expectancy": 76.1,
+    "imr": 7.3,
+    "spending_per_capita": 1521.0,
+    "doctors_per_10k": 12.47,
+    "poverty_pct": 4.6,
+    "screening_pct": 26.3
+  },
+  {
+    "state": "Kedah",
+    "life_expectancy": 75.9,
+    "imr": 7.4,
+    "spending_per_capita": 1506.0,
+    "doctors_per_10k": 14.7,
+    "poverty_pct": 9.0,
+    "screening_pct": 43.18
+  },
+  {
+    "state": "Kelantan",
+    "life_expectancy": 73.3,
+    "imr": 8.6,
+    "spending_per_capita": 1516.0,
+    "doctors_per_10k": 22.16,
+    "poverty_pct": 13.2,
+    "screening_pct": 51.66
+  },
+  {
+    "state": "Melaka",
+    "life_expectancy": 74.3,
+    "imr": 8.1,
+    "spending_per_capita": 2310.0,
+    "doctors_per_10k": 21.03,
+    "poverty_pct": 4.2,
+    "screening_pct": 31.85
+  },
+  {
+    "state": "Negeri Sembilan",
+    "life_expectancy": 72.7,
+    "imr": 8.9,
+    "spending_per_capita": 2051.0,
+    "doctors_per_10k": 23.81,
+    "poverty_pct": 4.4,
+    "screening_pct": 31.33
+  },
+  {
+    "state": "Pahang",
+    "life_expectancy": 71.5,
+    "imr": 9.6,
+    "spending_per_capita": 1825.0,
+    "doctors_per_10k": 18.13,
+    "poverty_pct": 6.3,
+    "screening_pct": 34.22
+  },
+  {
+    "state": "Perak",
+    "life_expectancy": 73.5,
+    "imr": 8.5,
+    "spending_per_capita": 1852.0,
+    "doctors_per_10k": 16.76,
+    "poverty_pct": 7.5,
+    "screening_pct": 36.15
+  },
+  {
+    "state": "Perlis",
+    "life_expectancy": 76.3,
+    "imr": 7.2,
+    "spending_per_capita": 2133.0,
+    "doctors_per_10k": 22.57,
+    "poverty_pct": 4.0,
+    "screening_pct": 41.1
+  },
+  {
+    "state": "Penang",
+    "life_expectancy": 77.3,
+    "imr": 6.8,
+    "spending_per_capita": 2870.0,
+    "doctors_per_10k": 17.21,
+    "poverty_pct": 2.0,
+    "screening_pct": 26.77
+  },
+  {
+    "state": "Sabah",
+    "life_expectancy": 69.8,
+    "imr": 10.6,
+    "spending_per_capita": 1347.0,
+    "doctors_per_10k": 12.28,
+    "poverty_pct": 19.7,
+    "screening_pct": 34.09
+  },
+  {
+    "state": "Sarawak",
+    "life_expectancy": 74.8,
+    "imr": 7.9,
+    "spending_per_capita": 1816.0,
+    "doctors_per_10k": 16.19,
+    "poverty_pct": 10.8,
+    "screening_pct": 32.96
+  },
+  {
+    "state": "Selangor",
+    "life_expectancy": 75.6,
+    "imr": 7.5,
+    "spending_per_capita": 1850.0,
+    "doctors_per_10k": 14.71,
+    "poverty_pct": 1.5,
+    "screening_pct": 25.96
+  },
+  {
+    "state": "Terengganu",
+    "life_expectancy": 71.5,
+    "imr": 9.6,
+    "spending_per_capita": 1599.0,
+    "doctors_per_10k": 17.86,
+    "poverty_pct": 6.2,
+    "screening_pct": 39.05
+  },
+  {
+    "state": "Kuala Lumpur",
+    "life_expectancy": 77.3,
+    "imr": 6.8,
+    "spending_per_capita": 5631.0,
+    "doctors_per_10k": 37.38,
+    "poverty_pct": 1.4,
+    "screening_pct": 16.14
+  }
+]

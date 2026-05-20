@@ -1,0 +1,482 @@
+[
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2024",
+    "value": 462721,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2023",
+    "value": 458949,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "BN",
+      "value": "Brunei Darussalam"
+    },
+    "countryiso3code": "BRN",
+    "date": "2022",
+    "value": 455370,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2024",
+    "value": 283487931,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2023",
+    "value": 281190067,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "ID",
+      "value": "Indonesia"
+    },
+    "countryiso3code": "IDN",
+    "date": "2022",
+    "value": 278830529,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2024",
+    "value": 17638801,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2023",
+    "value": 17423880,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "KH",
+      "value": "Cambodia"
+    },
+    "countryiso3code": "KHM",
+    "date": "2022",
+    "value": 17201724,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2024",
+    "value": 7769819,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2023",
+    "value": 7664993,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "LA",
+      "value": "Lao PDR"
+    },
+    "countryiso3code": "LAO",
+    "date": "2022",
+    "value": 7559007,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2024",
+    "value": 54500091,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2023",
+    "value": 54133798,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MM",
+      "value": "Myanmar"
+    },
+    "countryiso3code": "MMR",
+    "date": "2022",
+    "value": 53756787,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2024",
+    "value": 35557673,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2023",
+    "value": 35126298,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "MY",
+      "value": "Malaysia"
+    },
+    "countryiso3code": "MYS",
+    "date": "2022",
+    "value": 34695493,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2024",
+    "value": 115843670,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2023",
+    "value": 114891199,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "PH",
+      "value": "Philippines"
+    },
+    "countryiso3code": "PHL",
+    "date": "2022",
+    "value": 113964338,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2024",
+    "value": 6036860,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2023",
+    "value": 5917648,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "SG",
+      "value": "Singapore"
+    },
+    "countryiso3code": "SGP",
+    "date": "2022",
+    "value": 5637022,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2024",
+    "value": 71668011,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2023",
+    "value": 71702435,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "TH",
+      "value": "Thailand"
+    },
+    "countryiso3code": "THA",
+    "date": "2022",
+    "value": 71735329,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2024",
+    "value": 100987686,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2023",
+    "value": 100352192,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "SP.POP.TOTL",
+      "value": "Population, total"
+    },
+    "country": {
+      "id": "VN",
+      "value": "Viet Nam"
+    },
+    "countryiso3code": "VNM",
+    "date": "2022",
+    "value": 99680655,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  }
+]

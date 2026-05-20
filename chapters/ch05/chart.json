@@ -1,0 +1,207 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The B40 spend more of every ringgit on health — and the gap is still widening",
+    "subtitle": "Out-of-pocket health spending as % of household income  ·  World Bank + DOSM HIES  ·  2000–2023",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 520,
+  "height": 320,
+  "data": {"url": "data.json"},
+  "layer": [
+    {
+      "comment": "shaded area fill under each group line",
+      "mark": {
+        "type": "area",
+        "opacity": 0.10,
+        "interpolate": "monotone",
+        "line": false
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "oop_share", "type": "quantitative", "stack": null},
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["B40", "M40", "T20"],
+            "range": ["#C8102E", "#003580", "#AAAAAA"]
+          }
+        }
+      }
+    },
+    {
+      "comment": "main trend lines per income group",
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {"domain": [2000, 2026]},
+          "axis": {
+            "title": "Year",
+            "titleFont": "Poppins",
+            "titleFontSize": 11,
+            "labelFont": "Poppins",
+            "labelFontSize": 10,
+            "format": "d",
+            "tickCount": 8,
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "oop_share",
+          "type": "quantitative",
+          "scale": {"domain": [0, 4.5]},
+          "axis": {
+            "title": "OOP health spending (% of household income)",
+            "titleFont": "Poppins",
+            "titleFontSize": 11,
+            "labelFont": "Poppins",
+            "labelFontSize": 10,
+            "format": ".1f",
+            "grid": true,
+            "gridColor": "#E0E0DA",
+            "gridDash": [2, 3],
+            "ticks": false
+          }
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["B40", "M40", "T20"],
+            "range": ["#C8102E", "#003580", "#AAAAAA"]
+          },
+          "legend": {
+            "title": "Income Group",
+            "titleFont": "Poppins",
+            "titleFontSize": 10,
+            "titleFontWeight": "bold",
+            "labelFont": "Poppins",
+            "labelFontSize": 10,
+            "orient": "top-left",
+            "offset": 5,
+            "symbolStrokeWidth": 3,
+            "symbolSize": 200
+          }
+        },
+        "tooltip": [
+          {"field": "year", "title": "Year", "type": "quantitative", "format": "d"},
+          {"field": "group", "title": "Income Group"},
+          {"field": "oop_share", "title": "OOP Share (% of income)", "format": ".2f"},
+          {"field": "oop_per_capita_ppp", "title": "OOP per capita (PPP $)", "format": ",.0f"},
+          {"field": "oop_pct_che", "title": "OOP % of all health spending", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "comment": "end-of-line group labels at year 2023",
+      "transform": [
+        {"filter": "datum.year == 2023"},
+        {
+          "calculate": "datum.group + '  ' + format(datum.oop_share, '.1f') + '%'",
+          "as": "end_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": 6,
+        "align": "left",
+        "font": "Poppins",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "oop_share", "type": "quantitative"},
+        "text": {"field": "end_label"},
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["B40", "M40", "T20"],
+            "range": ["#C8102E", "#003580", "#AAAAAA"]
+          }
+        }
+      }
+    },
+    {
+      "comment": "vertical reference line at 2016 — post-2016 cost surge inflection",
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 3],
+        "color": "#CCCCCC",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {"datum": 2016, "type": "quantitative"}
+      }
+    },
+    {
+      "comment": "annotation label for the 2016 inflection",
+      "mark": {
+        "type": "text",
+        "fontSize": 8,
+        "fontStyle": "italic",
+        "color": "#999999",
+        "align": "right",
+        "dx": -4,
+        "dy": -4,
+        "font": "Poppins"
+      },
+      "encoding": {
+        "x": {"datum": 2016, "type": "quantitative"},
+        "y": {"datum": 4.35, "type": "quantitative"},
+        "text": {"value": "Private-sector cost surge →"}
+      }
+    },
+    {
+      "comment": "gold callout: 8× burden gap annotation near the right edge",
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "fontWeight": "bold",
+        "color": "#F4C300",
+        "align": "left",
+        "dx": 3,
+        "dy": 0,
+        "font": "Poppins"
+      },
+      "encoding": {
+        "x": {"datum": 2012, "type": "quantitative"},
+        "y": {"datum": 1.95, "type": "quantitative"},
+        "text": {"value": "← 6× heavier"}
+      }
+    },
+    {
+      "comment": "bracket line illustrating the B40 vs T20 gap around 2012",
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 1,
+        "color": "#F4C300",
+        "strokeDash": [2, 2]
+      },
+      "encoding": {
+        "x": {"datum": 2011.5, "type": "quantitative"},
+        "y": {"datum": 0.48, "type": "quantitative"},
+        "y2": {"datum": 3.02}
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "background": "#F5F5F0"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The Doctor Desert — Doctors per 10,000 People by State (2022)",
+    "subtitle": "Source: MOH Health Informatics Centre (data.gov.my) + OpenDOSM · Excludes W.P. Putrajaya (federal enclave, 172.9/10k outlier)",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 10,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 480,
+  "height": 400,
+  "data": {"url": "data.json"},
+  "transform": [
+    {"filter": "isValid(datum.state)"},
+    {"filter": "datum.state != 'W.P. Putrajaya'"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusEnd": 4},
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {"field": "doctors_per_10k", "order": "ascending"},
+          "axis": {
+            "title": null,
+            "labelFont": "Poppins",
+            "labelFontSize": 11,
+            "labelColor": {
+              "condition": {
+                "test": "datum.value == 'Sabah' || datum.value == 'Sarawak' || datum.value == 'W.P. Labuan'",
+                "value": "#C8102E"
+              },
+              "value": "#333333"
+            }
+          }
+        },
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative",
+          "scale": {"domain": [0, 42]},
+          "axis": {
+            "title": "Doctors per 10,000 population",
+            "titleFont": "Poppins",
+            "titleFontSize": 11,
+            "labelFont": "Poppins",
+            "labelFontSize": 10,
+            "grid": true,
+            "gridColor": "#e0e0e0"
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.region == 'east_malaysia'",
+            "value": "#C8102E"
+          },
+          "value": "#003580"
+        },
+        "opacity": {
+          "condition": [
+            {"test": "datum.state == 'W.P. Kuala Lumpur'", "value": 1.0},
+            {"test": "datum.region == 'east_malaysia'", "value": 0.9}
+          ],
+          "value": 0.65
+        },
+        "tooltip": [
+          {"field": "state",           "title": "State"},
+          {"field": "region",          "title": "Region"},
+          {"field": "doctors_per_10k", "title": "Doctors per 10,000", "format": ".2f"},
+          {"field": "doctors",         "title": "Total Doctors",       "format": ","},
+          {"field": "population",      "title": "Population",          "format": ","}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [6, 3],
+        "color": "#F4C300",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {"datum": 23.41, "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 4,
+        "y": 6,
+        "color": "#F4C300",
+        "font": "Poppins",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "x": {"datum": 23.41, "type": "quantitative"},
+        "text": {"value": "National avg 23.4"}
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "background": "#F5F5F0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The Lottery of Birth — Life Expectancy by State (2020)",
+    "subtitle": "Source: DOSM Vital Statistics Malaysia 2020",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 460,
+  "height": 280,
+  "data": {
+    "url": "malaysia-states-compact.geojson",
+    "format": {"type": "json", "property": "features"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME_1",
+      "from": {
+        "data": {"url": "data.json"},
+        "key": "gadm_name",
+        "fields": ["state", "life_expectancy", "region", "year", "deviation"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {
+    "type": "geoshape",
+    "stroke": "#ffffff",
+    "strokeWidth": 0.8
+  },
+  "encoding": {
+    "color": {
+      "field": "life_expectancy",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "blues",
+        "domain": [68, 78]
+      },
+      "legend": {
+        "title": "Life Expectancy (yrs)",
+        "titleFont": "Poppins",
+        "titleFontSize": 11,
+        "labelFont": "Poppins",
+        "labelFontSize": 10,
+        "orient": "top-left",
+        "direction": "horizontal",
+        "gradientLength": 180
+      }
+    },
+    "tooltip": [
+      {"field": "state",           "type": "nominal",      "title": "State"},
+      {"field": "life_expectancy", "type": "quantitative", "title": "Life Expectancy (yrs)", "format": ".1f"},
+      {"field": "deviation",       "type": "quantitative", "title": "vs. National Avg",      "format": "+.1f"},
+      {"field": "region",          "type": "nominal",      "title": "Region"},
+      {"field": "year",            "type": "ordinal",      "title": "Data Year"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "background": "#F5F5F0"
+  }
+}

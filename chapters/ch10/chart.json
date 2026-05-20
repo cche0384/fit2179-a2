@@ -1,0 +1,130 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Poverty predicts life expectancy twice as strongly as doctor supply",
+    "subtitle": "Pearson Correlation with State Life Expectancy — compiled from all chapters",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 480,
+  "height": 220,
+  "padding": { "left": 60, "right": 60, "top": 10, "bottom": 40 },
+  "data": { "url": "data.json" },
+  "transform": [{ "calculate": "0", "as": "zero" }],
+  "layer": [
+    {
+      "mark": { "type": "rule", "strokeWidth": 3 },
+      "encoding": {
+        "y": {
+          "field": "variable",
+          "type": "nominal",
+          "sort": { "field": "abs_correlation", "order": "descending" },
+          "axis": {
+            "title": null,
+            "labelFont": "Poppins",
+            "labelFontSize": 12,
+            "labelLimit": 320
+          }
+        },
+        "x": {
+          "field": "zero",
+          "type": "quantitative",
+          "scale": { "domain": [-0.75, 0.75] },
+          "axis": {
+            "title": "Pearson r with state life expectancy",
+            "titleFont": "Poppins",
+            "labelFont": "Poppins",
+            "format": "+.2f",
+            "grid": true,
+            "gridDash": [4, 4],
+            "gridColor": "#DDDDDD"
+          }
+        },
+        "x2": { "field": "correlation" },
+        "color": {
+          "field": "direction",
+          "type": "nominal",
+          "scale": {
+            "domain": ["positive", "negative"],
+            "range": ["#003580", "#C8102E"]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "size": 180,
+        "filled": true,
+        "strokeWidth": 0
+      },
+      "encoding": {
+        "y": {
+          "field": "variable",
+          "type": "nominal",
+          "sort": { "field": "abs_correlation", "order": "descending" }
+        },
+        "x": { "field": "correlation", "type": "quantitative" },
+        "color": {
+          "field": "direction",
+          "type": "nominal",
+          "scale": {
+            "domain": ["positive", "negative"],
+            "range": ["#003580", "#C8102E"]
+          },
+          "legend": {
+            "title": "Effect on life expectancy",
+            "titleFont": "Poppins",
+            "labelFont": "Poppins",
+            "values": ["positive", "negative"],
+            "labelExpr": "datum.value === 'positive' ? 'Increases LE' : 'Decreases LE'"
+          }
+        },
+        "tooltip": [
+          { "field": "variable", "title": "Variable" },
+          { "field": "correlation", "title": "Pearson r", "format": "+.3f" }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "font": "Poppins",
+        "fontWeight": "bold",
+        "align": "center",
+        "baseline": "bottom",
+        "dy": -10
+      },
+      "encoding": {
+        "y": {
+          "field": "variable",
+          "type": "nominal",
+          "sort": { "field": "abs_correlation", "order": "descending" }
+        },
+        "x": { "field": "correlation", "type": "quantitative" },
+        "text": { "field": "correlation", "format": "+.2f" },
+        "color": {
+          "field": "direction",
+          "type": "nominal",
+          "scale": {
+            "domain": ["positive", "negative"],
+            "range": ["#003580", "#C8102E"]
+          }
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "background": "#F5F5F0",
+    "axis": { "labelFont": "Poppins" }
+  }
+}

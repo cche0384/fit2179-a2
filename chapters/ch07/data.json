@@ -1,0 +1,92 @@
+[
+  {
+    "gadm_name": "Johor",
+    "state_name": "Johor",
+    "screening_pct": 26.3,
+    "poverty_pct": 4.6
+  },
+  {
+    "gadm_name": "Kedah",
+    "state_name": "Kedah",
+    "screening_pct": 43.18,
+    "poverty_pct": 9.0
+  },
+  {
+    "gadm_name": "Kelantan",
+    "state_name": "Kelantan",
+    "screening_pct": 51.66,
+    "poverty_pct": 13.2
+  },
+  {
+    "gadm_name": "Melaka",
+    "state_name": "Melaka",
+    "screening_pct": 31.85,
+    "poverty_pct": 4.2
+  },
+  {
+    "gadm_name": "NegeriSembilan",
+    "state_name": "Negeri Sembilan",
+    "screening_pct": 31.33,
+    "poverty_pct": 4.4
+  },
+  {
+    "gadm_name": "Pahang",
+    "state_name": "Pahang",
+    "screening_pct": 34.22,
+    "poverty_pct": 6.3
+  },
+  {
+    "gadm_name": "Perak",
+    "state_name": "Perak",
+    "screening_pct": 36.15,
+    "poverty_pct": 7.5
+  },
+  {
+    "gadm_name": "Perlis",
+    "state_name": "Perlis",
+    "screening_pct": 41.1,
+    "poverty_pct": 4.0
+  },
+  {
+    "gadm_name": "PulauPinang",
+    "state_name": "Penang",
+    "screening_pct": 26.77,
+    "poverty_pct": 2.0
+  },
+  {
+    "gadm_name": "Sabah",
+    "state_name": "Sabah",
+    "screening_pct": 34.09,
+    "poverty_pct": 19.7
+  },
+  {
+    "gadm_name": "Sarawak",
+    "state_name": "Sarawak",
+    "screening_pct": 32.96,
+    "poverty_pct": 10.8
+  },
+  {
+    "gadm_name": "Selangor",
+    "state_name": "Selangor",
+    "screening_pct": 25.96,
+    "poverty_pct": 1.5
+  },
+  {
+    "gadm_name": "Trengganu",
+    "state_name": "Terengganu",
+    "screening_pct": 39.05,
+    "poverty_pct": 6.2
+  },
+  {
+    "gadm_name": "KualaLumpur",
+    "state_name": "W.P. Kuala Lumpur",
+    "screening_pct": 16.14,
+    "poverty_pct": 1.4
+  },
+  {
+    "gadm_name": "Labuan",
+    "state_name": "W.P. Labuan",
+    "screening_pct": 16.67,
+    "poverty_pct": 2.5
+  }
+]

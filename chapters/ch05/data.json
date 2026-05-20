@@ -1,0 +1,722 @@
+[
+  {
+    "year": 2000,
+    "group": "B40",
+    "oop_share": 3.35,
+    "oop_per_capita_ppp": 145.2,
+    "gdp_per_capita_ppp": 13027.3,
+    "rel_income": 0.3325,
+    "oop_pct_che": 40.7,
+    "che_pct_gdp": 2.51
+  },
+  {
+    "year": 2000,
+    "group": "M40",
+    "oop_share": 1.27,
+    "oop_per_capita_ppp": 145.2,
+    "gdp_per_capita_ppp": 13027.3,
+    "rel_income": 0.875,
+    "oop_pct_che": 40.7,
+    "che_pct_gdp": 2.51
+  },
+  {
+    "year": 2000,
+    "group": "T20",
+    "oop_share": 0.43,
+    "oop_per_capita_ppp": 145.2,
+    "gdp_per_capita_ppp": 13027.3,
+    "rel_income": 2.585,
+    "oop_pct_che": 40.7,
+    "che_pct_gdp": 2.51
+  },
+  {
+    "year": 2001,
+    "group": "B40",
+    "oop_share": 3.13,
+    "oop_per_capita_ppp": 136.0,
+    "gdp_per_capita_ppp": 13071.6,
+    "rel_income": 0.3325,
+    "oop_pct_che": 35.7,
+    "che_pct_gdp": 2.68
+  },
+  {
+    "year": 2001,
+    "group": "M40",
+    "oop_share": 1.19,
+    "oop_per_capita_ppp": 136.0,
+    "gdp_per_capita_ppp": 13071.6,
+    "rel_income": 0.875,
+    "oop_pct_che": 35.7,
+    "che_pct_gdp": 2.68
+  },
+  {
+    "year": 2001,
+    "group": "T20",
+    "oop_share": 0.4,
+    "oop_per_capita_ppp": 136.0,
+    "gdp_per_capita_ppp": 13071.6,
+    "rel_income": 2.585,
+    "oop_pct_che": 35.7,
+    "che_pct_gdp": 2.68
+  },
+  {
+    "year": 2002,
+    "group": "B40",
+    "oop_share": 3.03,
+    "oop_per_capita_ppp": 137.5,
+    "gdp_per_capita_ppp": 13656.0,
+    "rel_income": 0.3325,
+    "oop_pct_che": 34.6,
+    "che_pct_gdp": 2.67
+  },
+  {
+    "year": 2002,
+    "group": "M40",
+    "oop_share": 1.15,
+    "oop_per_capita_ppp": 137.5,
+    "gdp_per_capita_ppp": 13656.0,
+    "rel_income": 0.875,
+    "oop_pct_che": 34.6,
+    "che_pct_gdp": 2.67
+  },
+  {
+    "year": 2002,
+    "group": "T20",
+    "oop_share": 0.39,
+    "oop_per_capita_ppp": 137.5,
+    "gdp_per_capita_ppp": 13656.0,
+    "rel_income": 2.585,
+    "oop_pct_che": 34.6,
+    "che_pct_gdp": 2.67
+  },
+  {
+    "year": 2003,
+    "group": "B40",
+    "oop_share": 3.3,
+    "oop_per_capita_ppp": 158.1,
+    "gdp_per_capita_ppp": 14387.2,
+    "rel_income": 0.3325,
+    "oop_pct_che": 34.5,
+    "che_pct_gdp": 2.92
+  },
+  {
+    "year": 2003,
+    "group": "M40",
+    "oop_share": 1.26,
+    "oop_per_capita_ppp": 158.1,
+    "gdp_per_capita_ppp": 14387.2,
+    "rel_income": 0.875,
+    "oop_pct_che": 34.5,
+    "che_pct_gdp": 2.92
+  },
+  {
+    "year": 2003,
+    "group": "T20",
+    "oop_share": 0.43,
+    "oop_per_capita_ppp": 158.1,
+    "gdp_per_capita_ppp": 14387.2,
+    "rel_income": 2.585,
+    "oop_pct_che": 34.5,
+    "che_pct_gdp": 2.92
+  },
+  {
+    "year": 2004,
+    "group": "B40",
+    "oop_share": 3.32,
+    "oop_per_capita_ppp": 173.4,
+    "gdp_per_capita_ppp": 15415.8,
+    "rel_income": 0.3392,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 2.86
+  },
+  {
+    "year": 2004,
+    "group": "M40",
+    "oop_share": 1.28,
+    "oop_per_capita_ppp": 173.4,
+    "gdp_per_capita_ppp": 15415.8,
+    "rel_income": 0.8792,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 2.86
+  },
+  {
+    "year": 2004,
+    "group": "T20",
+    "oop_share": 0.44,
+    "oop_per_capita_ppp": 173.4,
+    "gdp_per_capita_ppp": 15415.8,
+    "rel_income": 2.5633,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 2.86
+  },
+  {
+    "year": 2005,
+    "group": "B40",
+    "oop_share": 3.21,
+    "oop_per_capita_ppp": 181.8,
+    "gdp_per_capita_ppp": 16371.4,
+    "rel_income": 0.3458,
+    "oop_pct_che": 38.0,
+    "che_pct_gdp": 2.79
+  },
+  {
+    "year": 2005,
+    "group": "M40",
+    "oop_share": 1.26,
+    "oop_per_capita_ppp": 181.8,
+    "gdp_per_capita_ppp": 16371.4,
+    "rel_income": 0.8833,
+    "oop_pct_che": 38.0,
+    "che_pct_gdp": 2.79
+  },
+  {
+    "year": 2005,
+    "group": "T20",
+    "oop_share": 0.44,
+    "oop_per_capita_ppp": 181.8,
+    "gdp_per_capita_ppp": 16371.4,
+    "rel_income": 2.5417,
+    "oop_pct_che": 38.0,
+    "che_pct_gdp": 2.79
+  },
+  {
+    "year": 2006,
+    "group": "B40",
+    "oop_share": 3.21,
+    "oop_per_capita_ppp": 197.1,
+    "gdp_per_capita_ppp": 17426.4,
+    "rel_income": 0.3525,
+    "oop_pct_che": 34.7,
+    "che_pct_gdp": 3.11
+  },
+  {
+    "year": 2006,
+    "group": "M40",
+    "oop_share": 1.27,
+    "oop_per_capita_ppp": 197.1,
+    "gdp_per_capita_ppp": 17426.4,
+    "rel_income": 0.8875,
+    "oop_pct_che": 34.7,
+    "che_pct_gdp": 3.11
+  },
+  {
+    "year": 2006,
+    "group": "T20",
+    "oop_share": 0.45,
+    "oop_per_capita_ppp": 197.1,
+    "gdp_per_capita_ppp": 17426.4,
+    "rel_income": 2.52,
+    "oop_pct_che": 34.7,
+    "che_pct_gdp": 3.11
+  },
+  {
+    "year": 2007,
+    "group": "B40",
+    "oop_share": 3.25,
+    "oop_per_capita_ppp": 210.3,
+    "gdp_per_capita_ppp": 18616.8,
+    "rel_income": 0.3475,
+    "oop_pct_che": 35.1,
+    "che_pct_gdp": 3.07
+  },
+  {
+    "year": 2007,
+    "group": "M40",
+    "oop_share": 1.27,
+    "oop_per_capita_ppp": 210.3,
+    "gdp_per_capita_ppp": 18616.8,
+    "rel_income": 0.8888,
+    "oop_pct_che": 35.1,
+    "che_pct_gdp": 3.07
+  },
+  {
+    "year": 2007,
+    "group": "T20",
+    "oop_share": 0.45,
+    "oop_per_capita_ppp": 210.3,
+    "gdp_per_capita_ppp": 18616.8,
+    "rel_income": 2.5275,
+    "oop_pct_che": 35.1,
+    "che_pct_gdp": 3.07
+  },
+  {
+    "year": 2008,
+    "group": "B40",
+    "oop_share": 3.27,
+    "oop_per_capita_ppp": 218.0,
+    "gdp_per_capita_ppp": 19479.9,
+    "rel_income": 0.3425,
+    "oop_pct_che": 35.5,
+    "che_pct_gdp": 3.01
+  },
+  {
+    "year": 2008,
+    "group": "M40",
+    "oop_share": 1.26,
+    "oop_per_capita_ppp": 218.0,
+    "gdp_per_capita_ppp": 19479.9,
+    "rel_income": 0.89,
+    "oop_pct_che": 35.5,
+    "che_pct_gdp": 3.01
+  },
+  {
+    "year": 2008,
+    "group": "T20",
+    "oop_share": 0.44,
+    "oop_per_capita_ppp": 218.0,
+    "gdp_per_capita_ppp": 19479.9,
+    "rel_income": 2.535,
+    "oop_pct_che": 35.5,
+    "che_pct_gdp": 3.01
+  },
+  {
+    "year": 2009,
+    "group": "B40",
+    "oop_share": 3.14,
+    "oop_per_capita_ppp": 208.1,
+    "gdp_per_capita_ppp": 18922.6,
+    "rel_income": 0.35,
+    "oop_pct_che": 32.2,
+    "che_pct_gdp": 3.26
+  },
+  {
+    "year": 2009,
+    "group": "M40",
+    "oop_share": 1.23,
+    "oop_per_capita_ppp": 208.1,
+    "gdp_per_capita_ppp": 18922.6,
+    "rel_income": 0.8942,
+    "oop_pct_che": 32.2,
+    "che_pct_gdp": 3.26
+  },
+  {
+    "year": 2009,
+    "group": "T20",
+    "oop_share": 0.44,
+    "oop_per_capita_ppp": 208.1,
+    "gdp_per_capita_ppp": 18922.6,
+    "rel_income": 2.5117,
+    "oop_pct_che": 32.2,
+    "che_pct_gdp": 3.26
+  },
+  {
+    "year": 2010,
+    "group": "B40",
+    "oop_share": 3.06,
+    "oop_per_capita_ppp": 221.1,
+    "gdp_per_capita_ppp": 20193.4,
+    "rel_income": 0.3575,
+    "oop_pct_che": 34.1,
+    "che_pct_gdp": 3.16
+  },
+  {
+    "year": 2010,
+    "group": "M40",
+    "oop_share": 1.22,
+    "oop_per_capita_ppp": 221.1,
+    "gdp_per_capita_ppp": 20193.4,
+    "rel_income": 0.8983,
+    "oop_pct_che": 34.1,
+    "che_pct_gdp": 3.16
+  },
+  {
+    "year": 2010,
+    "group": "T20",
+    "oop_share": 0.44,
+    "oop_per_capita_ppp": 221.1,
+    "gdp_per_capita_ppp": 20193.4,
+    "rel_income": 2.4883,
+    "oop_pct_che": 34.1,
+    "che_pct_gdp": 3.16
+  },
+  {
+    "year": 2011,
+    "group": "B40",
+    "oop_share": 3.13,
+    "oop_per_capita_ppp": 243.8,
+    "gdp_per_capita_ppp": 21324.4,
+    "rel_income": 0.365,
+    "oop_pct_che": 34.0,
+    "che_pct_gdp": 3.31
+  },
+  {
+    "year": 2011,
+    "group": "M40",
+    "oop_share": 1.27,
+    "oop_per_capita_ppp": 243.8,
+    "gdp_per_capita_ppp": 21324.4,
+    "rel_income": 0.9025,
+    "oop_pct_che": 34.0,
+    "che_pct_gdp": 3.31
+  },
+  {
+    "year": 2011,
+    "group": "T20",
+    "oop_share": 0.46,
+    "oop_per_capita_ppp": 243.8,
+    "gdp_per_capita_ppp": 21324.4,
+    "rel_income": 2.465,
+    "oop_pct_che": 34.0,
+    "che_pct_gdp": 3.31
+  },
+  {
+    "year": 2012,
+    "group": "B40",
+    "oop_share": 3.04,
+    "oop_per_capita_ppp": 262.3,
+    "gdp_per_capita_ppp": 22638.5,
+    "rel_income": 0.3812,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.46
+  },
+  {
+    "year": 2012,
+    "group": "M40",
+    "oop_share": 1.28,
+    "oop_per_capita_ppp": 262.3,
+    "gdp_per_capita_ppp": 22638.5,
+    "rel_income": 0.9062,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.46
+  },
+  {
+    "year": 2012,
+    "group": "T20",
+    "oop_share": 0.48,
+    "oop_per_capita_ppp": 262.3,
+    "gdp_per_capita_ppp": 22638.5,
+    "rel_income": 2.425,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.46
+  },
+  {
+    "year": 2013,
+    "group": "B40",
+    "oop_share": 3.02,
+    "oop_per_capita_ppp": 277.8,
+    "gdp_per_capita_ppp": 23160.9,
+    "rel_income": 0.3975,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.51
+  },
+  {
+    "year": 2013,
+    "group": "M40",
+    "oop_share": 1.32,
+    "oop_per_capita_ppp": 277.8,
+    "gdp_per_capita_ppp": 23160.9,
+    "rel_income": 0.91,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.51
+  },
+  {
+    "year": 2013,
+    "group": "T20",
+    "oop_share": 0.5,
+    "oop_per_capita_ppp": 277.8,
+    "gdp_per_capita_ppp": 23160.9,
+    "rel_income": 2.385,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.51
+  },
+  {
+    "year": 2014,
+    "group": "B40",
+    "oop_share": 3.13,
+    "oop_per_capita_ppp": 302.3,
+    "gdp_per_capita_ppp": 24306.5,
+    "rel_income": 0.3975,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2014,
+    "group": "M40",
+    "oop_share": 1.36,
+    "oop_per_capita_ppp": 302.3,
+    "gdp_per_capita_ppp": 24306.5,
+    "rel_income": 0.915,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2014,
+    "group": "T20",
+    "oop_share": 0.52,
+    "oop_per_capita_ppp": 302.3,
+    "gdp_per_capita_ppp": 24306.5,
+    "rel_income": 2.375,
+    "oop_pct_che": 33.0,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2015,
+    "group": "B40",
+    "oop_share": 3.24,
+    "oop_per_capita_ppp": 316.0,
+    "gdp_per_capita_ppp": 24526.4,
+    "rel_income": 0.3975,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.82
+  },
+  {
+    "year": 2015,
+    "group": "M40",
+    "oop_share": 1.4,
+    "oop_per_capita_ppp": 316.0,
+    "gdp_per_capita_ppp": 24526.4,
+    "rel_income": 0.92,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.82
+  },
+  {
+    "year": 2015,
+    "group": "T20",
+    "oop_share": 0.54,
+    "oop_per_capita_ppp": 316.0,
+    "gdp_per_capita_ppp": 24526.4,
+    "rel_income": 2.365,
+    "oop_pct_che": 33.7,
+    "che_pct_gdp": 3.82
+  },
+  {
+    "year": 2016,
+    "group": "B40",
+    "oop_share": 3.36,
+    "oop_per_capita_ppp": 336.4,
+    "gdp_per_capita_ppp": 25285.8,
+    "rel_income": 0.3958,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.7
+  },
+  {
+    "year": 2016,
+    "group": "M40",
+    "oop_share": 1.44,
+    "oop_per_capita_ppp": 336.4,
+    "gdp_per_capita_ppp": 25285.8,
+    "rel_income": 0.9208,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.7
+  },
+  {
+    "year": 2016,
+    "group": "T20",
+    "oop_share": 0.56,
+    "oop_per_capita_ppp": 336.4,
+    "gdp_per_capita_ppp": 25285.8,
+    "rel_income": 2.3667,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.7
+  },
+  {
+    "year": 2017,
+    "group": "B40",
+    "oop_share": 3.39,
+    "oop_per_capita_ppp": 352.6,
+    "gdp_per_capita_ppp": 26415.6,
+    "rel_income": 0.3942,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2017,
+    "group": "M40",
+    "oop_share": 1.45,
+    "oop_per_capita_ppp": 352.6,
+    "gdp_per_capita_ppp": 26415.6,
+    "rel_income": 0.9217,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2017,
+    "group": "T20",
+    "oop_share": 0.56,
+    "oop_per_capita_ppp": 352.6,
+    "gdp_per_capita_ppp": 26415.6,
+    "rel_income": 2.3683,
+    "oop_pct_che": 35.9,
+    "che_pct_gdp": 3.71
+  },
+  {
+    "year": 2018,
+    "group": "B40",
+    "oop_share": 3.51,
+    "oop_per_capita_ppp": 382.9,
+    "gdp_per_capita_ppp": 27793.6,
+    "rel_income": 0.3925,
+    "oop_pct_che": 36.6,
+    "che_pct_gdp": 3.76
+  },
+  {
+    "year": 2018,
+    "group": "M40",
+    "oop_share": 1.49,
+    "oop_per_capita_ppp": 382.9,
+    "gdp_per_capita_ppp": 27793.6,
+    "rel_income": 0.9225,
+    "oop_pct_che": 36.6,
+    "che_pct_gdp": 3.76
+  },
+  {
+    "year": 2018,
+    "group": "T20",
+    "oop_share": 0.58,
+    "oop_per_capita_ppp": 382.9,
+    "gdp_per_capita_ppp": 27793.6,
+    "rel_income": 2.37,
+    "oop_pct_che": 36.6,
+    "che_pct_gdp": 3.76
+  },
+  {
+    "year": 2019,
+    "group": "B40",
+    "oop_share": 3.48,
+    "oop_per_capita_ppp": 400.7,
+    "gdp_per_capita_ppp": 28933.9,
+    "rel_income": 0.3974,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 3.84
+  },
+  {
+    "year": 2019,
+    "group": "M40",
+    "oop_share": 1.49,
+    "oop_per_capita_ppp": 400.7,
+    "gdp_per_capita_ppp": 28933.9,
+    "rel_income": 0.927,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 3.84
+  },
+  {
+    "year": 2019,
+    "group": "T20",
+    "oop_share": 0.59,
+    "oop_per_capita_ppp": 400.7,
+    "gdp_per_capita_ppp": 28933.9,
+    "rel_income": 2.3512,
+    "oop_pct_che": 36.1,
+    "che_pct_gdp": 3.84
+  },
+  {
+    "year": 2020,
+    "group": "B40",
+    "oop_share": 3.5,
+    "oop_per_capita_ppp": 384.1,
+    "gdp_per_capita_ppp": 27474.7,
+    "rel_income": 0.3992,
+    "oop_pct_che": 34.2,
+    "che_pct_gdp": 4.08
+  },
+  {
+    "year": 2020,
+    "group": "M40",
+    "oop_share": 1.51,
+    "oop_per_capita_ppp": 384.1,
+    "gdp_per_capita_ppp": 27474.7,
+    "rel_income": 0.9258,
+    "oop_pct_che": 34.2,
+    "che_pct_gdp": 4.08
+  },
+  {
+    "year": 2020,
+    "group": "T20",
+    "oop_share": 0.59,
+    "oop_per_capita_ppp": 384.1,
+    "gdp_per_capita_ppp": 27474.7,
+    "rel_income": 2.35,
+    "oop_pct_che": 34.2,
+    "che_pct_gdp": 4.08
+  },
+  {
+    "year": 2021,
+    "group": "B40",
+    "oop_share": 3.49,
+    "oop_per_capita_ppp": 418.5,
+    "gdp_per_capita_ppp": 29822.8,
+    "rel_income": 0.4025,
+    "oop_pct_che": 32.1,
+    "che_pct_gdp": 4.37
+  },
+  {
+    "year": 2021,
+    "group": "M40",
+    "oop_share": 1.51,
+    "oop_per_capita_ppp": 418.5,
+    "gdp_per_capita_ppp": 29822.8,
+    "rel_income": 0.9275,
+    "oop_pct_che": 32.1,
+    "che_pct_gdp": 4.37
+  },
+  {
+    "year": 2021,
+    "group": "T20",
+    "oop_share": 0.6,
+    "oop_per_capita_ppp": 418.5,
+    "gdp_per_capita_ppp": 29822.8,
+    "rel_income": 2.34,
+    "oop_pct_che": 32.1,
+    "che_pct_gdp": 4.37
+  },
+  {
+    "year": 2022,
+    "group": "B40",
+    "oop_share": 3.64,
+    "oop_per_capita_ppp": 507.6,
+    "gdp_per_capita_ppp": 34419.9,
+    "rel_income": 0.4047,
+    "oop_pct_che": 37.9,
+    "che_pct_gdp": 3.9
+  },
+  {
+    "year": 2022,
+    "group": "M40",
+    "oop_share": 1.57,
+    "oop_per_capita_ppp": 507.6,
+    "gdp_per_capita_ppp": 34419.9,
+    "rel_income": 0.9405,
+    "oop_pct_che": 37.9,
+    "che_pct_gdp": 3.9
+  },
+  {
+    "year": 2022,
+    "group": "T20",
+    "oop_share": 0.64,
+    "oop_per_capita_ppp": 507.6,
+    "gdp_per_capita_ppp": 34419.9,
+    "rel_income": 2.3096,
+    "oop_pct_che": 37.9,
+    "che_pct_gdp": 3.9
+  },
+  {
+    "year": 2023,
+    "group": "B40",
+    "oop_share": 3.64,
+    "oop_per_capita_ppp": 534.6,
+    "gdp_per_capita_ppp": 36466.9,
+    "rel_income": 0.4025,
+    "oop_pct_che": 37.1,
+    "che_pct_gdp": 3.96
+  },
+  {
+    "year": 2023,
+    "group": "M40",
+    "oop_share": 1.58,
+    "oop_per_capita_ppp": 534.6,
+    "gdp_per_capita_ppp": 36466.9,
+    "rel_income": 0.9275,
+    "oop_pct_che": 37.1,
+    "che_pct_gdp": 3.96
+  },
+  {
+    "year": 2023,
+    "group": "T20",
+    "oop_share": 0.63,
+    "oop_per_capita_ppp": 534.6,
+    "gdp_per_capita_ppp": 36466.9,
+    "rel_income": 2.34,
+    "oop_pct_che": 37.1,
+    "che_pct_gdp": 3.96
+  }
+]

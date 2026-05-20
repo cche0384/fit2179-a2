@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Kelantan halved its child death rate — Sabah is still Malaysia's worst, 23 years on",
+    "subtitle": "Early Childhood Death Rate (per 1,000 live births) by State, 2000–2023",
+    "font": "Poppins",
+    "fontSize": 15,
+    "fontWeight": "bold",
+    "color": "#003580",
+    "subtitleFont": "Poppins",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666666",
+    "subtitlePadding": 6
+  },
+  "width": 560,
+  "height": 320,
+  "data": { "url": "data.json" },
+  "mark": {
+    "type": "rect",
+    "stroke": "#ffffff",
+    "strokeWidth": 0.8
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "title": null,
+        "labelFont": "Poppins",
+        "labelFontSize": 11,
+        "labelAngle": -45,
+        "values": [2000, 2005, 2010, 2015, 2020, 2023]
+      }
+    },
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": [
+        "Sabah",
+        "Pahang",
+        "Terengganu",
+        "Negeri Sembilan",
+        "Kelantan",
+        "Perak",
+        "Melaka",
+        "Sarawak",
+        "Selangor",
+        "Kedah",
+        "Johor",
+        "Perlis",
+        "Penang",
+        "Kuala Lumpur"
+      ],
+      "axis": {
+        "title": null,
+        "labelFont": "Poppins",
+        "labelFontSize": 11
+      }
+    },
+    "color": {
+      "field": "imr",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "reds",
+        "domain": [5, 14]
+      },
+      "legend": {
+        "title": "Deaths per 1,000 live births",
+        "titleFont": "Poppins",
+        "labelFont": "Poppins",
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "direction": "horizontal",
+        "orient": "bottom",
+        "gradientLength": 200
+      }
+    },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "year", "title": "Year" },
+      { "field": "imr", "title": "Death rate (per 1,000)", "format": ".1f" },
+      {
+        "field": "imr_change_pct",
+        "title": "Change since 2000 (%)",
+        "format": "+.1f"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "background": "#F5F5F0",
+    "axis": { "grid": false }
+  }
+}

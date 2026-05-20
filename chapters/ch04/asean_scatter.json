@@ -1,0 +1,86 @@
+[
+  {
+    "country": "Indonesia",
+    "label": "Indonesia",
+    "iso2": "ID",
+    "tb_per_100k": 375.0,
+    "tb_year": 2022,
+    "poverty_rate": 9.5,
+    "poverty_year": 2022,
+    "population": 278830529,
+    "highlight": false,
+    "stale_poverty": false
+  },
+  {
+    "country": "Lao PDR",
+    "label": "Lao PDR",
+    "iso2": "LA",
+    "tb_per_100k": 138.0,
+    "tb_year": 2022,
+    "poverty_rate": 15.0,
+    "poverty_year": 2024,
+    "population": 7559007,
+    "highlight": false,
+    "stale_poverty": false
+  },
+  {
+    "country": "Malaysia",
+    "label": "Malaysia",
+    "iso2": "MY",
+    "tb_per_100k": 98.0,
+    "tb_year": 2022,
+    "poverty_rate": 5.1,
+    "poverty_year": 2023,
+    "population": 34695493,
+    "highlight": true,
+    "stale_poverty": false
+  },
+  {
+    "country": "Myanmar",
+    "label": "Myanmar*",
+    "iso2": "MM",
+    "tb_per_100k": 434.0,
+    "tb_year": 2022,
+    "poverty_rate": 24.8,
+    "poverty_year": 2017,
+    "population": 53756787,
+    "highlight": false,
+    "stale_poverty": true
+  },
+  {
+    "country": "Philippines",
+    "label": "Philippines",
+    "iso2": "PH",
+    "tb_per_100k": 627.0,
+    "tb_year": 2022,
+    "poverty_rate": 15.5,
+    "poverty_year": 2023,
+    "population": 113964338,
+    "highlight": false,
+    "stale_poverty": false
+  },
+  {
+    "country": "Thailand",
+    "label": "Thailand",
+    "iso2": "TH",
+    "tb_per_100k": 148.0,
+    "tb_year": 2022,
+    "poverty_rate": 5.4,
+    "poverty_year": 2022,
+    "population": 71735329,
+    "highlight": false,
+    "stale_poverty": false
+  },
+  {
+    "country": "Viet Nam",
+    "label": "Viet Nam",
+    "iso2": "VN",
+    "tb_per_100k": 178.0,
+    "tb_year": 2022,
+    "poverty_rate": 4.2,
+    "poverty_year": 2022,
+    "population": 99680655,
+    "highlight": false,
+    "stale_poverty": false
+  }
+]
