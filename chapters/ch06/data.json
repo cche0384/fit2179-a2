@@ -1,564 +1,482 @@
-{
-  "countries": [
-    {
-      "iso2": "MZ",
-      "country": "Mozambique",
-      "gdp_ppp": 1705.0,
-      "gdp_year": 2024,
-      "stunting": 36.7,
-      "stunting_year": 2022,
-      "population": 34631766.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "MW",
-      "country": "Malawi",
-      "gdp_ppp": 1858.0,
-      "gdp_year": 2024,
-      "stunting": 35.5,
-      "stunting_year": 2020,
-      "population": 21655286.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "SD",
-      "country": "Sudan",
-      "gdp_ppp": 2116.0,
-      "gdp_year": 2024,
-      "stunting": 38.2,
-      "stunting_year": 2014,
-      "population": 50448963.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "AF",
-      "country": "Afghanistan",
-      "gdp_ppp": 2202.0,
-      "gdp_year": 2023,
-      "stunting": 44.6,
-      "stunting_year": 2022,
-      "population": 42647492.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "UG",
-      "country": "Uganda",
-      "gdp_ppp": 3273.0,
-      "gdp_year": 2024,
-      "stunting": 24.4,
-      "stunting_year": 2022,
-      "population": 50015092.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "ET",
-      "country": "Ethiopia",
-      "gdp_ppp": 3288.0,
-      "gdp_year": 2024,
-      "stunting": 36.8,
-      "stunting_year": 2019,
-      "population": 132059767.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": "Ethiopia"
-    },
-    {
-      "iso2": "RW",
-      "country": "Rwanda",
-      "gdp_ppp": 3711.0,
-      "gdp_year": 2024,
-      "stunting": 33.1,
-      "stunting_year": 2020,
-      "population": 14256567.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "ZM",
-      "country": "Zambia",
-      "gdp_ppp": 4215.0,
-      "gdp_year": 2024,
-      "stunting": 34.6,
-      "stunting_year": 2018,
-      "population": 21314956.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "TZ",
-      "country": "Tanzania",
-      "gdp_ppp": 4221.0,
-      "gdp_year": 2024,
-      "stunting": 30.0,
-      "stunting_year": 2022,
-      "population": 68560157.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "SN",
-      "country": "Senegal",
-      "gdp_ppp": 5071.0,
-      "gdp_year": 2024,
-      "stunting": 17.5,
-      "stunting_year": 2023,
-      "population": 18501984.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "CM",
-      "country": "Cameroon",
-      "gdp_ppp": 5589.0,
-      "gdp_year": 2024,
-      "stunting": 28.9,
-      "stunting_year": 2018,
-      "population": 29123744.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "NP",
-      "country": "Nepal",
-      "gdp_ppp": 5737.0,
-      "gdp_year": 2024,
-      "stunting": 24.8,
-      "stunting_year": 2022,
-      "population": 29651054.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "MM",
-      "country": "Myanmar",
-      "gdp_ppp": 5997.0,
-      "gdp_year": 2024,
-      "stunting": 26.7,
-      "stunting_year": 2018,
-      "population": 54500091.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Myanmar"
-    },
-    {
-      "iso2": "PK",
-      "country": "Pakistan",
-      "gdp_ppp": 6252.0,
-      "gdp_year": 2024,
-      "stunting": 37.6,
-      "stunting_year": 2018,
-      "population": 251269164.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "KE",
-      "country": "Kenya",
-      "gdp_ppp": 6644.0,
-      "gdp_year": 2024,
-      "stunting": 17.6,
-      "stunting_year": 2022,
-      "population": 56432944.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "CI",
-      "country": "Cote d'Ivoire",
-      "gdp_ppp": 7669.0,
-      "gdp_year": 2024,
-      "stunting": 23.4,
-      "stunting_year": 2021,
-      "population": 31934230.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "KH",
-      "country": "Cambodia",
-      "gdp_ppp": 7967.0,
-      "gdp_year": 2024,
-      "stunting": 21.9,
-      "stunting_year": 2021,
-      "population": 17638801.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Cambodia"
-    },
-    {
-      "iso2": "GH",
-      "country": "Ghana",
-      "gdp_ppp": 8020.0,
-      "gdp_year": 2024,
-      "stunting": 17.4,
-      "stunting_year": 2022,
-      "population": 34427414.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "NG",
-      "country": "Nigeria",
-      "gdp_ppp": 9087.0,
-      "gdp_year": 2024,
-      "stunting": 33.8,
-      "stunting_year": 2021,
-      "population": 232679478.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": "Nigeria"
-    },
-    {
-      "iso2": "BD",
-      "country": "Bangladesh",
-      "gdp_ppp": 9647.0,
-      "gdp_year": 2024,
-      "stunting": 23.6,
-      "stunting_year": 2022,
-      "population": 173562364.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "LA",
-      "country": "Lao PDR",
-      "gdp_ppp": 9776.0,
-      "gdp_year": 2024,
-      "stunting": 32.8,
-      "stunting_year": 2023,
-      "population": 7769819.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "IN",
-      "country": "India",
-      "gdp_ppp": 11160.0,
-      "gdp_year": 2024,
-      "stunting": 35.5,
-      "stunting_year": 2020,
-      "population": 1450935791.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": "India"
-    },
-    {
-      "iso2": "PH",
-      "country": "Philippines",
-      "gdp_ppp": 11794.0,
-      "gdp_year": 2024,
-      "stunting": 26.7,
-      "stunting_year": 2021,
-      "population": 115843670.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Philippines"
-    },
-    {
-      "iso2": "ZA",
-      "country": "South Africa",
-      "gdp_ppp": 15456.0,
-      "gdp_year": 2024,
-      "stunting": 21.3,
-      "stunting_year": 2017,
-      "population": 64007187.0,
-      "group": "Africa",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "LK",
-      "country": "Sri Lanka",
-      "gdp_ppp": 15633.0,
-      "gdp_year": 2024,
-      "stunting": 10.5,
-      "stunting_year": 2024,
-      "population": 21916000.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "VN",
-      "country": "Viet Nam",
-      "gdp_ppp": 16386.0,
-      "gdp_year": 2024,
-      "stunting": 18.2,
-      "stunting_year": 2023,
-      "population": 100987686.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Viet Nam"
-    },
-    {
-      "iso2": "ID",
-      "country": "Indonesia",
-      "gdp_ppp": 16448.0,
-      "gdp_year": 2024,
-      "stunting": 22.0,
-      "stunting_year": 2023,
-      "population": 283487931.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Indonesia"
-    },
-    {
-      "iso2": "MN",
-      "country": "Mongolia",
-      "gdp_ppp": 19145.0,
-      "gdp_year": 2024,
-      "stunting": 8.8,
-      "stunting_year": 2023,
-      "population": 3524788.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "TH",
-      "country": "Thailand",
-      "gdp_ppp": 24712.0,
-      "gdp_year": 2024,
-      "stunting": 12.4,
-      "stunting_year": 2022,
-      "population": 71668011.0,
-      "group": "ASEAN",
-      "highlight": false,
-      "label": "Thailand"
-    },
-    {
-      "iso2": "CN",
-      "country": "China",
-      "gdp_ppp": 27105.0,
-      "gdp_year": 2024,
-      "stunting": 4.8,
-      "stunting_year": 2017,
-      "population": 1408975000.0,
-      "group": "Other Asia",
-      "highlight": false,
-      "label": "China"
-    },
-    {
-      "iso2": "MY",
-      "country": "Malaysia",
-      "gdp_ppp": 38779.0,
-      "gdp_year": 2024,
-      "stunting": 21.2,
-      "stunting_year": 2022,
-      "population": 35557673.0,
-      "group": "Malaysia",
-      "highlight": true,
-      "label": "Malaysia"
-    },
-    {
-      "iso2": "JP",
-      "country": "Japan",
-      "gdp_ppp": 52039.0,
-      "gdp_year": 2024,
-      "stunting": 7.1,
-      "stunting_year": 2010,
-      "population": 123975371.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "KR",
-      "country": "Korea, Rep.",
-      "gdp_ppp": 61051.0,
-      "gdp_year": 2024,
-      "stunting": 0.9,
-      "stunting_year": 2020,
-      "population": 51751065.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "GB",
-      "country": "United Kingdom",
-      "gdp_ppp": 62009.0,
-      "gdp_year": 2024,
-      "stunting": 2.0,
-      "stunting_year": 2019,
-      "population": 69226000.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "FI",
-      "country": "Finland",
-      "gdp_ppp": 65378.0,
-      "gdp_year": 2024,
-      "stunting": 2.8,
-      "stunting_year": 2023,
-      "population": 5619911.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "BE",
-      "country": "Belgium",
-      "gdp_ppp": 73514.0,
-      "gdp_year": 2024,
-      "stunting": 1.9,
-      "stunting_year": 2023,
-      "population": 11858610.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "DE",
-      "country": "Germany",
-      "gdp_ppp": 73552.0,
-      "gdp_year": 2024,
-      "stunting": 1.3,
-      "stunting_year": 2016,
-      "population": 83516593.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    },
-    {
-      "iso2": "US",
-      "country": "United States",
-      "gdp_ppp": 85810.0,
-      "gdp_year": 2024,
-      "stunting": 3.8,
-      "stunting_year": 2022,
-      "population": 340110988.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": "United States"
-    },
-    {
-      "iso2": "IE",
-      "country": "Ireland",
-      "gdp_ppp": 133437.0,
-      "gdp_year": 2024,
-      "stunting": 2.2,
-      "stunting_year": 2011,
-      "population": 5395790.0,
-      "group": "High Income",
-      "highlight": false,
-      "label": ""
-    }
-  ],
-  "malaysia_states": [
-    {
-      "state": "Johor",
-      "gadm_name": "Johor",
-      "imr": 7.3,
-      "year": 2023
-    },
-    {
-      "state": "Kedah",
-      "gadm_name": "Kedah",
-      "imr": 7.4,
-      "year": 2023
-    },
-    {
-      "state": "Kelantan",
-      "gadm_name": "Kelantan",
-      "imr": 8.6,
-      "year": 2023
-    },
-    {
-      "state": "Melaka",
-      "gadm_name": "Melaka",
-      "imr": 8.1,
-      "year": 2023
-    },
-    {
-      "state": "Negeri Sembilan",
-      "gadm_name": "NegeriSembilan",
-      "imr": 8.9,
-      "year": 2023
-    },
-    {
-      "state": "Pahang",
-      "gadm_name": "Pahang",
-      "imr": 9.6,
-      "year": 2023
-    },
-    {
-      "state": "Perak",
-      "gadm_name": "Perak",
-      "imr": 8.5,
-      "year": 2023
-    },
-    {
-      "state": "Perlis",
-      "gadm_name": "Perlis",
-      "imr": 7.2,
-      "year": 2023
-    },
-    {
-      "state": "Pulau Pinang",
-      "gadm_name": "PulauPinang",
-      "imr": 6.8,
-      "year": 2023
-    },
-    {
-      "state": "Sabah",
-      "gadm_name": "Sabah",
-      "imr": 10.6,
-      "year": 2023
-    },
-    {
-      "state": "Sarawak",
-      "gadm_name": "Sarawak",
-      "imr": 7.9,
-      "year": 2023
-    },
-    {
-      "state": "Selangor",
-      "gadm_name": "Selangor",
-      "imr": 7.5,
-      "year": 2023
-    },
-    {
-      "state": "Terengganu",
-      "gadm_name": "Terengganu",
-      "imr": 9.6,
-      "year": 2023
-    },
-    {
-      "state": "W.P. Kuala Lumpur",
-      "gadm_name": "KualaLumpur",
-      "imr": 6.8,
-      "year": 2023
-    },
-    {
-      "state": "W.P. Labuan",
-      "gadm_name": "Labuan",
-      "imr": 9.2,
-      "year": 2023
-    }
-  ]
-}
+[
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 1,
+    "stunted": true
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 2,
+    "stunted": true
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 3,
+    "stunted": true
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "Sabah",
+    "rate": 35.0,
+    "order": 0,
+    "region": "Malaysia",
+    "icon_index": 9,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 1,
+    "stunted": true
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 2,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 3,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "National",
+    "rate": 21.2,
+    "order": 2,
+    "region": "Malaysia",
+    "icon_index": 9,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 1,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 2,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 3,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "Selangor",
+    "rate": 12.0,
+    "order": 5,
+    "region": "Malaysia",
+    "icon_index": 9,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 1,
+    "stunted": true
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 2,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 3,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "Cambodia",
+    "rate": 21.9,
+    "order": 1,
+    "region": "International",
+    "icon_index": 9,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 1,
+    "stunted": true
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 2,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 3,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "Vietnam",
+    "rate": 18.2,
+    "order": 3,
+    "region": "International",
+    "icon_index": 9,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 0,
+    "stunted": true
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 1,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 2,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 3,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 4,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 5,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 6,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 7,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 8,
+    "stunted": false
+  },
+  {
+    "group": "Thailand",
+    "rate": 12.4,
+    "order": 4,
+    "region": "International",
+    "icon_index": 9,
+    "stunted": false
+  }
+]

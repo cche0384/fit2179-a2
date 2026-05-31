@@ -1,26 +1,2072 @@
 [
   {
-    "variable": "Poverty incidence (%)",
-    "correlation": -0.651,
-    "direction": "negative",
-    "abs_correlation": 0.651
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2022,
+    "rank": 5,
+    "le": 72.92,
+    "flag": "🇧🇳",
+    "is_malaysia": false
   },
   {
-    "variable": "Health spending (per capita, RM)",
-    "correlation": 0.519,
-    "direction": "positive",
-    "abs_correlation": 0.519
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2021,
+    "rank": 3,
+    "le": 74.87,
+    "flag": "🇧🇳",
+    "is_malaysia": false
   },
   {
-    "variable": "B40 screening coverage (%)",
-    "correlation": -0.388,
-    "direction": "negative",
-    "abs_correlation": 0.388
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2020,
+    "rank": 5,
+    "le": 75.11,
+    "flag": "🇧🇳",
+    "is_malaysia": false
   },
   {
-    "variable": "Doctors per 10,000 pop.",
-    "correlation": 0.302,
-    "direction": "positive",
-    "abs_correlation": 0.302
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2019,
+    "rank": 4,
+    "le": 75.05,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2018,
+    "rank": 4,
+    "le": 74.99,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2017,
+    "rank": 4,
+    "le": 74.94,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2016,
+    "rank": 4,
+    "le": 74.91,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2015,
+    "rank": 4,
+    "le": 74.88,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2014,
+    "rank": 4,
+    "le": 74.86,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2013,
+    "rank": 4,
+    "le": 74.85,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2012,
+    "rank": 4,
+    "le": 74.84,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2011,
+    "rank": 4,
+    "le": 74.83,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2010,
+    "rank": 4,
+    "le": 74.82,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2009,
+    "rank": 3,
+    "le": 74.81,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2008,
+    "rank": 3,
+    "le": 74.81,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2007,
+    "rank": 3,
+    "le": 74.79,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2006,
+    "rank": 2,
+    "le": 74.75,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2005,
+    "rank": 2,
+    "le": 74.68,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2004,
+    "rank": 2,
+    "le": 74.6,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2003,
+    "rank": 2,
+    "le": 74.51,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2002,
+    "rank": 2,
+    "le": 74.36,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2001,
+    "rank": 2,
+    "le": 74.21,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Brunei",
+    "iso2": "BN",
+    "year": 2000,
+    "rank": 2,
+    "le": 74.02,
+    "flag": "🇧🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2022,
+    "rank": 6,
+    "le": 70.92,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2021,
+    "rank": 8,
+    "le": 67.45,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2020,
+    "rank": 8,
+    "le": 68.82,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2019,
+    "rank": 6,
+    "le": 70.35,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2018,
+    "rank": 6,
+    "le": 70.08,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2017,
+    "rank": 7,
+    "le": 69.95,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2016,
+    "rank": 6,
+    "le": 69.73,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2015,
+    "rank": 6,
+    "le": 69.52,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2014,
+    "rank": 7,
+    "le": 69.29,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2013,
+    "rank": 7,
+    "le": 69.06,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2012,
+    "rank": 7,
+    "le": 68.86,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2011,
+    "rank": 7,
+    "le": 68.63,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2010,
+    "rank": 7,
+    "le": 68.36,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2009,
+    "rank": 7,
+    "le": 68.27,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2008,
+    "rank": 7,
+    "le": 68.08,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2007,
+    "rank": 7,
+    "le": 67.91,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2006,
+    "rank": 7,
+    "le": 67.66,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2005,
+    "rank": 7,
+    "le": 67.53,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2004,
+    "rank": 7,
+    "le": 65.52,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2003,
+    "rank": 7,
+    "le": 67.13,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2002,
+    "rank": 7,
+    "le": 66.95,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2001,
+    "rank": 7,
+    "le": 66.58,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "year": 2000,
+    "rank": 7,
+    "le": 66.29,
+    "flag": "🇮🇩",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2022,
+    "rank": 7,
+    "le": 70.53,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2021,
+    "rank": 6,
+    "le": 69.3,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2020,
+    "rank": 7,
+    "le": 70.06,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2019,
+    "rank": 7,
+    "le": 70.13,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2018,
+    "rank": 7,
+    "le": 69.99,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2017,
+    "rank": 8,
+    "le": 69.84,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2016,
+    "rank": 7,
+    "le": 69.64,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2015,
+    "rank": 8,
+    "le": 69.4,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2014,
+    "rank": 8,
+    "le": 69.12,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2013,
+    "rank": 8,
+    "le": 68.75,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2012,
+    "rank": 8,
+    "le": 68.37,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2011,
+    "rank": 8,
+    "le": 67.87,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2010,
+    "rank": 8,
+    "le": 67.31,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2009,
+    "rank": 8,
+    "le": 66.75,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2008,
+    "rank": 8,
+    "le": 66.15,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2007,
+    "rank": 8,
+    "le": 65.55,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2006,
+    "rank": 8,
+    "le": 64.89,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2005,
+    "rank": 8,
+    "le": 64.11,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2004,
+    "rank": 8,
+    "le": 63.26,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2003,
+    "rank": 8,
+    "le": 62.34,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2002,
+    "rank": 8,
+    "le": 61.4,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2001,
+    "rank": 9,
+    "le": 60.46,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "year": 2000,
+    "rank": 9,
+    "le": 59.49,
+    "flag": "🇰🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2022,
+    "rank": 9,
+    "le": 68.72,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2021,
+    "rank": 7,
+    "le": 67.81,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2020,
+    "rank": 9,
+    "le": 68.34,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2019,
+    "rank": 9,
+    "le": 67.91,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2018,
+    "rank": 9,
+    "le": 67.59,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2017,
+    "rank": 9,
+    "le": 67.34,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2016,
+    "rank": 9,
+    "le": 67.01,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2015,
+    "rank": 9,
+    "le": 66.69,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2014,
+    "rank": 9,
+    "le": 66.35,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2013,
+    "rank": 9,
+    "le": 65.72,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2012,
+    "rank": 9,
+    "le": 65.13,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2011,
+    "rank": 9,
+    "le": 64.5,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2010,
+    "rank": 9,
+    "le": 63.69,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2009,
+    "rank": 10,
+    "le": 63.02,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2008,
+    "rank": 9,
+    "le": 62.25,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2007,
+    "rank": 10,
+    "le": 61.69,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2006,
+    "rank": 10,
+    "le": 61.07,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2005,
+    "rank": 10,
+    "le": 60.69,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2004,
+    "rank": 10,
+    "le": 60.08,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2003,
+    "rank": 10,
+    "le": 59.64,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2002,
+    "rank": 10,
+    "le": 59.3,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2001,
+    "rank": 10,
+    "le": 58.89,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Laos",
+    "iso2": "LA",
+    "year": 2000,
+    "rank": 10,
+    "le": 58.32,
+    "flag": "🇱🇦",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2022,
+    "rank": 10,
+    "le": 66.51,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2021,
+    "rank": 10,
+    "le": 65.55,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2020,
+    "rank": 10,
+    "le": 66.61,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2019,
+    "rank": 10,
+    "le": 66.46,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2018,
+    "rank": 10,
+    "le": 66.23,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2017,
+    "rank": 10,
+    "le": 65.91,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2016,
+    "rank": 10,
+    "le": 65.64,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2015,
+    "rank": 10,
+    "le": 65.29,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2014,
+    "rank": 10,
+    "le": 64.99,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2013,
+    "rank": 10,
+    "le": 64.62,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2012,
+    "rank": 10,
+    "le": 64.25,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2011,
+    "rank": 10,
+    "le": 63.86,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2010,
+    "rank": 10,
+    "le": 63.48,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2009,
+    "rank": 9,
+    "le": 63.09,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2008,
+    "rank": 10,
+    "le": 56.36,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2007,
+    "rank": 9,
+    "le": 62.37,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2006,
+    "rank": 9,
+    "le": 62.03,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2005,
+    "rank": 9,
+    "le": 61.72,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2004,
+    "rank": 9,
+    "le": 61.44,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2003,
+    "rank": 9,
+    "le": 61.2,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2002,
+    "rank": 9,
+    "le": 60.92,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2001,
+    "rank": 8,
+    "le": 60.64,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "year": 2000,
+    "rank": 8,
+    "le": 60.36,
+    "flag": "🇲🇲",
+    "is_malaysia": false
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2022,
+    "rank": 2,
+    "le": 75.44,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2021,
+    "rank": 5,
+    "le": 73.92,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2020,
+    "rank": 3,
+    "le": 76.06,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2019,
+    "rank": 3,
+    "le": 75.9,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2018,
+    "rank": 3,
+    "le": 75.73,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2017,
+    "rank": 3,
+    "le": 75.54,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2016,
+    "rank": 3,
+    "le": 75.37,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2015,
+    "rank": 3,
+    "le": 75.29,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2014,
+    "rank": 3,
+    "le": 75.34,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2013,
+    "rank": 3,
+    "le": 75.46,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2012,
+    "rank": 3,
+    "le": 75.55,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2011,
+    "rank": 2,
+    "le": 75.49,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2010,
+    "rank": 2,
+    "le": 75.38,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2009,
+    "rank": 2,
+    "le": 75.27,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2008,
+    "rank": 2,
+    "le": 75.15,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2007,
+    "rank": 2,
+    "le": 74.96,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2006,
+    "rank": 3,
+    "le": 74.7,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2005,
+    "rank": 3,
+    "le": 74.37,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2004,
+    "rank": 3,
+    "le": 74.03,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2003,
+    "rank": 3,
+    "le": 73.73,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2002,
+    "rank": 3,
+    "le": 73.47,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2001,
+    "rank": 3,
+    "le": 73.08,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "year": 2000,
+    "rank": 4,
+    "le": 72.73,
+    "flag": "🇲🇾",
+    "is_malaysia": true
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2022,
+    "rank": 8,
+    "le": 69.47,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2021,
+    "rank": 9,
+    "le": 66.67,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2020,
+    "rank": 6,
+    "le": 70.1,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2019,
+    "rank": 8,
+    "le": 69.68,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2018,
+    "rank": 8,
+    "le": 69.76,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2017,
+    "rank": 6,
+    "le": 69.97,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2016,
+    "rank": 8,
+    "le": 69.49,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2015,
+    "rank": 7,
+    "le": 69.45,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2014,
+    "rank": 6,
+    "le": 69.31,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2013,
+    "rank": 6,
+    "le": 69.28,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2012,
+    "rank": 6,
+    "le": 69.24,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2011,
+    "rank": 6,
+    "le": 69.1,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2010,
+    "rank": 6,
+    "le": 68.88,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2009,
+    "rank": 6,
+    "le": 68.63,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2008,
+    "rank": 6,
+    "le": 68.64,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2007,
+    "rank": 6,
+    "le": 68.55,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2006,
+    "rank": 6,
+    "le": 68.17,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2005,
+    "rank": 6,
+    "le": 68.42,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2004,
+    "rank": 6,
+    "le": 68.3,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2003,
+    "rank": 6,
+    "le": 68.05,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2002,
+    "rank": 6,
+    "le": 67.89,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2001,
+    "rank": 6,
+    "le": 67.83,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "year": 2000,
+    "rank": 6,
+    "le": 67.79,
+    "flag": "🇵🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2022,
+    "rank": 1,
+    "le": 82.9,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2021,
+    "rank": 1,
+    "le": 83.09,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2020,
+    "rank": 1,
+    "le": 83.54,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2019,
+    "rank": 1,
+    "le": 83.6,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2018,
+    "rank": 1,
+    "le": 83.3,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2017,
+    "rank": 1,
+    "le": 83.1,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2016,
+    "rank": 1,
+    "le": 82.85,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2015,
+    "rank": 1,
+    "le": 82.74,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2014,
+    "rank": 1,
+    "le": 82.5,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2013,
+    "rank": 1,
+    "le": 82.25,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2012,
+    "rank": 1,
+    "le": 82.0,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2011,
+    "rank": 1,
+    "le": 81.74,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2010,
+    "rank": 1,
+    "le": 81.54,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2009,
+    "rank": 1,
+    "le": 81.24,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2008,
+    "rank": 1,
+    "le": 80.79,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2007,
+    "rank": 1,
+    "le": 80.44,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2006,
+    "rank": 1,
+    "le": 80.14,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2005,
+    "rank": 1,
+    "le": 79.99,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2004,
+    "rank": 1,
+    "le": 79.49,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2003,
+    "rank": 1,
+    "le": 79.04,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2002,
+    "rank": 1,
+    "le": 78.55,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2001,
+    "rank": 1,
+    "le": 78.25,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "year": 2000,
+    "rank": 1,
+    "le": 77.95,
+    "flag": "🇸🇬",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2022,
+    "rank": 3,
+    "le": 75.29,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2021,
+    "rank": 2,
+    "le": 77.61,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2020,
+    "rank": 2,
+    "le": 77.33,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2019,
+    "rank": 2,
+    "le": 77.2,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2018,
+    "rank": 2,
+    "le": 77.19,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2017,
+    "rank": 2,
+    "le": 76.99,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2016,
+    "rank": 2,
+    "le": 76.77,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2015,
+    "rank": 2,
+    "le": 76.56,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2014,
+    "rank": 2,
+    "le": 76.28,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2013,
+    "rank": 2,
+    "le": 75.96,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2012,
+    "rank": 2,
+    "le": 75.59,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2011,
+    "rank": 3,
+    "le": 75.3,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2010,
+    "rank": 3,
+    "le": 75.01,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2009,
+    "rank": 4,
+    "le": 74.67,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2008,
+    "rank": 4,
+    "le": 74.22,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2007,
+    "rank": 4,
+    "le": 73.78,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2006,
+    "rank": 4,
+    "le": 73.34,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2005,
+    "rank": 5,
+    "le": 72.89,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2004,
+    "rank": 5,
+    "le": 72.1,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2003,
+    "rank": 5,
+    "le": 72.1,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2002,
+    "rank": 5,
+    "le": 71.78,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2001,
+    "rank": 5,
+    "le": 71.52,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "year": 2000,
+    "rank": 5,
+    "le": 71.2,
+    "flag": "🇹🇭",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2022,
+    "rank": 4,
+    "le": 74.5,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2021,
+    "rank": 4,
+    "le": 74.14,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2020,
+    "rank": 4,
+    "le": 75.38,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2019,
+    "rank": 5,
+    "le": 74.21,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2018,
+    "rank": 5,
+    "le": 74.1,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2017,
+    "rank": 5,
+    "le": 74.03,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2016,
+    "rank": 5,
+    "le": 73.98,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2015,
+    "rank": 5,
+    "le": 73.95,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2014,
+    "rank": 5,
+    "le": 73.89,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2013,
+    "rank": 5,
+    "le": 73.82,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2012,
+    "rank": 5,
+    "le": 73.76,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2011,
+    "rank": 5,
+    "le": 73.71,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2010,
+    "rank": 5,
+    "le": 73.61,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2009,
+    "rank": 5,
+    "le": 73.53,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2008,
+    "rank": 5,
+    "le": 73.45,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2007,
+    "rank": 5,
+    "le": 73.39,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2006,
+    "rank": 5,
+    "le": 73.29,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2005,
+    "rank": 4,
+    "le": 73.2,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2004,
+    "rank": 4,
+    "le": 73.06,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2003,
+    "rank": 4,
+    "le": 73.24,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2002,
+    "rank": 4,
+    "le": 73.14,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2001,
+    "rank": 4,
+    "le": 72.98,
+    "flag": "🇻🇳",
+    "is_malaysia": false
+  },
+  {
+    "country": "Vietnam",
+    "iso2": "VN",
+    "year": 2000,
+    "rank": 3,
+    "le": 72.75,
+    "flag": "🇻🇳",
+    "is_malaysia": false
   }
 ]

@@ -1,122 +1,15 @@
 [
-  {
-    "state": "Perak",
-    "rate_2000": 6.3,
-    "rate_2023": 8.2,
-    "change": 1.9,
-    "change_pct": 30.2,
-    "gadm_name": "Perak"
-  },
-  {
-    "state": "Kedah",
-    "rate_2000": 5.4,
-    "rate_2023": 7.6,
-    "change": 2.2,
-    "change_pct": 40.7,
-    "gadm_name": "Kedah"
-  },
-  {
-    "state": "Perlis",
-    "rate_2000": 6.3,
-    "rate_2023": 7.4,
-    "change": 1.1,
-    "change_pct": 17.5,
-    "gadm_name": "Perlis"
-  },
-  {
-    "state": "Pulau Pinang",
-    "rate_2000": 5.3,
-    "rate_2023": 6.9,
-    "change": 1.6,
-    "change_pct": 30.2,
-    "gadm_name": "PulauPinang"
-  },
-  {
-    "state": "Negeri Sembilan",
-    "rate_2000": 5.2,
-    "rate_2023": 6.7,
-    "change": 1.5,
-    "change_pct": 28.8,
-    "gadm_name": "NegeriSembilan"
-  },
-  {
-    "state": "Sarawak",
-    "rate_2000": 4.1,
-    "rate_2023": 6.5,
-    "change": 2.4,
-    "change_pct": 58.5,
-    "gadm_name": "Sarawak"
-  },
-  {
-    "state": "Terengganu",
-    "rate_2000": 5.1,
-    "rate_2023": 6.5,
-    "change": 1.4,
-    "change_pct": 27.5,
-    "gadm_name": "Trengganu"
-  },
-  {
-    "state": "Kelantan",
-    "rate_2000": 5.6,
-    "rate_2023": 6.4,
-    "change": 0.8,
-    "change_pct": 14.3,
-    "gadm_name": "Kelantan"
-  },
-  {
-    "state": "Pahang",
-    "rate_2000": 4.2,
-    "rate_2023": 6.4,
-    "change": 2.2,
-    "change_pct": 52.4,
-    "gadm_name": "Pahang"
-  },
-  {
-    "state": "Johor",
-    "rate_2000": 4.4,
-    "rate_2023": 6.0,
-    "change": 1.6,
-    "change_pct": 36.4,
-    "gadm_name": "Johor"
-  },
-  {
-    "state": "Melaka",
-    "rate_2000": 5.8,
-    "rate_2023": 6.0,
-    "change": 0.2,
-    "change_pct": 3.4,
-    "gadm_name": "Melaka"
-  },
-  {
-    "state": "W.P. Kuala Lumpur",
-    "rate_2000": 3.9,
-    "rate_2023": 4.8,
-    "change": 0.9,
-    "change_pct": 23.1,
-    "gadm_name": "KualaLumpur"
-  },
-  {
-    "state": "Sabah",
-    "rate_2000": 2.0,
-    "rate_2023": 4.6,
-    "change": 2.6,
-    "change_pct": 130.0,
-    "gadm_name": "Sabah"
-  },
-  {
-    "state": "Selangor",
-    "rate_2000": 3.0,
-    "rate_2023": 4.5,
-    "change": 1.5,
-    "change_pct": 50.0,
-    "gadm_name": "Selangor"
-  },
-  {
-    "state": "W.P. Labuan",
-    "rate_2000": 2.2,
-    "rate_2023": 3.4,
-    "change": 1.2,
-    "change_pct": 54.5,
-    "gadm_name": "Labuan"
-  }
+  {"category": "NCDs",         "subcategory": "Cardiovascular",        "pct": 35.0, "x0": 0,    "x1": 75.9, "y0": 0,     "y1": 46.11, "cx": 37.95, "cy": 23.06},
+  {"category": "NCDs",         "subcategory": "Cancers",               "pct": 15.0, "x0": 0,    "x1": 75.9, "y0": 46.11, "y1": 65.87, "cx": 37.95, "cy": 55.99},
+  {"category": "NCDs",         "subcategory": "Diabetes",              "pct": 9.0,  "x0": 0,    "x1": 75.9, "y0": 65.87, "y1": 77.73, "cx": 37.95, "cy": 71.80},
+  {"category": "NCDs",         "subcategory": "Chronic Resp.",         "pct": 6.0,  "x0": 0,    "x1": 75.9, "y0": 77.73, "y1": 85.64, "cx": 37.95, "cy": 81.69},
+  {"category": "NCDs",         "subcategory": "Other NCDs",            "pct": 10.9, "x0": 0,    "x1": 75.9, "y0": 85.64, "y1": 100,   "cx": 37.95, "cy": 92.82},
+  {"category": "Communicable", "subcategory": "Lower Resp. Infections","pct": 7.0,  "x0": 75.9, "x1": 92.1, "y0": 0,     "y1": 43.21, "cx": 84.0,  "cy": 21.61},
+  {"category": "Communicable", "subcategory": "Tuberculosis",          "pct": 2.5,  "x0": 75.9, "x1": 92.1, "y0": 43.21, "y1": 58.64, "cx": 84.0,  "cy": 50.93},
+  {"category": "Communicable", "subcategory": "Septicaemia",           "pct": 3.0,  "x0": 75.9, "x1": 92.1, "y0": 58.64, "y1": 77.16, "cx": 84.0,  "cy": 67.90},
+  {"category": "Communicable", "subcategory": "Other Infections",      "pct": 3.7,  "x0": 75.9, "x1": 92.1, "y0": 77.16, "y1": 100,   "cx": 84.0,  "cy": 88.58},
+  {"category": "External",     "subcategory": "Road Traffic",          "pct": 4.0,  "x0": 92.1, "x1": 100,  "y0": 0,     "y1": 50.63, "cx": 96.05, "cy": 25.32},
+  {"category": "External",     "subcategory": "Falls",                 "pct": 1.0,  "x0": 92.1, "x1": 100,  "y0": 50.63, "y1": 63.29, "cx": 96.05, "cy": 56.96},
+  {"category": "External",     "subcategory": "Self-harm",             "pct": 1.2,  "x0": 92.1, "x1": 100,  "y0": 63.29, "y1": 78.48, "cx": 96.05, "cy": 70.89},
+  {"category": "External",     "subcategory": "Other External",        "pct": 1.7,  "x0": 92.1, "x1": 100,  "y0": 78.48, "y1": 100,   "cx": 96.05, "cy": 89.24}
 ]

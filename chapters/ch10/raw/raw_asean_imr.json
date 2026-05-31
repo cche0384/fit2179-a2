@@ -1,0 +1,3692 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 2000,
+    "total": 230,
+    "sourceid": "2",
+    "lastupdated": "2026-04-08"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2022",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2021",
+      "value": 8.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2020",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2019",
+      "value": 9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2018",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2017",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2016",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2015",
+      "value": 9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2014",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2013",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2012",
+      "value": 8.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2011",
+      "value": 8.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2010",
+      "value": 8.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2009",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2008",
+      "value": 8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2007",
+      "value": 7.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2006",
+      "value": 7.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2005",
+      "value": 7.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2004",
+      "value": 7.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2003",
+      "value": 7.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2002",
+      "value": 8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2001",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "BN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "BRN",
+      "date": "2000",
+      "value": 8.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2022",
+      "value": 16.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2021",
+      "value": 17,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2020",
+      "value": 17.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2019",
+      "value": 18.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2018",
+      "value": 19.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2017",
+      "value": 20.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2016",
+      "value": 21,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2015",
+      "value": 21.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2014",
+      "value": 22.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2013",
+      "value": 23.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2012",
+      "value": 24.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2011",
+      "value": 25.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2010",
+      "value": 27,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2009",
+      "value": 28.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2008",
+      "value": 29.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2007",
+      "value": 30.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2006",
+      "value": 31.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2005",
+      "value": 33.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2004",
+      "value": 36.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2003",
+      "value": 36.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2002",
+      "value": 37.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2001",
+      "value": 39.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "IDN",
+      "date": "2000",
+      "value": 41.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2022",
+      "value": 17.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2021",
+      "value": 18.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2020",
+      "value": 19.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2019",
+      "value": 20.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2018",
+      "value": 21.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2017",
+      "value": 22.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2016",
+      "value": 24.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2015",
+      "value": 25.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2014",
+      "value": 27.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2013",
+      "value": 29.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2012",
+      "value": 32.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2011",
+      "value": 34.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2010",
+      "value": 37.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2009",
+      "value": 40,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2008",
+      "value": 43.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2007",
+      "value": 46.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2006",
+      "value": 49.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2005",
+      "value": 53.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2004",
+      "value": 58.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2003",
+      "value": 64.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2002",
+      "value": 71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2001",
+      "value": 78.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "KHM",
+      "date": "2000",
+      "value": 85.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2022",
+      "value": 29.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2021",
+      "value": 30.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2020",
+      "value": 31.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2019",
+      "value": 33.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2018",
+      "value": 34.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2017",
+      "value": 36.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2016",
+      "value": 38.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2015",
+      "value": 39.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2014",
+      "value": 41.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2013",
+      "value": 44,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2012",
+      "value": 46.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2011",
+      "value": 48.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2010",
+      "value": 51.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2009",
+      "value": 53.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2008",
+      "value": 56.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2007",
+      "value": 59.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2006",
+      "value": 63,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2005",
+      "value": 66.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2004",
+      "value": 69.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2003",
+      "value": 72.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2002",
+      "value": 76,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2001",
+      "value": 79.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "LA",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "LAO",
+      "date": "2000",
+      "value": 82.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2022",
+      "value": 34.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2021",
+      "value": 36,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2020",
+      "value": 37.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2019",
+      "value": 38.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2018",
+      "value": 39.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2017",
+      "value": 41.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2016",
+      "value": 42.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2015",
+      "value": 44.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2014",
+      "value": 45.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2013",
+      "value": 47.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2012",
+      "value": 49.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2011",
+      "value": 51.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2010",
+      "value": 53.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2009",
+      "value": 56,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2008",
+      "value": 71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2007",
+      "value": 60.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2006",
+      "value": 62.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2005",
+      "value": 64.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2004",
+      "value": 66.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2003",
+      "value": 68.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2002",
+      "value": 70.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2001",
+      "value": 72.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MM",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "MMR",
+      "date": "2000",
+      "value": 73.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2022",
+      "value": 6.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2021",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2020",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2019",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2018",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2017",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2016",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2015",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2014",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2013",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2012",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2011",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2010",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2009",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2008",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2007",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2006",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2005",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2004",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2003",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2002",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2001",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "MYS",
+      "date": "2000",
+      "value": 7.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2022",
+      "value": 22.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2021",
+      "value": 22.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2020",
+      "value": 22.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2019",
+      "value": 22.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2018",
+      "value": 22.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2017",
+      "value": 22.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2016",
+      "value": 22.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2015",
+      "value": 22.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2014",
+      "value": 22.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2013",
+      "value": 22.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2012",
+      "value": 22.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2011",
+      "value": 22.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2010",
+      "value": 23,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2009",
+      "value": 23.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2008",
+      "value": 23.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2007",
+      "value": 24.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2006",
+      "value": 24.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2005",
+      "value": 25,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2004",
+      "value": 25.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2003",
+      "value": 25.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2002",
+      "value": 26.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2001",
+      "value": 26.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      "countryiso3code": "PHL",
+      "date": "2000",
+      "value": 27.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2022",
+      "value": 2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2021",
+      "value": 2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2020",
+      "value": 2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2019",
+      "value": 2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2018",
+      "value": 2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2017",
+      "value": 2.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2016",
+      "value": 2.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2015",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2014",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2013",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2012",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2011",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2010",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2009",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2008",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2007",
+      "value": 2.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2006",
+      "value": 2.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2005",
+      "value": 2.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2004",
+      "value": 2.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2003",
+      "value": 2.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2002",
+      "value": 2.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2001",
+      "value": 2.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      "countryiso3code": "SGP",
+      "date": "2000",
+      "value": 3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2022",
+      "value": 8.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2021",
+      "value": 8.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2020",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2019",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2018",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2017",
+      "value": 9.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2016",
+      "value": 9.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2015",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2014",
+      "value": 10.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2013",
+      "value": 10.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2012",
+      "value": 11.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2011",
+      "value": 11.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2010",
+      "value": 11.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2009",
+      "value": 12.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2008",
+      "value": 12.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2007",
+      "value": 13.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2006",
+      "value": 13.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2005",
+      "value": 14.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2004",
+      "value": 15.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2003",
+      "value": 15.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2002",
+      "value": 16.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2001",
+      "value": 17.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      "countryiso3code": "THA",
+      "date": "2000",
+      "value": 18.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 12.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 13.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 13.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 14.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 14.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 14.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 15.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 15.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 15.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 16.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 16.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 16.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 17,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 17.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 17.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 18.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 19,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 19.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 20.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 21.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.IMRT.IN",
+        "value": "Mortality rate, infant (per 1,000 live births)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 22.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]

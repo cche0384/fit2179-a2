@@ -1,130 +1,288 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Poverty predicts life expectancy twice as strongly as doctor supply",
-    "subtitle": "Pearson Correlation with State Life Expectancy — compiled from all chapters",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "ASEAN Life Expectancy Rankings, 2000–2022",
+    "subtitle": "Rank 1 = highest Life Expectancy. Malaysia line highlighted in red. Source: World Bank.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 11,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
-  "width": 480,
-  "height": 220,
-  "padding": { "left": 60, "right": 60, "top": 10, "bottom": 40 },
-  "data": { "url": "data.json" },
-  "transform": [{ "calculate": "0", "as": "zero" }],
+  "data": {
+    "url": "data.json"
+  },
+  "width": "container",
+  "height": "container",
   "layer": [
     {
-      "mark": { "type": "rule", "strokeWidth": 3 },
+      "name": "lines",
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone"
+      },
       "encoding": {
-        "y": {
-          "field": "variable",
-          "type": "nominal",
-          "sort": { "field": "abs_correlation", "order": "descending" },
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1999,
+              2023
+            ]
+          },
           "axis": {
             "title": null,
-            "labelFont": "Poppins",
-            "labelFontSize": 12,
-            "labelLimit": 320
-          }
-        },
-        "x": {
-          "field": "zero",
-          "type": "quantitative",
-          "scale": { "domain": [-0.75, 0.75] },
-          "axis": {
-            "title": "Pearson r with state life expectancy",
-            "titleFont": "Poppins",
-            "labelFont": "Poppins",
-            "format": "+.2f",
+            "format": "d",
+            "values": [
+              2000,
+              2005,
+              2010,
+              2015,
+              2020,
+              2022
+            ],
+            "labelFont": "Open Sans",
+            "labelFontSize": 10,
             "grid": true,
-            "gridDash": [4, 4],
-            "gridColor": "#DDDDDD"
+            "gridColor": "#EDEDED",
+            "domain": false,
+            "ticks": false
           }
         },
-        "x2": { "field": "correlation" },
+        "y": {
+          "field": "rank",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0.5,
+              10.5
+            ],
+            "reverse": true
+          },
+          "axis": {
+            "title": "ASEAN Rank",
+            "titleFont": "Open Sans",
+            "titleFontSize": 10,
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "labelFont": "Open Sans",
+            "labelFontSize": 11,
+            "grid": true,
+            "gridColor": "#EDEDED",
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "detail": {
+          "field": "country"
+        },
         "color": {
-          "field": "direction",
+          "field": "country",
           "type": "nominal",
           "scale": {
-            "domain": ["positive", "negative"],
-            "range": ["#003580", "#C8102E"]
+            "domain": [
+              "Brunei",
+              "Cambodia",
+              "Indonesia",
+              "Laos",
+              "Malaysia",
+              "Myanmar",
+              "Philippines",
+              "Singapore",
+              "Thailand",
+              "Vietnam"
+            ],
+            "range": [
+              "#D4941D",
+              "#032EA1",
+              "#CE1126",
+              "#002868",
+              "#C8102E",
+              "#34B233",
+              "#0038A8",
+              "#EF3340",
+              "#003478",
+              "#DA251D"
+            ]
           },
           "legend": null
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "datum.is_malaysia",
+            "value": 3.5
+          },
+          "value": 1.5
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.is_malaysia",
+            "value": 1.0
+          },
+          "value": 0.55
         }
       }
     },
     {
+      "name": "points",
       "mark": {
         "type": "point",
-        "size": 180,
         "filled": true,
-        "strokeWidth": 0
+        "size": 40
       },
       "encoding": {
-        "y": {
-          "field": "variable",
-          "type": "nominal",
-          "sort": { "field": "abs_correlation", "order": "descending" }
+        "x": {
+          "field": "year",
+          "type": "quantitative"
         },
-        "x": { "field": "correlation", "type": "quantitative" },
+        "y": {
+          "field": "rank",
+          "type": "quantitative"
+        },
+        "detail": {
+          "field": "country"
+        },
         "color": {
-          "field": "direction",
+          "field": "country",
           "type": "nominal",
           "scale": {
-            "domain": ["positive", "negative"],
-            "range": ["#003580", "#C8102E"]
+            "domain": [
+              "Brunei",
+              "Cambodia",
+              "Indonesia",
+              "Laos",
+              "Malaysia",
+              "Myanmar",
+              "Philippines",
+              "Singapore",
+              "Thailand",
+              "Vietnam"
+            ],
+            "range": [
+              "#D4941D",
+              "#032EA1",
+              "#CE1126",
+              "#002868",
+              "#C8102E",
+              "#34B233",
+              "#0038A8",
+              "#EF3340",
+              "#003478",
+              "#DA251D"
+            ]
           },
-          "legend": {
-            "title": "Effect on life expectancy",
-            "titleFont": "Poppins",
-            "labelFont": "Poppins",
-            "values": ["positive", "negative"],
-            "labelExpr": "datum.value === 'positive' ? 'Increases LE' : 'Decreases LE'"
-          }
+          "legend": null
+        },
+        "stroke": {
+          "value": "white"
+        },
+        "strokeWidth": {
+          "value": 1
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.is_malaysia",
+            "value": 1.0
+          },
+          "value": 0.55
         },
         "tooltip": [
-          { "field": "variable", "title": "Variable" },
-          { "field": "correlation", "title": "Pearson r", "format": "+.3f" }
+          {
+            "field": "country",
+            "title": "Country"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "rank",
+            "title": "ASEAN Rank"
+          },
+          {
+            "field": "le",
+            "title": "Life Expectancy",
+            "format": ".1f"
+          }
         ]
       }
     },
     {
+      "name": "flags-left",
+      "transform": [
+        {
+          "filter": "datum.year == 2000"
+        }
+      ],
       "mark": {
         "type": "text",
-        "fontSize": 12,
-        "font": "Poppins",
-        "fontWeight": "bold",
-        "align": "center",
-        "baseline": "bottom",
-        "dy": -10
+        "align": "right",
+        "dx": -8,
+        "fontSize": 15,
+        "baseline": "middle"
       },
       "encoding": {
-        "y": {
-          "field": "variable",
-          "type": "nominal",
-          "sort": { "field": "abs_correlation", "order": "descending" }
+        "x": {
+          "field": "year",
+          "type": "quantitative"
         },
-        "x": { "field": "correlation", "type": "quantitative" },
-        "text": { "field": "correlation", "format": "+.2f" },
-        "color": {
-          "field": "direction",
-          "type": "nominal",
-          "scale": {
-            "domain": ["positive", "negative"],
-            "range": ["#003580", "#C8102E"]
-          }
+        "y": {
+          "field": "rank",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "flag"
+        }
+      }
+    },
+    {
+      "name": "flags-right",
+      "transform": [
+        {
+          "filter": "datum.year == 2022"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 15,
+        "baseline": "middle"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "rank",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "flag"
         }
       }
     }
   ],
   "config": {
-    "view": { "stroke": null },
-    "background": "#F5F5F0",
-    "axis": { "labelFont": "Poppins" }
+    "view": {
+      "stroke": null
+    },
+    "background": "#FDFDFB"
   }
 }

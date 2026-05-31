@@ -1,92 +1,362 @@
 [
   {
-    "gadm_name": "Johor",
-    "state_name": "Johor",
-    "screening_pct": 26.3,
-    "poverty_pct": 4.6
+    "year": 2000,
+    "category": "Government",
+    "value": 177.0
   },
   {
-    "gadm_name": "Kedah",
-    "state_name": "Kedah",
-    "screening_pct": 43.18,
-    "poverty_pct": 9.0
+    "year": 2000,
+    "category": "Private Insurance",
+    "value": 5.4
   },
   {
-    "gadm_name": "Kelantan",
-    "state_name": "Kelantan",
-    "screening_pct": 51.66,
-    "poverty_pct": 13.2
+    "year": 2000,
+    "category": "Out-of-Pocket",
+    "value": 145.2
   },
   {
-    "gadm_name": "Melaka",
-    "state_name": "Melaka",
-    "screening_pct": 31.85,
-    "poverty_pct": 4.2
+    "year": 2001,
+    "category": "Government",
+    "value": 188.9
   },
   {
-    "gadm_name": "NegeriSembilan",
-    "state_name": "Negeri Sembilan",
-    "screening_pct": 31.33,
-    "poverty_pct": 4.4
+    "year": 2001,
+    "category": "Private Insurance",
+    "value": 24.8
   },
   {
-    "gadm_name": "Pahang",
-    "state_name": "Pahang",
-    "screening_pct": 34.22,
-    "poverty_pct": 6.3
+    "year": 2001,
+    "category": "Out-of-Pocket",
+    "value": 136.0
   },
   {
-    "gadm_name": "Perak",
-    "state_name": "Perak",
-    "screening_pct": 36.15,
-    "poverty_pct": 7.5
+    "year": 2002,
+    "category": "Government",
+    "value": 196.9
   },
   {
-    "gadm_name": "Perlis",
-    "state_name": "Perlis",
-    "screening_pct": 41.1,
-    "poverty_pct": 4.0
+    "year": 2002,
+    "category": "Private Insurance",
+    "value": 30.1
   },
   {
-    "gadm_name": "PulauPinang",
-    "state_name": "Penang",
-    "screening_pct": 26.77,
-    "poverty_pct": 2.0
+    "year": 2002,
+    "category": "Out-of-Pocket",
+    "value": 137.5
   },
   {
-    "gadm_name": "Sabah",
-    "state_name": "Sabah",
-    "screening_pct": 34.09,
-    "poverty_pct": 19.7
+    "year": 2003,
+    "category": "Government",
+    "value": 227.3
   },
   {
-    "gadm_name": "Sarawak",
-    "state_name": "Sarawak",
-    "screening_pct": 32.96,
-    "poverty_pct": 10.8
+    "year": 2003,
+    "category": "Private Insurance",
+    "value": 35.4
   },
   {
-    "gadm_name": "Selangor",
-    "state_name": "Selangor",
-    "screening_pct": 25.96,
-    "poverty_pct": 1.5
+    "year": 2003,
+    "category": "Out-of-Pocket",
+    "value": 158.1
   },
   {
-    "gadm_name": "Trengganu",
-    "state_name": "Terengganu",
-    "screening_pct": 39.05,
-    "poverty_pct": 6.2
+    "year": 2004,
+    "category": "Government",
+    "value": 238.2
   },
   {
-    "gadm_name": "KualaLumpur",
-    "state_name": "W.P. Kuala Lumpur",
-    "screening_pct": 16.14,
-    "poverty_pct": 1.4
+    "year": 2004,
+    "category": "Private Insurance",
+    "value": 29.3
   },
   {
-    "gadm_name": "Labuan",
-    "state_name": "W.P. Labuan",
-    "screening_pct": 16.67,
-    "poverty_pct": 2.5
+    "year": 2004,
+    "category": "Out-of-Pocket",
+    "value": 173.4
+  },
+  {
+    "year": 2005,
+    "category": "Government",
+    "value": 246.5
+  },
+  {
+    "year": 2005,
+    "category": "Private Insurance",
+    "value": 28.0
+  },
+  {
+    "year": 2005,
+    "category": "Out-of-Pocket",
+    "value": 181.8
+  },
+  {
+    "year": 2006,
+    "category": "Government",
+    "value": 292.7
+  },
+  {
+    "year": 2006,
+    "category": "Private Insurance",
+    "value": 52.0
+  },
+  {
+    "year": 2006,
+    "category": "Out-of-Pocket",
+    "value": 197.1
+  },
+  {
+    "year": 2007,
+    "category": "Government",
+    "value": 308.8
+  },
+  {
+    "year": 2007,
+    "category": "Private Insurance",
+    "value": 52.5
+  },
+  {
+    "year": 2007,
+    "category": "Out-of-Pocket",
+    "value": 210.3
+  },
+  {
+    "year": 2008,
+    "category": "Government",
+    "value": 316.4
+  },
+  {
+    "year": 2008,
+    "category": "Private Insurance",
+    "value": 51.3
+  },
+  {
+    "year": 2008,
+    "category": "Out-of-Pocket",
+    "value": 218.0
+  },
+  {
+    "year": 2009,
+    "category": "Government",
+    "value": 333.4
+  },
+  {
+    "year": 2009,
+    "category": "Private Insurance",
+    "value": 75.7
+  },
+  {
+    "year": 2009,
+    "category": "Out-of-Pocket",
+    "value": 208.1
+  },
+  {
+    "year": 2010,
+    "category": "Government",
+    "value": 345.2
+  },
+  {
+    "year": 2010,
+    "category": "Private Insurance",
+    "value": 72.7
+  },
+  {
+    "year": 2010,
+    "category": "Out-of-Pocket",
+    "value": 221.1
+  },
+  {
+    "year": 2011,
+    "category": "Government",
+    "value": 381.8
+  },
+  {
+    "year": 2011,
+    "category": "Private Insurance",
+    "value": 81.2
+  },
+  {
+    "year": 2011,
+    "category": "Out-of-Pocket",
+    "value": 243.8
+  },
+  {
+    "year": 2012,
+    "category": "Government",
+    "value": 422.9
+  },
+  {
+    "year": 2012,
+    "category": "Private Insurance",
+    "value": 97.6
+  },
+  {
+    "year": 2012,
+    "category": "Out-of-Pocket",
+    "value": 262.3
+  },
+  {
+    "year": 2013,
+    "category": "Government",
+    "value": 439.5
+  },
+  {
+    "year": 2013,
+    "category": "Private Insurance",
+    "value": 96.3
+  },
+  {
+    "year": 2013,
+    "category": "Out-of-Pocket",
+    "value": 277.8
+  },
+  {
+    "year": 2014,
+    "category": "Government",
+    "value": 494.6
+  },
+  {
+    "year": 2014,
+    "category": "Private Insurance",
+    "value": 105.0
+  },
+  {
+    "year": 2014,
+    "category": "Out-of-Pocket",
+    "value": 302.3
+  },
+  {
+    "year": 2015,
+    "category": "Government",
+    "value": 500.8
+  },
+  {
+    "year": 2015,
+    "category": "Private Insurance",
+    "value": 120.6
+  },
+  {
+    "year": 2015,
+    "category": "Out-of-Pocket",
+    "value": 316.0
+  },
+  {
+    "year": 2016,
+    "category": "Government",
+    "value": 480.5
+  },
+  {
+    "year": 2016,
+    "category": "Private Insurance",
+    "value": 118.9
+  },
+  {
+    "year": 2016,
+    "category": "Out-of-Pocket",
+    "value": 336.4
+  },
+  {
+    "year": 2017,
+    "category": "Government",
+    "value": 509.6
+  },
+  {
+    "year": 2017,
+    "category": "Private Insurance",
+    "value": 119.1
+  },
+  {
+    "year": 2017,
+    "category": "Out-of-Pocket",
+    "value": 352.6
+  },
+  {
+    "year": 2018,
+    "category": "Government",
+    "value": 541.2
+  },
+  {
+    "year": 2018,
+    "category": "Private Insurance",
+    "value": 120.8
+  },
+  {
+    "year": 2018,
+    "category": "Out-of-Pocket",
+    "value": 382.9
+  },
+  {
+    "year": 2019,
+    "category": "Government",
+    "value": 590.5
+  },
+  {
+    "year": 2019,
+    "category": "Private Insurance",
+    "value": 119.9
+  },
+  {
+    "year": 2019,
+    "category": "Out-of-Pocket",
+    "value": 400.7
+  },
+  {
+    "year": 2020,
+    "category": "Government",
+    "value": 602.1
+  },
+  {
+    "year": 2020,
+    "category": "Private Insurance",
+    "value": 135.4
+  },
+  {
+    "year": 2020,
+    "category": "Out-of-Pocket",
+    "value": 384.1
+  },
+  {
+    "year": 2021,
+    "category": "Government",
+    "value": 733.2
+  },
+  {
+    "year": 2021,
+    "category": "Private Insurance",
+    "value": 152.9
+  },
+  {
+    "year": 2021,
+    "category": "Out-of-Pocket",
+    "value": 418.5
+  },
+  {
+    "year": 2022,
+    "category": "Government",
+    "value": 680.9
+  },
+  {
+    "year": 2022,
+    "category": "Private Insurance",
+    "value": 154.0
+  },
+  {
+    "year": 2022,
+    "category": "Out-of-Pocket",
+    "value": 507.6
+  },
+  {
+    "year": 2023,
+    "category": "Government",
+    "value": 779.6
+  },
+  {
+    "year": 2023,
+    "category": "Private Insurance",
+    "value": 129.0
+  },
+  {
+    "year": 2023,
+    "category": "Out-of-Pocket",
+    "value": 534.6
   }
 ]

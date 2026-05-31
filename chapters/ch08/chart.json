@@ -1,69 +1,197 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 380,
+  "height": 380,
   "title": {
-    "text": "Carrying the Heaviest Burden",
-    "subtitle": "Crude Death Rate per 1,000 by State, 2023 (states hollowed out by migration carry the most deaths)",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Causes of Death in Malaysia, 2019",
+    "subtitle": "Tile area = share of all deaths. World Bank broad categories · WHO GHE 2019 subcategory breakdown.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 11,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
-  "width": 460,
-  "height": 280,
   "data": {
-    "url": "../ch01/malaysia-states-compact.geojson",
-    "format": { "type": "json", "property": "features" }
+    "url": "data.json"
   },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.NAME_1",
-      "from": {
-        "data": { "url": "data.json" },
-        "key": "gadm_name",
-        "fields": ["rate_2023", "rate_2000", "change_pct", "state"]
+      "mark": {
+        "type": "rect",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": null
+        },
+        "x2": {
+          "field": "x1",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": null
+        },
+        "y2": {
+          "field": "y1",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "subcategory",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Cardiovascular",
+              "Cancers",
+              "Diabetes",
+              "Chronic Resp.",
+              "Other NCDs",
+              "Lower Resp. Infections",
+              "Tuberculosis",
+              "Septicaemia",
+              "Other Infections",
+              "Road Traffic",
+              "Falls",
+              "Self-harm",
+              "Other External"
+            ],
+            "range": [
+              "#003580",
+              "#1a4e93",
+              "#3367a6",
+              "#4d80b9",
+              "#6699cc",
+              "#C8102E",
+              "#d84060",
+              "#e87090",
+              "#f5a0b4",
+              "#e6a800",
+              "#f0c030",
+              "#f5d878",
+              "#f9e8b0"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "category",
+            "title": "Cause group"
+          },
+          {
+            "field": "subcategory",
+            "title": "Disease"
+          },
+          {
+            "field": "pct",
+            "title": "% of all deaths",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "Open Sans",
+        "fontSize": 9,
+        "fontWeight": "bold",
+        "align": "center",
+        "baseline": "middle",
+        "color": "#ffffff",
+        "clip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "cx",
+          "type": "quantitative",
+          "axis": null
+        },
+        "y": {
+          "field": "cy",
+          "type": "quantitative",
+          "axis": null
+        },
+        "text": {
+          "field": "subcategory",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.category == 'External'",
+              "value": "#333333"
+            }
+          ],
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "Open Sans",
+        "fontSize": 8,
+        "fontStyle": "italic",
+        "align": "center",
+        "baseline": "middle",
+        "clip": true,
+        "dy": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "cx",
+          "type": "quantitative",
+          "axis": null
+        },
+        "y": {
+          "field": "cy",
+          "type": "quantitative",
+          "axis": null
+        },
+        "text": {
+          "field": "pct",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.category == 'External'",
+              "value": "#555555"
+            }
+          ],
+          "value": "#e0e8f0"
+        }
       }
     }
   ],
-  "projection": { "type": "mercator" },
-  "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.8 },
-  "encoding": {
-    "color": {
-      "field": "rate_2023",
-      "type": "quantitative",
-      "scale": { "scheme": "reds", "domain": [3, 9] },
-      "legend": {
-        "title": "Deaths per 1,000",
-        "titleFont": "Poppins",
-        "titleFontSize": 11,
-        "labelFont": "Poppins",
-        "labelFontSize": 10,
-        "orient": "top-left",
-        "direction": "horizontal",
-        "gradientLength": 180
-      }
+  "config": {
+    "view": {
+      "stroke": null
     },
-    "tooltip": [
-      { "field": "state", "title": "State" },
-      {
-        "field": "rate_2023",
-        "title": "Rate 2023 (per 1,000)",
-        "format": ".1f"
-      },
-      {
-        "field": "rate_2000",
-        "title": "Rate 2000 (per 1,000)",
-        "format": ".1f"
-      },
-      {
-        "field": "change_pct",
-        "title": "Change since 2000 (%)",
-        "format": "+.1f"
-      }
-    ]
-  },
-  "config": { "view": { "stroke": null }, "background": "#F5F5F0" }
+    "background": "#F5F5F0",
+    "axisX": { "disable": true },
+    "axisY": { "disable": true }
+  }
 }

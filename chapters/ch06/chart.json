@@ -1,182 +1,157 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Malaysia's children are as malnourished as Cambodia's — despite being 5× richer",
-    "subtitle": "Under-5 stunting (% of children) vs. GDP per capita PPP · bubble = population size · Sources: World Bank SH.STA.STNT.ZS & NY.GDP.PCAP.PP.CD · Sabah figure: NHMS 2019",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Child Stunting Rates by Region",
+    "subtitle": "☹️ = stunted (chronic malnutrition). Malaysia & ASEAN: World Bank 2022. Sabah & Selangor: NHMS 2019.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 10,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
   "data": {
-    "url": "data.json",
-    "format": {"type": "json", "property": "countries"}
+    "url": "data.json"
+  },
+  "height": {
+    "step": 48
   },
   "layer": [
     {
       "mark": {
-        "type": "circle",
-        "stroke": "white",
-        "strokeWidth": 1.2
+        "type": "text",
+        "fontSize": 34,
+        "font": "Open Sans",
+        "baseline": "middle"
       },
       "encoding": {
         "x": {
-          "field": "gdp_ppp",
-          "type": "quantitative",
-          "scale": {"type": "log", "domain": [1400, 200000]},
+          "field": "icon_index",
+          "type": "ordinal",
           "axis": {
-            "title": "GDP per capita, PPP (international USD — log scale)",
-            "titleFont": "Poppins",
-            "titleFontSize": 11,
-            "labelFont": "Poppins",
-            "labelFontSize": 10,
-            "values": [2000, 5000, 10000, 20000, 50000, 100000],
-            "format": "$,~s",
-            "grid": true,
-            "gridColor": "#e8e8e8"
+            "title": null,
+            "labels": false,
+            "ticks": false,
+            "domainWidth": 0
           }
         },
         "y": {
-          "field": "stunting",
-          "type": "quantitative",
-          "scale": {"domain": [0, 52]},
-          "axis": {
-            "title": "Under-5 stunting rate (%)",
-            "titleFont": "Poppins",
-            "titleFontSize": 11,
-            "labelFont": "Poppins",
-            "labelFontSize": 10,
-            "grid": true,
-            "gridColor": "#e8e8e8",
-            "tickCount": 6
-          }
-        },
-        "size": {
-          "field": "population",
-          "type": "quantitative",
-          "scale": {"range": [60, 1800]},
-          "legend": null
-        },
-        "color": {
           "field": "group",
           "type": "nominal",
-          "scale": {
-            "domain": ["Malaysia", "ASEAN", "High Income", "Africa", "Other Asia"],
-            "range": ["#C8102E", "#003580", "#AAAAAA", "#E07B39", "#7CB9E8"]
+          "sort": {
+            "field": "order",
+            "order": "ascending"
           },
-          "legend": {
+          "axis": {
             "title": null,
-            "labelFont": "Poppins",
-            "labelFontSize": 11,
-            "symbolSize": 100,
-            "orient": "bottom-left"
+            "labelFont": "Open Sans",
+            "labelFontSize": 13,
+            "labelFontWeight": "bold",
+            "labelColor": "#003580"
           }
         },
-        "opacity": {
-          "condition": {"test": "datum.highlight", "value": 1.0},
-          "value": 0.72
+        "color": {
+          "condition": {
+            "test": "datum.stunted",
+            "value": "#C8102E"
+          },
+          "value": "#D0D8E8"
         },
-        "tooltip": [
-          {"field": "country",       "title": "Country"},
-          {"field": "group",         "title": "Group"},
-          {"field": "gdp_ppp",       "title": "GDP per capita PPP (USD)", "format": ",.0f"},
-          {"field": "gdp_year",      "title": "GDP year"},
-          {"field": "stunting",      "title": "Stunting rate (%)",        "format": ".1f"},
-          {"field": "stunting_year", "title": "Stunting survey year"}
-        ]
+        "text": {
+          "condition": {
+            "test": "datum.stunted",
+            "value": "☹️"
+          },
+          "value": "●"
+        }
       }
     },
     {
+      "transform": [
+        {
+          "filter": "datum.icon_index == 9"
+        }
+      ],
       "mark": {
         "type": "text",
-        "font": "Poppins",
-        "fontSize": 10,
-        "dy": -14
+        "fontSize": 12,
+        "font": "Open Sans",
+        "fontWeight": "bold",
+        "align": "left",
+        "dx": 28,
+        "baseline": "middle"
       },
-      "transform": [{"filter": "datum.label != '' && !datum.highlight"}],
       "encoding": {
-        "x":    {"field": "gdp_ppp",  "type": "quantitative"},
-        "y":    {"field": "stunting", "type": "quantitative"},
-        "text": {"field": "label"},
+        "x": {
+          "field": "icon_index",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "group",
+          "type": "nominal",
+          "sort": {
+            "field": "order",
+            "order": "ascending"
+          }
+        },
+        "text": {
+          "field": "rate",
+          "format": ".1f",
+          "formatType": "number"
+        },
         "color": {
-          "condition": {"test": "datum.group === 'ASEAN'", "value": "#003580"},
+          "condition": {
+            "test": "datum.group == 'Sabah'",
+            "value": "#C8102E"
+          },
           "value": "#555555"
         }
       }
     },
     {
+      "transform": [
+        {
+          "filter": "datum.icon_index == 9"
+        }
+      ],
       "mark": {
         "type": "text",
-        "font": "Poppins",
-        "fontSize": 13,
-        "fontWeight": "bold",
-        "dy": -17
-      },
-      "transform": [{"filter": "datum.highlight"}],
-      "encoding": {
-        "x":    {"field": "gdp_ppp",  "type": "quantitative"},
-        "y":    {"field": "stunting", "type": "quantitative"},
-        "text": {"value": "Malaysia"},
-        "color": {"value": "#C8102E"}
-      }
-    },
-    {
-      "data": {"values": [{"gdp_ppp": 38779, "stunting": 21.2, "stunting_hi": 35.4}]},
-      "mark": {
-        "type": "rule",
-        "color": "#C8102E",
-        "opacity": 0.45,
-        "strokeDash": [4, 3],
-        "strokeWidth": 1.5
+        "fontSize": 10,
+        "font": "Open Sans",
+        "align": "left",
+        "dx": 55,
+        "baseline": "middle",
+        "color": "#888888"
       },
       "encoding": {
-        "x":  {"field": "gdp_ppp",    "type": "quantitative"},
-        "y":  {"field": "stunting",   "type": "quantitative"},
-        "y2": {"field": "stunting_hi"}
-      }
-    },
-    {
-      "data": {"values": [{"gdp_ppp": 38779, "stunting": 35.4}]},
-      "mark": {
-        "type": "point",
-        "shape": "diamond",
-        "size": 200,
-        "color": "#C8102E",
-        "filled": true,
-        "opacity": 0.85,
-        "stroke": "white",
-        "strokeWidth": 1.2
-      },
-      "encoding": {
-        "x": {"field": "gdp_ppp",  "type": "quantitative"},
-        "y": {"field": "stunting", "type": "quantitative"}
-      }
-    },
-    {
-      "data": {"values": [{"gdp_ppp": 38779, "stunting": 35.4}]},
-      "mark": {
-        "type": "text",
-        "font": "Poppins",
-        "fontSize": 9.5,
-        "fontStyle": "italic",
-        "color": "#C8102E",
-        "dy": -14,
-        "dx": 8,
-        "align": "left"
-      },
-      "encoding": {
-        "x":    {"field": "gdp_ppp",  "type": "quantitative"},
-        "y":    {"field": "stunting", "type": "quantitative"},
-        "text": {"value": "Sabah state (NHMS 2019)"}
+        "x": {
+          "field": "icon_index",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "group",
+          "type": "nominal",
+          "sort": {
+            "field": "order",
+            "order": "ascending"
+          }
+        },
+        "text": {
+          "value": "%"
+        }
       }
     }
   ],
   "config": {
-    "view":       {"stroke": null},
-    "background": "#F5F5F0"
+    "view": {
+      "stroke": null
+    },
+    "background": "#F5F5F0",
+    "axis": {
+      "grid": false
+    }
   }
 }

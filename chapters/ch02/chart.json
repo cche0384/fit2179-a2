@@ -1,148 +1,182 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 560,
+  "height": 320,
   "title": {
-    "text": "Health Spending vs. Mortality — Who Gets the Grease?",
-    "subtitle": "Total health expenditure per capita (public + private)  ·  MNHA 2022, MOH Malaysia  ·  OpenDOSM Vital Statistics 2022",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Total Doctors by State, 2022",
+    "subtitle": "Circle area ∝ total registered doctors. National avg = 17.8 doctors per 10,000 pop. Excl. W.P. Putrajaya (outlier 172/10k).",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 10,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
+    "anchor": "start",
     "subtitlePadding": 6
   },
-  "data": {"url": "data.json"},
+  "projection": {
+    "type": "mercator"
+  },
+  "data": {
+    "url": "../ch01/malaysia-states-compact.geojson",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
+  },
   "transform": [
     {
-      "calculate": "datum.state == 'W.P. Kuala Lumpur' ? 'W.P. KL' : datum.state == 'Negeri Sembilan' ? 'N. Sembilan' : datum.state",
-      "as": "state_label"
-    },
-    {
-      "calculate": "datum.alignment == 'under-resourced' ? 'Under-resourced' : datum.alignment == 'spending-not-helping' ? 'Spending not helping' : datum.alignment == 'efficient' ? 'Efficient' : 'Outlier (private-driven)'",
-      "as": "status"
+      "lookup": "properties.NAME_1",
+      "from": {
+        "data": {
+          "url": "data.json"
+        },
+        "key": "gadm_name",
+        "fields": [
+          "state",
+          "doctors",
+          "doctors_per_10k",
+          "population",
+          "above_avg",
+          "tier",
+          "lon",
+          "lat"
+        ]
+      }
     }
   ],
   "layer": [
     {
-      "mark": {"type": "rule", "strokeDash": [5, 3], "color": "#CCCCCC", "strokeWidth": 1},
-      "encoding": {"y": {"datum": 6.4, "type": "quantitative"}}
-    },
-    {
-      "mark": {"type": "rule", "strokeDash": [5, 3], "color": "#CCCCCC", "strokeWidth": 1},
-      "encoding": {"x": {"datum": 2023, "type": "quantitative"}}
-    },
-    {
       "mark": {
-        "type": "text",
-        "fontSize": 7.5, "fontStyle": "italic", "color": "#AAAAAA",
-        "align": "left", "dy": -5
-      },
-      "encoding": {
-        "x": {"datum": 1200, "type": "quantitative"},
-        "y": {"datum": 6.4, "type": "quantitative"},
-        "text": {"value": "avg death rate"}
+        "type": "geoshape",
+        "fill": "#C4D4E4",
+        "stroke": "#7A92A8",
+        "strokeWidth": 1.2
       }
     },
     {
+      "transform": [
+        {
+          "filter": "datum.state !== 'W.P. Putrajaya' && datum.doctors != null"
+        }
+      ],
       "mark": {
-        "type": "text",
-        "fontSize": 7.5, "fontStyle": "italic", "color": "#AAAAAA",
-        "align": "left", "baseline": "top", "dx": 4, "dy": 3
+        "type": "circle",
+        "opacity": 0.72,
+        "strokeWidth": 1.5
       },
       "encoding": {
-        "x": {"datum": 2023, "type": "quantitative"},
-        "y": {"datum": 10.3, "type": "quantitative"},
-        "text": {"value": "avg spending"}
-      }
-    },
-    {
-      "mark": {
-        "type": "point",
-        "filled": true,
-        "opacity": 0.85,
-        "stroke": "#ffffff",
-        "strokeWidth": 0.8
-      },
-      "encoding": {
-        "x": {
-          "field": "spending_per_capita",
-          "type": "quantitative",
-          "scale": {"type": "log", "base": 10, "domain": [1100, 8500]},
-          "axis": {
-            "title": "Health Expenditure per Capita, RM (log scale)  —  2022",
-            "format": ",.0f",
-            "values": [1500, 2000, 2500, 3000, 5000, 7000],
-            "titleFont": "Poppins",
-            "titleFontSize": 11,
-            "labelFont": "Poppins",
-            "grid": false
-          }
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
         },
-        "y": {
-          "field": "mortality_rate",
-          "type": "quantitative",
-          "scale": {"domain": [1.5, 11]},
-          "axis": {
-            "title": "Crude Death Rate (per 1,000 population)",
-            "titleFont": "Poppins",
-            "titleFontSize": 11,
-            "labelFont": "Poppins",
-            "grid": false
-          }
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
         },
         "size": {
-          "field": "population",
+          "field": "doctors",
           "type": "quantitative",
-          "scale": {"range": [80, 2400]},
-          "legend": null
-        },
-        "color": {
-          "field": "status",
-          "type": "nominal",
           "scale": {
-            "domain": ["Under-resourced", "Spending not helping", "Efficient", "Outlier (private-driven)"],
-            "range": ["#C8102E", "#E08800", "#2a9d4e", "#AAAAAA"]
+            "type": "sqrt",
+            "range": [
+              10,
+              800
+            ]
           },
           "legend": {
-            "title": null,
-            "orient": "bottom-right",
-            "labelFont": "Poppins",
-            "labelFontSize": 9.5,
-            "symbolSize": 90,
-            "symbolStrokeWidth": 0
+            "title": "Total doctors",
+            "values": [
+              500,
+              2000,
+              10000
+            ],
+            "symbolType": "circle",
+            "orient": "top-left",
+            "direction": "horizontal",
+            "titleOrient": "left",
+            "titleFont": "Open Sans",
+            "labelFont": "Open Sans",
+            "titleFontSize": 9,
+            "labelFontSize": 8,
+            "rowPadding": 0,
+            "columnPadding": 6,
+            "symbolOpacity": 0.7,
+            "padding": 5,
+            "offset": 8
           }
         },
-        "tooltip": [
-          {"field": "state", "title": "State"},
-          {"field": "spending_per_capita", "title": "Spending / capita (RM)", "format": ",.0f"},
-          {"field": "mortality_rate", "title": "Death rate (per 1,000)", "format": ".1f"},
-          {"field": "spending_deviation", "title": "vs. national avg spending (%)", "format": "+.0f"},
-          {"field": "population", "title": "Population", "format": ",.0f"},
-          {"field": "status", "title": "Classification"},
-          {"field": "data_note", "title": "Data note"}
-        ]
-      }
-    },
-    {
-      "mark": {"type": "text", "dy": -12, "fontSize": 8, "font": "Poppins"},
-      "encoding": {
-        "x": {"field": "spending_per_capita", "type": "quantitative"},
-        "y": {"field": "mortality_rate", "type": "quantitative"},
-        "text": {"field": "state_label"},
         "color": {
-          "field": "status",
+          "field": "tier",
           "type": "nominal",
           "scale": {
-            "domain": ["Under-resourced", "Spending not helping", "Efficient", "Outlier (private-driven)"],
-            "range": ["#C8102E", "#E08800", "#2a9d4e", "#888888"]
+            "domain": [
+              "Above national avg",
+              "Below national avg"
+            ],
+            "range": [
+              "#003580",
+              "#C8102E"
+            ]
+          },
+          "legend": {
+            "title": "Doctors per 10,000 pop.",
+            "titleFont": "Open Sans",
+            "titleFontSize": 9,
+            "labelFont": "Open Sans",
+            "labelFontSize": 9,
+            "orient": "bottom-left",
+            "direction": "vertical",
+            "symbolType": "circle",
+            "symbolOpacity": 0.75,
+            "symbolSize": 80,
+            "padding": 20
           }
-        }
+        },
+        "stroke": {
+          "field": "tier",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Above national avg",
+              "Below national avg"
+            ],
+            "range": [
+              "#001f5c",
+              "#8B0000"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "doctors",
+            "title": "Total doctors",
+            "format": ","
+          },
+          {
+            "field": "doctors_per_10k",
+            "title": "Doctors per 10,000",
+            "format": ".1f"
+          },
+          {
+            "field": "population",
+            "title": "Population (2022)",
+            "format": ","
+          }
+        ]
       }
     }
   ],
   "config": {
-    "view": {"stroke": null},
+    "view": {
+      "stroke": null
+    },
     "background": "#F5F5F0"
   }
 }

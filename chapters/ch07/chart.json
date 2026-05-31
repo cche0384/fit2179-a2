@@ -1,65 +1,181 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "The poorest states get screened most — but screening coverage isn't closing the gap",
-    "subtitle": "PEKA B40 Health Screening Coverage by State (cumulative, 2019–present)",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Health Spending per Capita by Source, 2000–2023",
+    "subtitle": "PPP USD per capita. Sources: World Bank (CHE, OOP) + DOSM MNHA (public/private split). Black dashed line = 2016 inflection.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 11,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
-  "width": 460,
-  "height": 280,
   "data": {
-    "url": "../ch01/malaysia-states-compact.geojson",
-    "format": { "type": "json", "property": "features" }
+    "url": "data.json"
   },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.NAME_1",
-      "from": {
-        "data": { "url": "data.json" },
-        "key": "gadm_name",
-        "fields": ["screening_pct", "poverty_pct", "state_name"]
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "line": true,
+        "strokeWidth": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "axis": {
+            "title": null,
+            "labelFont": "Open Sans",
+            "labelFontSize": 10,
+            "values": [
+              2000,
+              2005,
+              2010,
+              2015,
+              2016,
+              2020,
+              2023
+            ]
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "stack": "zero",
+          "axis": {
+            "title": "Per capita health expenditure (PPP USD)",
+            "titleFont": "Open Sans",
+            "titleFontSize": 10,
+            "labelFont": "Open Sans",
+            "labelFontSize": 10,
+            "grid": true,
+            "gridColor": "#e8e8e8"
+          }
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "sort": [
+            "Government",
+            "Private Insurance",
+            "Out-of-Pocket"
+          ],
+          "scale": {
+            "domain": [
+              "Government",
+              "Private Insurance",
+              "Out-of-Pocket"
+            ],
+            "range": [
+              "#003580",
+              "#F4C300",
+              "#C8102E"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "labelFont": "Open Sans",
+            "labelFontSize": 11,
+            "orient": "top-left",
+            "symbolSize": 120
+          }
+        },
+        "order": {
+          "field": "category",
+          "sort": {
+            "domain": [
+              "Government",
+              "Private Insurance",
+              "Out-of-Pocket"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "category",
+            "title": "Source"
+          },
+          {
+            "field": "value",
+            "title": "Per capita (PPP USD)",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2016,
+            "note": "OOP acceleration begins"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "strokeDash": [
+          6,
+          3
+        ],
+        "color": "#000000",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2016,
+            "y": 1350,
+            "label": "2016: cost surge"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 4,
+        "font": "Open Sans",
+        "fontSize": 9,
+        "fontStyle": "italic",
+        "color": "#000000",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
       }
     }
   ],
-  "projection": { "type": "mercator" },
-  "mark": { "type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.8 },
-  "encoding": {
-    "color": {
-      "field": "screening_pct",
-      "type": "quantitative",
-      "scale": { "scheme": "reds", "domain": [15, 55] },
-      "legend": {
-        "title": "Screening coverage (%)",
-        "titleFont": "Poppins",
-        "titleFontSize": 11,
-        "labelFont": "Poppins",
-        "labelFontSize": 10,
-        "format": ".0f",
-        "orient": "top-left",
-        "direction": "horizontal",
-        "gradientLength": 180
-      }
+  "config": {
+    "view": {
+      "stroke": null
     },
-    "tooltip": [
-      { "field": "state_name", "title": "State" },
-      {
-        "field": "screening_pct",
-        "title": "B40 screening coverage (%)",
-        "format": ".1f"
-      },
-      {
-        "field": "poverty_pct",
-        "title": "Absolute poverty rate (%)",
-        "format": ".1f"
-      }
-    ]
-  },
-  "config": { "view": { "stroke": null }, "background": "#F5F5F0" }
+    "background": "#F5F5F0"
+  }
 }

@@ -1,114 +1,360 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "The Doctor Desert — Doctors per 10,000 People by State (2022)",
-    "subtitle": "Source: MOH Health Informatics Centre (data.gov.my) + OpenDOSM · Excludes W.P. Putrajaya (federal enclave, 172.9/10k outlier)",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Healthcare Access Index by State, 2022–2023",
+    "subtitle": "Most states fall below the national average for doctor density (~23.4/10k). Outlier: Putrajaya (172/10k) excluded for scale.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 10,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
-  "width": 480,
-  "height": 400,
-  "data": {"url": "data.json"},
+  "width": 500,
+  "height": 350,
+  "data": {
+    "url": "data.json"
+  },
   "transform": [
-    {"filter": "isValid(datum.state)"},
-    {"filter": "datum.state != 'W.P. Putrajaya'"}
+    {
+      "filter": "datum.state != 'W.P. Putrajaya'"
+    }
   ],
   "layer": [
     {
-      "mark": {"type": "bar", "cornerRadiusEnd": 4},
+      "mark": {
+        "type": "rule",
+        "color": "#d62728",
+        "strokeDash": [
+          4,
+          4
+        ],
+        "size": 1.5
+      },
       "encoding": {
-        "y": {
-          "field": "state",
-          "type": "nominal",
-          "sort": {"field": "doctors_per_10k", "order": "ascending"},
-          "axis": {
-            "title": null,
-            "labelFont": "Poppins",
-            "labelFontSize": 11,
-            "labelColor": {
-              "condition": {
-                "test": "datum.value == 'Sabah' || datum.value == 'Sarawak' || datum.value == 'W.P. Labuan'",
-                "value": "#C8102E"
-              },
-              "value": "#333333"
-            }
-          }
-        },
         "x": {
-          "field": "doctors_per_10k",
-          "type": "quantitative",
-          "scale": {"domain": [0, 42]},
-          "axis": {
-            "title": "Doctors per 10,000 population",
-            "titleFont": "Poppins",
-            "titleFontSize": 11,
-            "labelFont": "Poppins",
-            "labelFontSize": 10,
-            "grid": true,
-            "gridColor": "#e0e0e0"
-          }
-        },
-        "color": {
-          "condition": {
-            "test": "datum.region == 'east_malaysia'",
-            "value": "#C8102E"
-          },
-          "value": "#003580"
-        },
-        "opacity": {
-          "condition": [
-            {"test": "datum.state == 'W.P. Kuala Lumpur'", "value": 1.0},
-            {"test": "datum.region == 'east_malaysia'", "value": 0.9}
-          ],
-          "value": 0.65
-        },
-        "tooltip": [
-          {"field": "state",           "title": "State"},
-          {"field": "region",          "title": "Region"},
-          {"field": "doctors_per_10k", "title": "Doctors per 10,000", "format": ".2f"},
-          {"field": "doctors",         "title": "Total Doctors",       "format": ","},
-          {"field": "population",      "title": "Population",          "format": ","}
-        ]
+          "datum": 23.4
+        }
       }
     },
     {
       "mark": {
         "type": "rule",
-        "strokeDash": [6, 3],
-        "color": "#F4C300",
-        "strokeWidth": 2
+        "color": "#666",
+        "strokeDash": [
+          2,
+          2
+        ],
+        "size": 1
       },
       "encoding": {
-        "x": {"datum": 23.41, "type": "quantitative"}
+        "y": {
+          "datum": 8.1
+        }
       }
     },
     {
       "mark": {
         "type": "text",
         "align": "left",
-        "baseline": "top",
-        "dx": 4,
-        "y": 6,
-        "color": "#F4C300",
-        "font": "Poppins",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "baseline": "bottom",
+        "dx": 5,
+        "dy": -5,
+        "fontSize": 9,
+        "font": "Open Sans",
+        "color": "#d62728",
+        "text": "Natl Doctor Avg (23.4)"
+      },
+      "encoding": {
+        "x": {
+          "datum": 23.4
+        },
+        "y": {
+          "datum": 11
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "dx": -5,
+        "dy": -2,
+        "fontSize": 9,
+        "font": "Open Sans",
+        "color": "#666",
+        "text": "Avg Mortality (8.1)"
+      },
+      "encoding": {
+        "x": {
+          "datum": 38
+        },
+        "y": {
+          "datum": 8.1
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "stroke": "#333",
+        "strokeWidth": 0.5,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative",
+          "title": "Doctors per 10,000 People",
+          "scale": {
+            "domain": [
+              10,
+              38
+            ],
+            "zero": false,
+            "nice": false
+          }
+        },
+        "y": {
+          "field": "imr_2023",
+          "type": "quantitative",
+          "title": "Infant Mortality Rate (per 1,000 live births)",
+          "scale": {
+            "domain": [
+              6,
+              11
+            ],
+            "zero": false,
+            "nice": false
+          }
+        },
+        "size": {
+          "field": "population",
+          "type": "quantitative",
+          "scale": {
+            "range": [
+              50,
+              2000
+            ]
+          },
+          "legend": null
+        },
+        "color": {
+          "field": "tier",
+          "type": "nominal",
+          "sort": [
+            "Critical",
+            "Under-resourced",
+            "Adequate",
+            "Well-served"
+          ],
+          "scale": {
+            "domain": [
+              "Critical",
+              "Under-resourced",
+              "Adequate",
+              "Well-served"
+            ],
+            "range": [
+              "#C8102E",
+              "#E8786A",
+              "#7CA0D8",
+              "#003580"
+            ]
+          },
+          "legend": {
+            "title": "Access Tier",
+            "orient": "top-right"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "region",
+            "title": "Region"
+          },
+          {
+            "field": "doctors_per_10k",
+            "title": "Doctors/10k",
+            "format": ".1f"
+          },
+          {
+            "field": "imr_2023",
+            "title": "IMR 2023",
+            "format": ".1f"
+          },
+          {
+            "field": "population",
+            "title": "Population",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state != 'Terengganu' && datum.state != 'Pahang' && datum.state != 'Selangor'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "font": "Open Sans",
         "fontStyle": "italic"
       },
       "encoding": {
-        "x": {"datum": 23.41, "type": "quantitative"},
-        "text": {"value": "National avg 23.4"}
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "imr_2023",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state"
+        },
+        "align": {
+          "condition": [
+            {
+              "test": "datum.state == 'W.P. Labuan'",
+              "value": "right"
+            }
+          ],
+          "value": "center"
+        },
+        "dx": {
+          "condition": [
+            {
+              "test": "datum.state == 'W.P. Labuan'",
+              "value": 10
+            }
+          ],
+          "value": 0
+        },
+        "dy": {
+          "condition": [
+            {
+              "test": "datum.state == 'Perak'",
+              "value": -12
+            },
+            {
+              "test": "datum.state == 'Kedah' || datum.state == 'Johor' || datum.state == 'Sarawak' || datum.state == 'Melaka'",
+              "value": 15
+            }
+          ],
+          "value": 10
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Terengganu'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "font": "Open Sans",
+        "fontStyle": "italic",
+        "align": "right",
+        "dx": -8,
+        "dy": -5
+      },
+      "encoding": {
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "imr_2023",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Pahang'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "font": "Open Sans",
+        "fontStyle": "italic",
+        "align": "left",
+        "dx": 8,
+        "dy": 5
+      },
+      "encoding": {
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "imr_2023",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Selangor'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "font": "Open Sans",
+        "fontStyle": "italic",
+        "align": "center",
+        "dx": 0,
+        "dy": -18
+      },
+      "encoding": {
+        "x": {
+          "field": "doctors_per_10k",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "imr_2023",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state"
+        }
       }
     }
   ],
   "config": {
-    "view": {"stroke": null},
-    "background": "#F5F5F0"
+    "background": "#F5F5F0",
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "grid": true,
+      "gridColor": "#e0e0e0"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans"
+    }
   }
 }

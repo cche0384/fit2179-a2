@@ -1,156 +1,107 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Poverty predicts TB — and Sabah lives on the wrong side of the line",
-    "subtitle": "Source: World Bank / WHO estimates 2022 (SH.TBS.INCD · SI.POV.NAHC) · *Myanmar poverty data from 2017",
-    "font": "Poppins",
-    "fontSize": 15,
+    "text": "Early Childhood Death Rate by State, 2000–2023",
+    "subtitle": "Deaths per 1,000 live births. Darker = higher rate. Sorted by 2023 rate (worst top). Source: DOSM. Sabah 2000–2013: underreported prior to registry reform.",
+    "font": "Open Sans",
+    "fontSize": 19,
     "fontWeight": "bold",
     "color": "#003580",
-    "subtitleFont": "Poppins",
-    "subtitleFontSize": 11,
+    "subtitleFont": "Open Sans",
+    "subtitleFontSize": 14,
     "subtitleColor": "#666666",
-    "subtitlePadding": 6
+    "subtitlePadding": 6,
+    "anchor": "start"
   },
-  "data": {"url": "asean_scatter.json"},
-  "layer": [
-    {
-      "mark": {
-        "type": "rect",
-        "opacity": 0.07,
-        "color": "#C8102E"
-      },
-      "encoding": {
-        "x":  {"datum": 13.2, "type": "quantitative"},
-        "x2": {"datum": 19.7},
-        "y":  {"datum": 700, "type": "quantitative"},
-        "y2": {"datum": 0, "type": "quantitative"}
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "baseline": "top",
-        "font": "Poppins",
-        "fontSize": 9.5,
-        "fontStyle": "italic",
-        "color": "#C8102E",
-        "dx": 4,
-        "dy": 6
-      },
-      "encoding": {
-        "x": {"datum": 13.2, "type": "quantitative"},
-        "y": {"datum": 700, "type": "quantitative"},
-        "text": {"value": "Kelantan–Sabah poverty range"}
-      }
-    },
-    {
-      "mark": {
-        "type": "line",
-        "strokeDash": [5, 4],
-        "color": "#AAAAAA",
-        "strokeWidth": 1.5
-      },
-      "transform": [
-        {"filter": "!datum.stale_poverty"},
-        {
-          "regression": "tb_per_100k",
-          "on": "poverty_rate",
-          "extent": [0, 27]
-        }
-      ],
-      "encoding": {
-        "x": {"field": "poverty_rate", "type": "quantitative"},
-        "y": {"field": "tb_per_100k",  "type": "quantitative"}
-      }
-    },
-    {
-      "mark": {
-        "type": "circle",
-        "stroke": "white",
-        "strokeWidth": 1.5
-      },
-      "encoding": {
-        "x": {
-          "field": "poverty_rate",
-          "type": "quantitative",
-          "scale": {"domain": [0, 28]},
-          "axis": {
-            "title": "National poverty rate (%)",
-            "titleFont": "Poppins",
-            "titleFontSize": 12,
-            "labelFont": "Poppins",
-            "labelFontSize": 11,
-            "grid": true,
-            "gridColor": "#e8e8e8",
-            "tickCount": 7
-          }
-        },
-        "y": {
-          "field": "tb_per_100k",
-          "type": "quantitative",
-          "scale": {"domain": [0, 700]},
-          "axis": {
-            "title": "TB incidence per 100,000 population",
-            "titleFont": "Poppins",
-            "titleFontSize": 12,
-            "labelFont": "Poppins",
-            "labelFontSize": 11,
-            "grid": true,
-            "gridColor": "#e8e8e8",
-            "tickCount": 7
-          }
-        },
-        "size": {
-          "field": "population",
-          "type": "quantitative",
-          "scale": {"range": [80, 1400]},
-          "legend": null
-        },
-        "color": {
-          "condition": {"test": "datum.highlight", "value": "#C8102E"},
-          "value": "#003580"
-        },
-        "opacity": {
-          "condition": {"test": "datum.stale_poverty", "value": 0.25},
-          "value": 0.88
-        },
-        "tooltip": [
-          {"field": "country",      "title": "Country"},
-          {"field": "poverty_rate", "title": "Poverty rate (%)",    "format": ".1f"},
-          {"field": "poverty_year", "title": "Poverty data year"},
-          {"field": "tb_per_100k",  "title": "TB per 100,000",     "format": ".0f"},
-          {"field": "tb_year",      "title": "TB data year"},
-          {"field": "population",   "title": "Population",          "format": ","}
+  "data": {
+    "url": "data.json"
+  },
+  "mark": {
+    "type": "rect",
+    "stroke": "#ffffff",
+    "strokeWidth": 0.6
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "title": null,
+        "labelFont": "Open Sans",
+        "labelFontSize": 10,
+        "labelAngle": -45,
+        "values": [
+          2000,
+          2005,
+          2010,
+          2015,
+          2020,
+          2023
         ]
       }
     },
-    {
-      "mark": {
-        "type": "text",
-        "font": "Poppins",
-        "fontSize": 11,
-        "fontWeight": "bold",
-        "dy": -16
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": {
+        "field": "state_order",
+        "order": "ascending"
       },
-      "encoding": {
-        "x":    {"field": "poverty_rate", "type": "quantitative"},
-        "y":    {"field": "tb_per_100k",  "type": "quantitative"},
-        "text": {"field": "label",        "type": "nominal"},
-        "color": {
-          "condition": {"test": "datum.highlight", "value": "#C8102E"},
-          "value": "#333333"
-        },
-        "opacity": {
-          "condition": {"test": "datum.stale_poverty", "value": 0.35},
-          "value": 1
-        }
+      "axis": {
+        "title": null,
+        "labelFont": "Open Sans",
+        "labelFontSize": 11
       }
-    }
-  ],
+    },
+    "color": {
+      "field": "imr",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "reds",
+        "domain": [
+          4,
+          14
+        ]
+      },
+      "legend": {
+        "title": "Deaths per 1,000 live births",
+        "titleFont": "Open Sans",
+        "labelFont": "Open Sans",
+        "titleFontSize": 10,
+        "labelFontSize": 9,
+        "direction": "horizontal",
+        "orient": "bottom",
+        "gradientLength": 200
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "title": "State"
+      },
+      {
+        "field": "year",
+        "title": "Year"
+      },
+      {
+        "field": "imr",
+        "title": "Death rate (per 1,000)",
+        "format": ".1f"
+      },
+      {
+        "field": "imr_change_pct",
+        "title": "Change since 2000 (%)",
+        "format": "+.1f"
+      }
+    ]
+  },
   "config": {
-    "view": {"stroke": null},
-    "background": "#F5F5F0"
+    "view": {
+      "stroke": null
+    },
+    "background": "#F5F5F0",
+    "axis": {
+      "grid": false
+    }
   }
 }

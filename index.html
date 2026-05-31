@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Malaysia Health Inequality — A Data Story</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -32,9 +32,13 @@
     body {
       width: 100vw;
       overflow-x: hidden;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       background: var(--bg);
       color: var(--text);
+    }
+
+    h2, blockquote {
+      font-family: 'Times New Roman', Times, serif;
     }
 
     /* ── SLIDE BASE ─────────────────────────────────────────────── */
@@ -75,7 +79,7 @@
       font-weight: 600;
       color: var(--white);
       max-width: 760px;
-      line-height: 1.65;
+      line-height: 1.6;
     }
     #hook blockquote em { color: var(--gold); font-style: italic; }
 
@@ -107,7 +111,7 @@
       flex-shrink: 0;
     }
     .ch-header h2 {
-      font-size: clamp(1rem, 1.8vw, 1.4rem);
+      font-size: clamp(1.2rem, 2.2vw, 1.7rem);
       font-weight: 700;
       color: var(--navy);
     }
@@ -123,7 +127,7 @@
     }
 
     .ch-idiom {
-      font-size: 0.78rem;
+      font-size: 0.92rem;
       color: var(--grey);
       font-style: italic;
       flex-shrink: 0;
@@ -146,22 +150,24 @@
     .zone-main {
       flex: 1;
       min-height: 0;
-      display: grid;
-      grid-template-columns: 1fr 252px;
-      gap: 0.75rem;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      gap: 0.8rem;
       margin-top: 0.6rem;
     }
 
     .chart-panel {
       background: var(--white);
       border-radius: 12px;
-      padding: 0.75rem;
+      padding: 0.8rem;
       box-shadow: 0 2px 14px rgba(0,0,0,0.07);
       overflow: hidden;
       display: flex;
       align-items: stretch;
       justify-content: stretch;
       min-height: 0;
+      flex: 3;
     }
     /* make vega fill the panel */
     .chart-panel > div {
@@ -178,11 +184,13 @@
       flex-direction: column;
       gap: 0.6rem;
       min-height: 0;
+      flex: 1;
+      overflow: hidden;
     }
     .insight-box {
       background: var(--white);
       border-radius: 12px;
-      padding: 0.9rem 1rem;
+      padding: 1rem 1.1rem;
       box-shadow: 0 2px 14px rgba(0,0,0,0.07);
       flex: 1;
       min-height: 0;
@@ -193,35 +201,36 @@
       font-weight: 700;
       color: var(--gold);
       line-height: 1.1;
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.4rem;
     }
     .insight-box .big-number.red { color: var(--red); }
     .insight-box p {
       font-size: 0.76rem;
-      color: #555;
-      line-height: 1.5;
+      color: #444;
+      line-height: 1.55;
     }
 
     /* Narrative */
     .narrative {
-      flex-shrink: 0;
+      flex: 2;
+      min-height: 0;
+      overflow-y: auto;
       background: var(--white);
       border-radius: 12px;
-      padding: 0.6rem 1.2rem;
+      padding: 0.7rem 1.3rem;
       font-size: 0.8rem;
       line-height: 1.65;
       color: var(--text);
       box-shadow: 0 2px 14px rgba(0,0,0,0.07);
-      margin-top: 0.6rem;
     }
     .narrative .transition {
       display: block;
-      margin-top: 0.35rem;
+      margin-top: 0.4rem;
       font-style: italic;
       color: var(--navy);
       font-size: 0.74rem;
       border-left: 3px solid var(--gold);
-      padding-left: 0.6rem;
+      padding-left: 0.7rem;
     }
 
     /* ── CLOSING SLIDE ──────────────────────────────────────────── */
@@ -239,8 +248,8 @@
     #closing blockquote {
       font-size: clamp(0.95rem, 1.8vw, 1.2rem);
       font-style: italic;
-      max-width: 720px;
-      line-height: 1.75;
+      max-width: 760px;
+      line-height: 1.7;
       color: var(--gold);
     }
     #closing p {
@@ -279,9 +288,6 @@
 
     /* ── TABLET (≤ 1024px) ──────────────────────────────────────── */
     @media (max-width: 1024px) {
-      .zone-main {
-        grid-template-columns: 1fr 200px;
-      }
       .chapter {
         padding: 1rem 1.5rem 0.75rem;
       }
@@ -308,24 +314,26 @@
         margin-top: 0.08rem;
       }
 
-      /* Stack: chart gets all leftover space, insights fixed, narrative fixed */
+      /* Stack chart above, insight-panel (insights + narrative) below */
       .zone-main {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto;
+        flex-direction: column;
         gap: 0.4rem;
         margin-top: 0.35rem;
       }
 
-      /* Two insight boxes side-by-side with fixed height */
+      /* insight-panel: two insight boxes side-by-side, narrative below */
       .insight-panel {
-        flex-direction: row;
+        flex: 1;
+        flex-direction: column;
         gap: 0.4rem;
-        height: 88px;
-        flex-shrink: 0;
+        overflow: hidden;
       }
+
       .insight-box {
         padding: 0.45rem 0.6rem;
         overflow: hidden;
+        flex: none;
+        height: 72px;
       }
       .insight-box .big-number {
         font-size: 1.15rem;
@@ -336,15 +344,14 @@
         line-height: 1.3;
       }
 
-      /* Narrative: fixed height, scrollable */
+      /* Narrative inside insight-panel */
       .narrative {
-        height: 72px;
+        flex: 1;
+        min-height: 0;
         overflow-y: auto;
-        flex-shrink: 0;
         font-size: 0.67rem;
         line-height: 1.45;
         padding: 0.4rem 0.8rem;
-        margin-top: 0.35rem;
         -webkit-overflow-scrolling: touch;
       }
       .narrative .transition {
@@ -414,125 +421,134 @@
       <div class="insight-panel">
         <div class="insight-box">
           <div class="big-number">7.5 yrs</div>
-          <p>Gap between KL (77.3 yrs) and Sabah (69.8 yrs) — determined by postcode, not genetics. Source: DOSM · World Bank 2023/24.</p>
+          <p>Gap between KL and Sabah. Determined by postcode, not genetics.</p>
         </div>
         <div class="insight-box">
           <div class="big-number red">69.8</div>
-          <p>Sabah's estimated life expectancy — lowest of any state, 4.3 years below the national average of 74.1 years.</p>
+          <p>Sabah's life expectancy — 4.3 years below the national average of 74.1.</p>
+        </div>
+        <div class="narrative">
+          Your postcode decides your fate before you make a choice.<br>
+          Life expectancy varies by 7 years across Malaysian states.<br>
+          This is not natural variation — it is a policy fingerprint.
+          <span class="transition">A map shows where the problem is. To understand why, we must follow the money.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      Before a Malaysian makes a single decision in their life, their postcode has already placed a quiet bet on how long they'll live. Life expectancy varies by up to 7–9 years across states — this isn't natural variation, it's a policy fingerprint.
-      <span class="transition">"But a map only shows where the problem is. To understand why, we need to follow the money."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 2 — You Get What You Pay For                                -->
+<!--  CH 2 — Where the Doctors Are Not                               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch02">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 2 — You Get What You Pay For</h2>
+      <h2>Chapter 2 — Where the Doctors Are Not</h2>
       <span class="scene-tag">SCENE 2 / 10</span>
     </div>
-    <p class="ch-idiom">"The squeaky wheel gets the grease."</p>
+    <p class="ch-idiom">"Out of sight, out of mind."</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-02"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">6 / 16</div>
-          <p>Six states sit in the under-resourced zone — above-average death rates, below-average health investment. Perak leads with Malaysia's highest crude death rate: 8.9 per 1,000. Source: MNHA 2022 + OpenDOSM.</p>
+          <div class="big-number">3×</div>
+          <p>KL has 37.4 doctors per 10,000. Sabah has 12.3. The map makes the gap visible.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">4.2×</div>
-          <p>KL's per capita health spending (RM 5,631) is 4.2× Sabah's (RM 1,347). The gap is largely private-sector concentration — yet public investment has not corrected the imbalance where mortality is highest.</p>
+          <div class="big-number red">72%</div>
+          <p>Of Malaysians live below the national average. East Malaysia has 13.9 doctors per 10,000 for 5.9 million people.</p>
+        </div>
+        <div class="narrative">
+          Malaysia has enough doctors — on paper.<br>
+          The problem: they are all in three cities.<br>
+          A national ratio hides a map of near-total absence.<br>
+          Sabah and Sarawak share 8,300 doctors for 5.9 million people.
+          <span class="transition">Distance from a doctor is not just a statistic. Some states have been more systematically abandoned. Let's name them.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      Health spending in Malaysia does not flow to where death rates are highest. Six states carry above-average mortality with below-average total health investment — Perak (8.9/1,000), Kedah (8.2), Kelantan, Terengganu, Pahang and Sarawak. Private hospitals concentrate in cities where incomes are already higher, and national averages hide a map where the wheel that squeaks loudest continues to get the grease.
-      <span class="transition">"When the money doesn't reach you, you look for a doctor. But in half of Malaysia, there isn't one close enough."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 3 — The Doctor Desert                                       -->
+<!--  CH 3 — The Two Malaysias                                      -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch03">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 3 — The Doctor Desert</h2>
+      <h2>Chapter 3 — The Two Malaysias</h2>
       <span class="scene-tag">SCENE 3 / 10</span>
     </div>
-    <p class="ch-idiom">"Out of sight, out of mind."</p>
+    <p class="ch-idiom">"Which side of the fence are you on?"</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-03"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number">3×</div>
-          <p>KL has 3× more doctors per capita than Sabah (37.4 vs 12.3 per 10,000). Malaysia has enough doctors — they're just all in the same corridor.</p>
+          <div class="big-number red">4 states</div>
+          <p>Sabah, Terengganu, Pahang, and Labuan rank Critical — lowest doctor supply, highest child mortality.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number red">90%</div>
-          <p>Of Malaysians live in states below the national average of 23 doctors per 10,000. The average hides a deeply unequal map.</p>
+          <div class="big-number">4 tiers</div>
+          <p>The divide is categorical. Four tiers reveal a structural separation, not a spectrum.</p>
+        </div>
+        <div class="narrative">
+          Continuous gradients make inequality look comfortable — a spectrum.<br>
+          The truth is harsher: states fall into discrete tiers.<br>
+          Critical, Under-resourced, Adequate, Well-served — the divide is structural.<br>
+          Sabah, Terengganu, and Pahang land at the bottom.<br>
+          KL, Penang, and Perlis sit comfortably at the top.
+          <span class="transition">These tiers exist today. But for how long? The answer is uncomfortable.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      East Malaysia bears the sharpest end of this inequality. Sabah and Sarawak — together larger than Peninsular Malaysia — share just 8,198 doctors for 5.9 million people. And these are <em>all</em> doctors: the private-sector specialists in Kota Kinabalu do not serve the interior. For communities in Keningau or Kapit, the effective ratio is far worse than any statistic can capture.
-      <span class="transition">"Distance from a doctor kills slowly. But some Malaysians are dying of something faster — diseases we said we'd beaten decades ago."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 4 — The Return of the Forgotten Killers                     -->
+<!--  CH 4 — Stuck in the Same Place                                 -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch04">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 4 — The Return of the Forgotten Killers</h2>
+      <h2>Chapter 4 — Stuck in the Same Place</h2>
       <span class="scene-tag">SCENE 4 / 10</span>
     </div>
-    <p class="ch-idiom">"History has a long memory."</p>
+    <p class="ch-idiom">"Two steps forward, one step back."</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-04"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">6.4×</div>
-          <p>Philippines' TB rate (627/100k) vs Malaysia's (98/100k) — same ASEAN bloc, same bugs, same century. The difference is poverty. Source: WHO estimates via World Bank 2022/23.</p>
+          <div class="big-number">−36%</div>
+          <p>Kelantan's rate fell the most nationally. Progress is real — but it has a postcode.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">19.7%</div>
-          <p>Sabah's poverty rate (DOSM 2022) — identical to the Philippines, ASEAN's highest-TB nation. But Sabah's numbers dissolve into Malaysia's 5.1% national average and disappear.</p>
+          <div class="big-number red">10.6</div>
+          <p>Sabah's 2023 rate — highest in Malaysia. Pre-2014 figures were underreported.</p>
+        </div>
+        <div class="narrative">
+          Strip away national averages and progress is deeply uneven.<br>
+          Every row fades lighter — overall improvement is real.<br>
+          But Sabah, Pahang, and Terengganu remain stubbornly dark.<br>
+          KL and Penang were always light.<br>
+          Sabah's early improvement was better registration — not better outcomes.
+          <span class="transition">The same states keep appearing in the dark columns. Geography determines who can afford to get sick.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      Across ASEAN, tuberculosis tracks poverty with near-mechanical precision. Countries with poverty rates above 15% carry TB burdens 4–6× higher than their wealthier neighbours. Malaysia's national average looks reassuring — but inside that average, Sabah (19.7% poverty), Kelantan (13.2%), and Sarawak (10.8%) sit in the same poverty tier as Lao PDR and the Philippines. History has a long memory: TB was supposed to be eradicated, but it retreated into the same communities that were always left behind.
-      <span class="transition">"Poverty breeds disease. But disease also breeds poverty — especially when a single hospital visit can ruin a family."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 5 — The Bill That Breaks Families                           -->
+<!--  CH 5 — Who Pays for Getting Sick                               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch05">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 5 — The Bill That Breaks Families</h2>
+      <h2>Chapter 5 — Who Pays for Getting Sick</h2>
       <span class="scene-tag">SCENE 5 / 10</span>
     </div>
     <p class="ch-idiom">"One bad hand can clean out the whole table."</p>
@@ -541,19 +557,21 @@
       <div class="chart-panel"><div id="chart-05"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">6×</div>
-          <p>B40 households spend 6× more of their income on out-of-pocket healthcare than T20 — 3.6% vs 0.6% in 2023. Every year. Without exception. Source: World Bank + DOSM HIES.</p>
+          <div class="big-number red">37%</div>
+          <p>Nearly double the WHO's 20% benchmark. Patients bear the heaviest share.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">3.7×</div>
-          <p>Growth in national OOP health spending per capita since 2000 — from $145 to $535 PPP. A post-2016 surge in private-sector costs is pushing the burden higher for everyone, but the B40 feel it most.</p>
+          <div class="big-number">3.5×</div>
+          <p>OOP spending grew 3.5× since 2000 — from $145 to $508 PPP per capita.</p>
+        </div>
+        <div class="narrative">
+          Every 100 ringgit: 51 from government, 37 from pockets, 12 from insurance.<br>
+          The red squares fill more than a third of the grid.<br>
+          One hospitalisation — RM 5,000 to 15,000 — can erase months of wages.<br>
+          The sicker you are, the poorer you get.
+          <span class="transition">Money protects the rich from getting sicker. But it cannot protect Malaysia's children.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      For B40 households, out-of-pocket healthcare consumes 3.6% of annual income on average — but averages lie. A single private hospitalisation (RM 5,000–15,000) wipes out 2–5 months of B40 wages. Since 2016, private healthcare costs have surged, adding 0.32 percentage points to the B40's burden alone. The cruelty: the sicker you are, the poorer you get; the poorer you get, the sicker you become. One bad hand cleans out the whole table.
-      <span class="transition">"Money protects the rich. But it can't buy clean water and safe food for communities that don't have them."</span>
     </div>
   </div>
 </section>
@@ -574,82 +592,91 @@
       <div class="insight-panel">
         <div class="insight-box">
           <div class="big-number red">21.2%</div>
-          <p>Malaysia's national stunting rate (World Bank, 2022) — almost matching Cambodia's 21.9%, a country with one-fifth the income.</p>
+          <p>Almost matching Cambodia — a country with one-fifth of Malaysia's income.</p>
         </div>
         <div class="insight-box">
           <div class="big-number">11.4 pp</div>
-          <p>Malaysia exceeds its income-predicted stunting by 11.4 percentage points. Every richer country achieves below 8% stunting. Malaysia does not.</p>
+          <p>Every comparable-income country achieves below 8% stunting. Malaysia does not.</p>
+        </div>
+        <div class="narrative">
+          At Malaysia's income level, stunting should be under 10%.<br>
+          It is 21%. Inside Malaysia, Sabah reaches 35%.<br>
+          That rate is typical of Sub-Saharan Africa.<br>
+          This starts before a child ever sees a hospital.<br>
+          It starts with clean water, food, and a safe home.
+          <span class="transition">Infrastructure shapes your first years. A lifetime of inequality shows in your body by 40.</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      At Malaysia's income level, stunting should be around 10%. It is 21%. Inside Malaysia, Sabah reaches 35% — a rate typical of Sub-Saharan Africa. The rot starts long before a child sees a hospital: it starts with whether their first years are spent in a home with clean water, safe food, and adequate nutrition.
-      <span class="transition">"Infrastructure shapes your first years. What does a lifetime of inequality do to your body by 40, 50, 60?"</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 7 — The Slow Burn                                           -->
+<!--  CH 7 — The Rising Tide of Cost                                 -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch07">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 7 — The Slow Burn</h2>
+      <h2>Chapter 7 — The Rising Tide of Cost</h2>
       <span class="scene-tag">SCENE 7 / 10</span>
     </div>
-    <p class="ch-idiom">"The candle that burns at both ends."</p>
+    <p class="ch-idiom">"A rising tide lifts all boats — unless yours has a hole in it."</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-07"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">51.7%</div>
-          <p>Of eligible B40 residents in Kelantan have been enrolled in Malaysia's free NCD screening programme — the highest of any state.</p>
+          <div class="big-number red">3.7×</div>
+          <p>OOP spending grew 3.7× since 2000. The red band outpaced all other funding sources.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">16.1%</div>
-          <p>Coverage in W.P. Kuala Lumpur. Where incomes are highest, fewer residents qualify for B40 health screening — and the map shows exactly where vulnerability concentrates.</p>
+          <div class="big-number">2016</div>
+          <p>After 2016, private healthcare inflation outpaced income growth. Patients have paid more every year since.</p>
+        </div>
+        <div class="narrative">
+          Malaysia's healthcare bill has grown every decade.<br>
+          But the rising tide does not lift all boats equally.<br>
+          Out-of-pocket costs have surged since 2016.<br>
+          Government spending grew — but private inflation outran it.<br>
+          Without savings or insurance, there is no safety net.
+          <span class="transition">The costs are rising. But what is actually killing Malaysians — and has the picture changed?</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      PEKA B40 — Malaysia's free health screening programme for low-income households — maps the geography of NCD vulnerability. Kelantan, Kedah, Terengganu: the states with the highest poverty rates also have the most residents enrolled. More than half of eligible Kelantanese have been screened. In KL, barely one in six. The programme is reaching where the burden is greatest — but even the best-covered state has yet to reach half its at-risk population.
-      <span class="transition">"All of this converges in one final number: how many Malaysians die before they should. And it has a very specific address."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 8 — Dying Before Your Time                                  -->
+<!--  CH 8 — What Is Killing Us                                      -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch08">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 8 — Dying Before Your Time</h2>
+      <h2>Chapter 8 — What Is Killing Us</h2>
       <span class="scene-tag">SCENE 8 / 10</span>
     </div>
-    <p class="ch-idiom">"Cut down in their prime."</p>
+    <p class="ch-idiom">"Know your enemy."</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-08"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">8.2</div>
-          <p>Deaths per 1,000 in Perak in 2023 — the highest of any state. Rural peninsular states hollowed out by migration carry the heaviest mortality burden.</p>
+          <div class="big-number red">76%</div>
+          <p>NCDs — diabetes, heart disease, cancer — are preventable with early care. Without it, catastrophically expensive.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">2.4×</div>
-          <p>Perak's death rate vs. W.P. Labuan. The gap between the most and least burdened states has widened since 2000, not narrowed.</p>
+          <div class="big-number">16%</div>
+          <p>Communicable diseases are receding nationally — but in Critical-tier states, the burden remains far higher.</p>
+        </div>
+        <div class="narrative">
+          In one generation, what kills Malaysians has completely shifted.<br>
+          Communicable diseases have receded to just 16% nationally.<br>
+          NCDs now claim 76%: diabetes, heart disease, stroke, cancer.<br>
+          These are preventable — with early screening and regular care.<br>
+          The B40 are the ones who miss those screenings.
+          <span class="transition">We know what is killing us. We know where it is worst. Is the gap still widening?</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      Crude death rate reflects the total mortality burden each state carries. The map's darkest corners — Perak, Kedah, Perlis — are states that lost their young workforce to cities, leaving ageing populations behind. Every inequality shown in this dashboard compounds here. The same states that rank worst for doctors, poverty, and stunting also carry the most deaths.
-      <span class="transition">"Twenty years of data, and the same states are still stuck. Which raises the most important question: has anything actually been getting better? Or are we just getting better at measuring how bad it is?"</span>
     </div>
   </div>
 </section>
@@ -670,49 +697,55 @@
       <div class="insight-panel">
         <div class="insight-box">
           <div class="big-number">−36%</div>
-          <p>Kelantan cut its early childhood death rate by 36% since 2000 — the biggest improvement nationally. Progress is real for some.</p>
+          <p>Kelantan fell from 13.5 to 8.6 per 1,000 — the sharpest improvement in Malaysia.</p>
         </div>
         <div class="insight-box">
           <div class="big-number red">10.6</div>
-          <p>Sabah's 2023 death rate (per 1,000 live births) — the highest in Malaysia. The same state that appears in every previous chapter.</p>
+          <p>The highest rate in Malaysia. The same state that appears in every chapter.</p>
+        </div>
+        <div class="narrative">
+          Malaysia's national mortality trend looks like a success story.<br>
+          Unpack it by state and the picture changes.<br>
+          Kelantan fell from 13.5 to 8.6 — the sharpest drop nationally.<br>
+          Sabah's 2014 jump was a registration reform, not a crisis.<br>
+          The gap at 2023 remains significant.
+          <span class="transition">Progress is real — but it has a postcode. Are we improving fast enough?</span>
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      The heatmap shows every row fading over time — headline progress is real. But Sabah, Pahang, and Terengganu remain stubbornly dark while KL and Penang were always light. The states that needed the most help improved the least.
-      <span class="transition">"What would it take to close this gap? The data suggests it has almost nothing to do with building more hospitals."</span>
     </div>
   </div>
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--  CH 10 — The Prescription We Keep Ignoring                      -->
+<!--  CH 10 — Falling Behind in the Region                           -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <section class="slide" id="slide-ch10">
   <div class="chapter">
     <div class="ch-header">
-      <h2>Chapter 10 — The Prescription We Keep Ignoring</h2>
+      <h2>Chapter 10 — Falling Behind in the Region?</h2>
       <span class="scene-tag">SCENE 10 / 10</span>
     </div>
-    <p class="ch-idiom">"The cure is staring us in the face."</p>
+    <p class="ch-idiom">"In the land of the blind, the one-eyed man is king — until he isn't."</p>
 
     <div class="zone-main">
       <div class="chart-panel"><div id="chart-10"></div></div>
       <div class="insight-panel">
         <div class="insight-box">
-          <div class="big-number red">r = −0.65</div>
-          <p>Poverty incidence has the strongest correlation with state life expectancy — stronger than healthcare spending, doctor supply, or any clinical variable.</p>
+          <div class="big-number">#2</div>
+          <p>Up from #4 in 2000. The headline story is improvement.</p>
         </div>
         <div class="insight-box">
-          <div class="big-number">2.2×</div>
-          <p>Poverty's association with life expectancy is 2.2× stronger than the number of doctors per capita. Fix inequality — fix health.</p>
+          <div class="big-number red">Thailand</div>
+          <p>From #5 to #2 in 20 years, starting lower. A warning, not a comfort.</p>
+        </div>
+        <div class="narrative">
+          Malaysia once ranked 4th in ASEAN life expectancy.<br>
+          By 2022, it sits at 2nd — a genuine improvement.<br>
+          But Thailand rose from 5th to 2nd in 20 years.<br>
+          Others are moving faster, starting from lower bases.<br>
+          Malaysia's internal inequality is the anchor holding it back.
         </div>
       </div>
-    </div>
-
-    <div class="narrative">
-      Control for everything — income remains the dominant predictor. Malaysia's health crisis is not a healthcare problem. It is an inequality problem wearing a healthcare mask. The fix requires income floors, not more clinics.
     </div>
   </div>
 </section>
@@ -733,7 +766,6 @@
       But right now, in 2024, it does.<br>
       And until we're honest about why — <em style="color:var(--white)">the map won't change.</em>"
     </blockquote>
-    <p>Data story built with Vega-Lite &bull; Sources: DOSM · MOH · NHMS · DOSM HES · GBD/IHME · World Bank</p>
   </div>
 </section>
 
@@ -843,28 +875,40 @@
     function adaptSubSpec(s, sw) {
       if (!s || typeof s !== "object") return;
 
+      // Force font family
+      if (s.font) s.font = "Open Sans";
+      if (s.labelFont) s.labelFont = "Open Sans";
+      if (s.titleFont) s.titleFont = "Open Sans";
+
       // Legend gradient length + fonts
       if (s.encoding?.color?.legend) {
         const leg = s.encoding.color.legend;
+        leg.titleFont = "Open Sans";
+        leg.labelFont = "Open Sans";
         if (leg.gradientLength != null)
           leg.gradientLength = Math.min(leg.gradientLength, Math.floor(sw * 0.38));
         if (isMobile) { leg.titleFontSize = 8; leg.labelFontSize = 7; }
       }
 
-      if (isMobile) {
-        // Override any explicit axis font sizes on every encoding channel
-        ["x", "y", "x2", "y2", "row", "column"].forEach(ax => {
-          const enc = s.encoding?.[ax];
-          if (!enc) return;
-          if (!enc.axis) enc.axis = {};
+      // Axis fonts/sizes
+      ["x", "y", "x2", "y2", "row", "column"].forEach(ax => {
+        const enc = s.encoding?.[ax];
+        if (!enc || enc.axis === null) return;
+        if (!enc.axis) enc.axis = {};
+        enc.axis.labelFont = "Open Sans";
+        enc.axis.titleFont = "Open Sans";
+        if (isMobile) {
           enc.axis.labelFontSize = 8;
           enc.axis.titleFontSize = 8;
           enc.axis.labelLimit    = Math.floor(sw * 0.28);
-        });
+        }
+      });
 
-        // Override explicit font sizes on text marks and annotation marks
-        if (s.mark && typeof s.mark === "object") {
-          if (s.mark.fontSize  != null) s.mark.fontSize  = Math.min(s.mark.fontSize,  8);
+      // Marks
+      if (s.mark && typeof s.mark === "object") {
+        s.mark.font = "Open Sans";
+        if (isMobile) {
+          if (s.mark.fontSize      != null) s.mark.fontSize      = Math.min(s.mark.fontSize,      8);
           if (s.mark.titleFontSize != null) s.mark.titleFontSize = Math.min(s.mark.titleFontSize, 8);
         }
       }
@@ -876,22 +920,44 @@
       });
     }
 
+    // Global Config — font families always applied; sizes only on mobile
+    const cfg = spec.config || {};
+    spec.config = {
+      ...cfg,
+      font: "Open Sans",
+      title: {
+        font: "Times New Roman",
+        subtitleFont: "Open Sans",
+        anchor: "start",
+        ...(cfg.title || {})
+      },
+      axis:   { labelFont: "Open Sans", titleFont: "Open Sans", ...(cfg.axis   || {}) },
+      legend: { labelFont: "Open Sans", titleFont: "Open Sans", ...(cfg.legend || {}) },
+      header: { labelFont: "Open Sans", titleFont: "Open Sans", ...(cfg.header || {}) },
+      mark: { font: "Open Sans", ...(cfg.mark || {}) },
+      text: { font: "Open Sans", ...(cfg.text || {}) }
+    };
+
+    // Override explicit title fonts in the spec itself
+    if (spec.title) {
+      if (typeof spec.title === "string") {
+        spec.title = { text: spec.title, font: "Times New Roman" };
+      } else {
+        spec.title.font = "Times New Roman";
+        spec.title.subtitleFont = "Open Sans";
+      }
+    }
+
     // On mobile: remove title (chapter heading in HTML makes it redundant),
-    // reset hardcoded padding, and inject a global config that acts as a
-    // low-priority floor for any font sizes not explicitly set in the spec.
+    // reset hardcoded padding, and cap all font sizes.
     if (isMobile) {
       delete spec.title;
       spec.padding = 5;
-      const cfg = spec.config || {};
-      spec.config = {
-        ...cfg,
-        axis:   { labelFontSize: 8,  titleFontSize: 8,  ...(cfg.axis   || {}) },
-        header: { labelFontSize: 8,  titleFontSize: 8,  ...(cfg.header || {}) },
-        legend: { labelFontSize: 7,  titleFontSize: 8,  ...(cfg.legend || {}) },
-        text:   { fontSize: 8,                           ...(cfg.text   || {}) },
-        mark:   { fontSize: 8,                           ...(cfg.mark   || {}) },
-      };
-      // Config sets defaults; adaptSubSpec below then forces overrides on explicit values
+      spec.config.axis   = { ...spec.config.axis,   labelFontSize: 8, titleFontSize: 8 };
+      spec.config.header = { ...spec.config.header, labelFontSize: 8, titleFontSize: 8 };
+      spec.config.legend = { ...spec.config.legend, labelFontSize: 7, titleFontSize: 8 };
+      spec.config.text   = { ...spec.config.text,   fontSize: 8 };
+      spec.config.mark   = { ...spec.config.mark,   fontSize: 8 };
     }
 
     if (spec.concat) {
@@ -936,8 +1002,12 @@
       spec.width  = W;
       spec.height = H;
       adaptSubSpec(spec, W);
-      // geoshape projections self-fit; autosize conflicts with them
-      const isGeo = spec.mark === "geoshape" || spec.mark?.type === "geoshape";
+      // geoshape projections self-fit; autosize conflicts with them.
+      // Also skip for raw Vega v5 specs (identified by schema URL).
+      const isVega5 = typeof spec.$schema === "string" && spec.$schema.includes("/vega/v5");
+      const hasGeoMark = s => s?.mark === "geoshape" || s?.mark?.type === "geoshape";
+      const isGeo = isVega5 || hasGeoMark(spec) ||
+        (Array.isArray(spec.layer) && spec.layer.some(hasGeoMark));
       if (!isGeo) spec.autosize = { type: "fit", contains: "padding" };
     }
 
@@ -961,5 +1031,111 @@
     resizeTimer = setTimeout(loadAllCharts, 250);
   });
 </script>
+
+<!-- ATTRIBUTION -->
+<section style="background:#003580;padding:32px 64px;font-family:'Open Sans',sans-serif;border-top:3px solid #F4C300;">
+  <p style="color:#ffffff;font-size:0.9rem;line-height:1.7;margin:0;">
+    Created by: Chloe Chen | Student ID: 36373990 | FIT2179 Data Visualisation | Monash University Malaysia | 26 May 2026<br>
+    AI Tools Used: Claude — Grammar Checking
+  </p>
+</section>
+
+<!-- DATA SOURCES -->
+<section id="data-sources" style="background:#003580;padding:48px 64px 56px;font-family:'Open Sans',sans-serif;border-top:3px solid #F4C300;">
+  <h2 style="color:#ffffff;font-size:1.1rem;font-weight:700;letter-spacing:0.08em;margin:0 0 28px;text-transform:uppercase;">Data Sources</h2>
+  <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px;">
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Early Childhood Deaths by State — <strong>Department of Statistics Malaysia (DOSM)</strong></span><br>
+      <a href="https://api.data.gov.my/data-catalogue?id=deaths_early_childhood_state" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.data.gov.my/data-catalogue?id=deaths_early_childhood_state</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Population by State — <strong>Department of Statistics Malaysia (DOSM)</strong></span><br>
+      <a href="https://storage.dosm.gov.my/population/population_state.csv" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://storage.dosm.gov.my/population/population_state.csv</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Household Income &amp; Expenditure Survey (HIES) Income Percentile — <strong>Department of Statistics Malaysia (DOSM)</strong></span><br>
+      <a href="https://storage.dosm.gov.my/hies/hies_malaysia_percentile.csv" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://storage.dosm.gov.my/hies/hies_malaysia_percentile.csv</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Malaysia National Health Accounts (MNHA) — <strong>Department of Statistics Malaysia (DOSM)</strong></span><br>
+      <a href="https://storage.data.gov.my/healthcare/mnha.csv" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://storage.data.gov.my/healthcare/mnha.csv</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Healthcare Staff by State — <strong>Ministry of Health Malaysia (MOH)</strong></span><br>
+      <a href="https://storage.data.gov.my/healthcare/healthcare_staff.csv" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://storage.data.gov.my/healthcare/healthcare_staff.csv</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Malaysia State Boundaries GeoJSON — <strong>Global Administrative Areas (GADM) / UC Davis</strong></span><br>
+      <a href="https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_MYS_1.json" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_MYS_1.json</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Life Expectancy at Birth (Malaysia &amp; ASEAN) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MY/indicator/SP.DYN.LE00.IN" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MY/indicator/SP.DYN.LE00.IN</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Infant Mortality Rate (Malaysia) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MY/indicator/SP.DYN.IMRT.IN" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MY/indicator/SP.DYN.IMRT.IN</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Physicians per 1,000 Population — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MY/indicator/SH.MED.PHYS.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MY/indicator/SH.MED.PHYS.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Out-of-Pocket Health Expenditure (% of Current Health Expenditure) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.OOPC.CH.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.OOPC.CH.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Current Health Expenditure (% of GDP) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.CHEX.GD.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.CHEX.GD.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Out-of-Pocket Health Expenditure per Capita (PPP) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.OOPC.PP.CD" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.XPD.OOPC.PP.CD</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Income Quintile Share Ratios (Q1–Q4) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SI.DST.FRST.20" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SI.DST.FRST.20</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— GDP per Capita, PPP (current international $) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/NY.GDP.PCAP.PP.CD" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/NY.GDP.PCAP.PP.CD</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Under-5 Stunting Prevalence — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.STA.STNT.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.STA.STNT.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Causes of Death: Non-Communicable Diseases (% of total) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.NCOM.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.NCOM.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Causes of Death: Communicable Diseases (% of total) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.COMM.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.COMM.ZS</a>
+    </li>
+
+    <li>
+      <span style="color:#ffffff;font-size:0.9rem;">— Causes of Death: Injuries &amp; External Causes (% of total) — <strong>World Bank</strong></span><br>
+      <a href="https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.INJR.ZS" style="color:#8bafd4;font-size:0.82rem;text-decoration:none;">https://api.worldbank.org/v2/country/MYS/indicator/SH.DTH.INJR.ZS</a>
+    </li>
+
+  </ul>
+</section>
 </body>
 </html>
